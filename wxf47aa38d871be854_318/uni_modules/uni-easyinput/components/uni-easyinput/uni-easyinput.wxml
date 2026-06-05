@@ -1,0 +1,6 @@
+	<view class="[uni-easyinput <nil>]" style="">
+		<view class="[uni-easyinput__content <nil>]" style="">
+			<slot name="left">			</slot>
+			<slot name="right">			</slot>
+		</view>
+	</view>

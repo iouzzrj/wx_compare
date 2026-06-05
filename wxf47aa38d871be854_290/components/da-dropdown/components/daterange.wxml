@@ -1,0 +1,15 @@
+	<view class="da-dropdown-daterange-box data-v-a4486dcf">
+		<view class="da-dropdown-daterange data-v-a4486dcf">
+			<view class="[da-dropdown-daterange--date data-v-a4486dcf <nil>]">
+				<picker bindchange="" class="data-v-a4486dcf" mode="date" value="">
+				</picker>
+			</view>
+			<view class="da-dropdown-daterange--separate data-v-a4486dcf">
+				至
+			</view>
+			<view class="[da-dropdown-daterange--date data-v-a4486dcf <nil>]">
+				<picker bindchange="" class="data-v-a4486dcf" disabled="" mode="date" start="" value="">
+				</picker>
+			</view>
+		</view>
+	</view>

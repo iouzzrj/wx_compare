@@ -1,0 +1,13 @@
+	<view class="tip-box data-v-a6d32394">
+		<view class="wave ripple danger data-v-a6d32394">
+			<view class="circle data-v-a6d32394">			</view>
+			<view class="circle data-v-a6d32394">			</view>
+			<view class="circle data-v-a6d32394">			</view>
+			<view class="content data-v-a6d32394">
+				<view class="tip-image-box data-v-a6d32394">
+					<image class="data-v-a6d32394" src="">					</image>
+				</view>
+			</view>
+		</view>
+		<view class="tip-text-box data-v-a6d32394">		</view>
+	</view>

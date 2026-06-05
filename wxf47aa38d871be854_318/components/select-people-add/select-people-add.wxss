@@ -1,0 +1,172 @@
+.maskBox.data-v-9a271bfa {
+    background-color: rgba(0,0,0,.4)!important;
+    right: 0!important;
+    top: 0!important;
+    z-index: 99999!important;
+}
+
+.btnBox.data-v-9a271bfa,.maskBox.data-v-9a271bfa {
+    bottom: 0!important;
+    left: 0!important;
+    position: fixed!important;
+}
+
+.btnBox.data-v-9a271bfa {
+    animation: slidown-9a271bfa .3s ease-in both!important;
+    background-color: #fff!important;
+    border-radius: 18rpx 18rpx 0 0!important;
+    height: auto!important;
+    width: 100%!important;
+    z-index: 10!important;
+}
+
+@-webkit-keyframes slidown-9a271bfa {
+0% {
+    bottom: -100%!important;
+}
+
+to {
+    bottom: 0!important;
+}
+
+}
+@keyframes slidown-9a271bfa {
+0% {
+    bottom: -100%!important;
+}
+
+to {
+    bottom: 0!important;
+}
+
+}
+.btnBox .oHead.data-v-9a271bfa {
+    color: #606266!important;
+    font-size: 30rpx!important;
+    font-weight: 700!important;
+    height: 120rpx!important;
+    line-height: 120rpx!important;
+    text-align: center!important;
+    width: 100%!important;
+    z-index: 19!important;
+}
+
+.btnBox .closeMask.data-v-9a271bfa {
+    height: 40rpx!important;
+    position: absolute!important;
+    right: 26rpx!important;
+    top: 26rpx!important;
+    width: 40rpx!important;
+}
+
+.btnBox .peopleBox.data-v-9a271bfa {
+    max-height: 600rpx!important;
+    padding-bottom: 10rpx!important;
+    width: 100%!important;
+}
+
+.peopleName.data-v-9a271bfa {
+    border: 1rpx solid #e6e6e6!important;
+    border-radius: 16rpx!important;
+    box-shadow: 0 0 16rpx rgba(0,0,0,.05)!important;
+    color: #2e2f31!important;
+    margin: 0 auto 16rpx!important;
+}
+
+.peopleName.data-v-9a271bfa,.peopleName_active.data-v-9a271bfa {
+    background: #fff!important;
+    font-size: 32rpx!important;
+    font-weight: 500!important;
+    height: 140rpx!important;
+    justify-content: space-between!important;
+    width: 670rpx!important;
+}
+
+.peopleName_active.data-v-9a271bfa {
+    border: 2rpx solid var(--themeColor)!important;
+    border-radius: 16rpx!important;
+    color: #2287fd!important;
+    margin: auto auto 16rpx!important;
+}
+
+.btnBox .peopleItem .top_left.data-v-9a271bfa {
+    color: #1a1a1a;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFang SC;
+    font-size: 36rpx;
+    font-style: normal;
+    font-weight: 700;
+    height: 50rpx;
+    line-height: 50rpx;
+    margin: 20rpx;
+    text-transform: none;
+}
+
+.patientIdNumber.data-v-9a271bfa {
+    color: #828587;
+    font-family: PingFang SC;
+    font-size: 28rpx;
+    font-style: normal;
+    font-weight: 500;
+    height: 40rpx;
+    margin: 5rpx 0 10rpx 20rpx;
+    text-transform: none;
+}
+
+.pen_item.data-v-9a271bfa {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.btnBox .peopleItem view text.data-v-9a271bfa:first-of-type {
+    overflow: hidden;
+    text-align: justify!important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120rpx!important;
+}
+
+.btnBox .addPeople.data-v-9a271bfa {
+    align-items: center!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    font-size: 30rpx!important;
+    justify-content: center!important;
+    width: 100%!important;
+}
+
+.btnBox .addPeople text.data-v-9a271bfa {
+    color: var(--themeColor)!important;
+    margin: 0 5rpx!important;
+}
+
+.btnBox .okBtn.data-v-9a271bfa {
+    background: linear-gradient(90deg,#0fccaa,#2287fd)!important;
+    border-radius: 45rpx!important;
+    color: #fff!important;
+    font-size: 36rpx!important;
+    font-weight: 500!important;
+    height: 90rpx!important;
+    line-height: 90rpx!important;
+    margin: 30rpx!important;
+    text-align: center!important;
+    width: 690rpx!important;
+}
+
+.bottom.data-v-9a271bfa {
+    display: -webkit-flex;
+    display: flex;
+    height: 20rpx;
+}
+
+.top_left image.data-v-9a271bfa {
+    height: 36rpx;
+    width: 36rpx;
+}
+
+.top_right image.data-v-9a271bfa {
+    height: 50rpx;
+    width: 50rpx;
+}
+

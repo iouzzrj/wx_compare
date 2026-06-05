@@ -1,0 +1,6 @@
+	<view>
+		<view bind:tap="changeCollapsedStatus" style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+			<slot name="title">			</slot>
+			<image mode="aspectFill" src="../imgs/arrow.svg" style="width:16px;height:16px;transform:rotate(180deg);">			</image>
+		</view>
+	</view>

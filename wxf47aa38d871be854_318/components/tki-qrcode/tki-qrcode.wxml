@@ -1,0 +1,3 @@
+	<view class="tki-qrcode">
+		<image hidden="true" src="" style="width:undefined;height:undefined">		</image>
+	</view>

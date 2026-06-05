@@ -1,0 +1,3 @@
+	<text bindtap="" class="[uni-icons <nil> <nil> <nil>]" style="">
+		<slot>		</slot>
+	</text>

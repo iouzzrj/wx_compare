@@ -1,0 +1,139 @@
+.chooseBox.data-v-96d1879f {
+    background-color: rgba(0,0,0,.4);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.btnBox.data-v-96d1879f {
+    animation: slidown-96d1879f .3s ease-in both;
+    background-color: #fff;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+@-webkit-keyframes slidown-96d1879f {
+0% {
+    bottom: -100%;
+}
+
+to {
+    bottom: 0;
+}
+
+}
+@keyframes slidown-96d1879f {
+0% {
+    bottom: -100%;
+}
+
+to {
+    bottom: 0;
+}
+
+}
+.btnBox .header.data-v-96d1879f {
+    color: #606266;
+    font-size: 30rpx;
+    font-weight: 700;
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    width: 100%;
+    z-index: 19;
+}
+
+.btnBox .type.data-v-96d1879f {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16rpx;
+    box-shadow: 0 0 16rpx rgba(0,0,0,.05);
+    display: -webkit-flex;
+    display: flex;
+    height: 132rpx;
+    justify-content: space-between;
+    margin: 0 auto 14px;
+    position: relative;
+    width: 671rpx;
+}
+
+.btnBox .zfLogo.data-v-96d1879f {
+    height: 73rpx;
+    margin: 6rpx 20rpx 0;
+    width: 73rpx;
+}
+
+.btnBox .ybLogo.data-v-96d1879f {
+    height: 20rpx;
+    margin: 0 20rpx;
+    width: 73rpx;
+}
+
+.btnBox .leftBox.data-v-96d1879f {
+    font-size: 32rpx;
+}
+
+.btnBox .leftBox view.data-v-96d1879f,.btnBox .leftBox.data-v-96d1879f {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+}
+
+.btnBox .leftBox view.data-v-96d1879f {
+    justify-content: center;
+    width: 130rpx;
+}
+
+.btnBox .oBtn.data-v-96d1879f {
+    background: #07c160;
+    border-radius: 8rpx;
+    color: #fff;
+    font-size: 36rpx;
+    height: 98rpx;
+    line-height: 98rpx;
+    margin: 40rpx auto 20rpx;
+    text-align: center;
+    width: 690rpx;
+    z-index: 999999;
+}
+
+.btnBox .closeBtn.data-v-96d1879f {
+    height: 29rpx;
+    position: absolute;
+    right: 26rpx;
+    top: 26rpx;
+    width: 30rpx;
+}
+
+.btnBox .tjImg.data-v-96d1879f {
+    height: 76rpx;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 97rpx;
+}
+
+.btnBox .radio.data-v-96d1879f {
+    margin-right: 30px;
+}
+
+.notice_view.data-v-96d1879f {
+    margin-bottom: 10rpx;
+    padding-bottom: env(safe-area-inset-bottom);
+    text-align: center;
+}
+
+.notice_text.data-v-96d1879f {
+    color: red;
+    font-size: 30rpx;
+}
+

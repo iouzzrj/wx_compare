@@ -1,0 +1,37 @@
+.uni-file-picker {
+    box-sizing: border-box;
+    flex: 1;
+    overflow: hidden;
+    width: 100%;
+}
+
+.uni-file-picker__header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.file-title {
+    color: #333;
+    font-size: 14px;
+}
+
+.file-count {
+    color: #999;
+    font-size: 14px;
+}
+
+.icon-add {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    height: 5px;
+    width: 50px;
+}
+
+.rotate {
+    position: absolute;
+    transform: rotate(90deg);
+}
+

@@ -1,0 +1,37 @@
+.title.data-v-66783717 {
+    color: #333;
+    font-size: 38rpx;
+    padding: 20rpx 50rpx 0;
+}
+
+.content.data-v-66783717 {
+    color: #333;
+    font-size: 38rpx;
+    padding: 20rpx 50rpx;
+    text-align: justify;
+}
+
+.maintain.data-v-66783717 {
+    align-items: center;
+    bottom: 10vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+}
+
+.maintain image.data-v-66783717 {
+    height: 380rpx;
+    width: 430rpx;
+}
+
+.maintain button.data-v-66783717 {
+    background: var(--themeColor);
+    border-radius: 20rpx;
+    color: #fff;
+    margin-top: 180rpx;
+    width: 360rpx;
+}
+

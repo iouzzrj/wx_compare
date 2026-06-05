@@ -1,0 +1,223 @@
+	<view class="jzrClass data-v-304a7a86">
+		<view class="noAuth data-v-304a7a86">
+			<view class="noAuthLeft data-v-304a7a86">
+				<image class="data-v-304a7a86" mode="aspectFit" src="">				</image>
+				<view class="data-v-304a7a86">
+					<text class="data-v-304a7a86">
+						请绑定就诊人
+					</text>
+					<text class="data-v-304a7a86">
+						先实名认证，再就医~
+					</text>
+				</view>
+			</view>
+			<view bindtap="" class="noAuthRight data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					立即认证
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="top data-v-304a7a86">
+		<view bindtap="" class="grid-title data-v-304a7a86">
+			<image class="data-v-304a7a86" mode="scaleToFill" src="">			</image>
+			<swiper autoplay="true" circular="true" class="data-v-304a7a86" duration="300" indicatorDots="false" interval="3000" vertical="true">
+				<swiper-item class="no_data data-v-304a7a86">
+					<text class="data-v-304a7a86">
+						暂无公告信息
+					</text>
+				</swiper-item>
+			</swiper>
+		</view>
+	</view>
+	<view class="ghClass data-v-304a7a86">
+		<view bindtap="" class="ghItemClass data-v-304a7a86">
+			<image src="" class="data-v-304a7a86" mode="">			</image>
+			<view class="ghItemRight data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					预约挂号
+				</text>
+				<text class="data-v-304a7a86">
+					快速预约轻松就医
+				</text>
+			</view>
+		</view>
+		<view bindtap="" class="ghItemClass data-v-304a7a86">
+			<image class="data-v-304a7a86" mode="" src="">			</image>
+			<view class="ghItemRight data-v-304a7a86">
+				<text class="data-v-304a7a86">
+				</text>
+				<text class="data-v-304a7a86">
+					分时挂号精准就医
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="otherGhClass data-v-304a7a86">
+		<view class="otherGhItemClass data-v-304a7a86" bindtap="">
+			<text class="data-v-304a7a86">
+				特需医疗部
+			</text>
+			<text class="data-v-304a7a86" style="font-size:var(--rk_h8);font-weight:500">
+				(非医保)
+			</text>
+			<view class="toGh data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					去挂号
+				</text>
+				<view class="toGhRight data-v-304a7a86">
+					<image class="data-v-304a7a86" mode="" src="">					</image>
+				</view>
+			</view>
+		</view>
+		<view bindtap="" class="otherGhItemClass data-v-304a7a86">
+			<text class="data-v-304a7a86">
+				国合门诊
+			</text>
+			<text class="data-v-304a7a86" style="font-size:var(--rk_h8);font-weight:500">
+				(国际门诊)
+			</text>
+			<view class="toGh data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					去挂号
+				</text>
+				<view class="toGhRight data-v-304a7a86">
+					<image src="" class="data-v-304a7a86" mode="">					</image>
+				</view>
+			</view>
+		</view>
+		<view bindtap="" class="otherGhItemClass data-v-304a7a86">
+			<text class="data-v-304a7a86">
+				天竺门诊
+			</text>
+			<text class="data-v-304a7a86" style="font-size:var(--rk_h8);font-weight:500">
+				(非医保)
+			</text>
+			<view class="toGh data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					去挂号
+				</text>
+				<view class="toGhRight data-v-304a7a86">
+					<image class="data-v-304a7a86" mode="" src="">					</image>
+				</view>
+			</view>
+		</view>
+		<view bindtap="" class="otherGhItemClass data-v-304a7a86">
+			<text class="data-v-304a7a86">
+				三亚门诊
+			</text>
+			<view class="toGh data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					去挂号
+				</text>
+				<view class="toGhRight data-v-304a7a86">
+					<image class="data-v-304a7a86" mode="" src="">					</image>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="yltd data-v-304a7a86">
+		<view bindtap="" class="yltd_item data-v-304a7a86">
+			<text class="data-v-304a7a86">
+				科室介绍
+			</text>
+			<image class="data-v-304a7a86" mode="" src="">			</image>
+		</view>
+		<view class="yltd_item data-v-304a7a86" style="background:linear-gradient(#FFFCF7 0%, #FFF 80%, #FFF 100%)" bindtap="">
+			<text class="data-v-304a7a86">
+				医生介绍
+			</text>
+			<image class="data-v-304a7a86" mode="" src="">			</image>
+		</view>
+	</view>
+	<view class="fourFunctionClass data-v-304a7a86">
+		<view class="item data-v-304a7a86" bindtap="">
+			<text class="data-v-304a7a86">
+				就医指南
+			</text>
+		</view>
+		<view bindtap="" class="item data-v-304a7a86" style="background:linear-gradient( 180deg, #6371D9 0%, #A5A9F2 100%)">
+			<text class="data-v-304a7a86">
+				报告查询
+			</text>
+		</view>
+		<view bindtap="" class="item data-v-304a7a86" style="background:linear-gradient( 180deg, #E0910B 0%, #F0CB84 100%)">
+			<text class="data-v-304a7a86">
+				门诊缴费
+			</text>
+		</view>
+		<view bindtap="" class="item data-v-304a7a86" style="background:linear-gradient( 180deg, #1F83CF 0%, #66B0E9 100%)">
+			<text class="data-v-304a7a86">
+				电子发票
+			</text>
+		</view>
+	</view>
+	<view class="ybpz data-v-304a7a86">
+		<view bindtap="" class="dzybpz data-v-304a7a86">
+			<view class="data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					医保电子凭证
+				</text>
+				<text class="data-v-304a7a86" decode="true">
+					线上医保支付&gt;&gt;
+				</text>
+			</view>
+		</view>
+		<view bindtap="" class="dzybpz data-v-304a7a86">
+			<view class="data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					住院专区
+				</text>
+				<text decode="true" class="data-v-304a7a86">
+					一站式住院服务管理&gt;&gt;
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="yyxx data-v-304a7a86">
+		<view class="yyxx_title data-v-304a7a86">
+			<image class="data-v-304a7a86" mode="" src="">			</image>
+			<text class="data-v-304a7a86">
+				医院信息
+			</text>
+		</view>
+		<view class="yyxx_content data-v-304a7a86">
+			<view bindtap="" class="yyxx_item data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					医院简介
+				</text>
+				<text class="data-v-304a7a86">
+					就医更便捷
+				</text>
+				<image class="data-v-304a7a86" mode="" src="">				</image>
+			</view>
+			<view style="background:linear-gradient( 134deg, #FFFCF7 0%, #FFF8EB 100%)" bindtap="" class="yyxx_item data-v-304a7a86">
+				<text class="data-v-304a7a86">
+					楼层分布
+				</text>
+				<text class="data-v-304a7a86">
+					就医更便捷
+				</text>
+				<image src="" class="data-v-304a7a86" mode="">				</image>
+			</view>
+			<view bindtap="" class="yyxx_item data-v-304a7a86" style="background:linear-gradient( 134deg, #F5FCF8 0%, #E6FCEE 82%, #E6FCEE 82%, #E3FCEC 100%)">
+				<text class="data-v-304a7a86">
+					来院导航
+				</text>
+				<text class="data-v-304a7a86">
+					就医更便捷
+				</text>
+				<image class="data-v-304a7a86" mode="" src="">				</image>
+			</view>
+			<view bindtap="" class="yyxx_item data-v-304a7a86" style="background:linear-gradient( 134deg, #F7FBFF 0%, #EBF5FF 100%)">
+				<text class="data-v-304a7a86">
+					院内导航
+				</text>
+				<text class="data-v-304a7a86">
+					就医更便捷
+				</text>
+				<image class="data-v-304a7a86" mode="" src="">				</image>
+			</view>
+		</view>
+	</view>
+	<view class="data-v-304a7a86" style="height:50rpx">	</view>

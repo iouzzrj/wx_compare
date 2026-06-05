@@ -1,0 +1,36 @@
+	<view class="mineHeader data-v-d16cec93">
+		<view class="headUserinfo data-v-d16cec93">
+			<image class="headNameimg data-v-d16cec93" mode="aspectFit" src="">			</image>
+			<view class="headNameInfo data-v-d16cec93">
+				<view class="data-v-d16cec93">
+					<view class="elseUserinfo data-v-d16cec93">
+						<view class="usrenameStyle data-v-d16cec93">
+							<text class="data-v-d16cec93">
+								未登录用户
+							</text>
+						</view>
+						<image alt="" class="wrzyhIcon data-v-d16cec93" src="">						</image>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view bindtap="" class="headYhwrz data-v-d16cec93">
+			<view class="imageView data-v-d16cec93">
+				<image alt="" class="data-v-d16cec93" src="">				</image>
+				<text class="regAndBindCard data-v-d16cec93">
+					立即认证
+				</text>
+			</view>
+			<view class="tipsView data-v-d16cec93">			</view>
+		</view>
+	</view>
+	<view class="box data-v-d16cec93">
+		<view class="list data-v-d16cec93">
+			<view class="ul data-v-d16cec93">			</view>
+		</view>
+		<view class="ver_list data-v-d16cec93">
+			<view class="ver_ul data-v-d16cec93">			</view>
+		</view>
+	</view>
+	<view style="padding:15rpx" class="data-v-d16cec93">	</view>
+	<view class="data-v-d16cec93" style="height:100rpx">	</view>

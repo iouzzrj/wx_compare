@@ -1,0 +1,19 @@
+	<view class="topMask data-v-4cc7924b" hidden="true">	</view>
+	<view class="oPage data-v-4cc7924b">
+		<view class="patientShow data-v-4cc7924b">
+			<view class="patientInfo data-v-4cc7924b">
+				<text class="data-v-4cc7924b">
+				</text>
+				<text class="data-v-4cc7924b">
+					()
+				</text>
+			</view>
+			<view class="data-v-4cc7924b" bindtap="">
+				<text class="data-v-4cc7924b">
+					切换就诊人
+				</text>
+				<image alt="" class="data-v-4cc7924b" src="">				</image>
+			</view>
+		</view>
+		<view class="[data-v-4cc7924b <nil>]" hidden="true">		</view>
+	</view>

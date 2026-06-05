@@ -1,0 +1,5 @@
+	<view style="padding-top:undefined" class="no-data">
+		<text class="l_loading">
+			正在努力加载...
+		</text>
+	</view>

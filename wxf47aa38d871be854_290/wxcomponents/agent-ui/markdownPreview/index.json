@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "towxml": "/wxcomponents/agent-ui/markdownPreview/towxml/towxml"
+    }
+}

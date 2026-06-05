@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "北京大学口腔医院",
+    "usingComponents": {
+        "privacy-agreement": "../../components/privacyAgreement/index"
+    }
+}

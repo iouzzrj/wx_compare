@@ -1,0 +1,29 @@
+	<view class="agent-ui">
+		<scroll-view scrollY="true" style="height:NaNpx;" class="main" scrollTop="">
+			<view class="topClass">
+				<image mode="aspectFill" src="/intelligent/static/ai2.png" class="topBgClass">				</image>
+				<image class="leftImgClass" mode="aspectFill" src="">				</image>
+				<view class="top_text">
+					<text class="top_text_2">
+						您的专属就医助手
+					</text>
+					<text class="top_text_2">
+						很高兴为您服务~~~
+					</text>
+				</view>
+			</view>
+			<view class="welcomeView">
+				<text>
+				</text>
+			</view>
+			<view style="width:100%;height:20px;">			</view>
+		</scroll-view>
+		<view class="footer">
+			<view class="foot-function">
+				<view class="input_box">
+					<input adjustPosition="true" placeholder="请将您遇到的问题告诉我" type="text" bindconfirm="sendMessage" bindinput="bindKeyInput" class="input" confirmType="send" cursorSpacing="20" maxlength="1024" value="">					</input>
+					<image bind:tap="openSetPanel" class="set" mode="widthFix" src="./imgs/set.svg">					</image>
+				</view>
+			</view>
+		</view>
+	</view>

@@ -1,0 +1,20 @@
+	<view bind:tap="playAndPause" class="h2w__audio h2w__audio--loading">
+		<view class="h2w__audioIcon">		</view>
+		<view class="h2w__audioCover">
+			<image class="h2w__audioLoading" src="loading.svg">			</image>
+			<image class="h2w__audioCoverImg" src="">			</image>
+		</view>
+		<view class="h2w__audioInfo">
+			<view class="h2w__audioTips">
+				Error
+			</view>
+			<view class="h2w__audioSchedule" style="width:;">			</view>
+			<view class="h2w__audioTitle">
+			</view>
+			<view class="h2w__audioAuthor">
+			</view>
+			<view class="h2w__audioTime">
+				00:00:00 / 00:00:00
+			</view>
+		</view>
+	</view>

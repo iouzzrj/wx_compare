@@ -1,0 +1,9 @@
+{
+    "component": true,
+    "usingComponents": {
+        "audio-player": "/wxcomponents/agent-ui/markdownPreview/towxml/audio-player/audio-player",
+        "decode": "/wxcomponents/agent-ui/markdownPreview/towxml/decode",
+        "img": "/wxcomponents/agent-ui/markdownPreview/towxml/img/img",
+        "table": "/wxcomponents/agent-ui/markdownPreview/towxml/table/table"
+    }
+}

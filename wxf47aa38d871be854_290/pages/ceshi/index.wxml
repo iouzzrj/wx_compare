@@ -1,0 +1,121 @@
+	<view class="onBody data-v-317cb378">
+		<view class="topBg data-v-317cb378">		</view>
+		<view class="top data-v-317cb378">
+			<view class="left data-v-317cb378">
+				<view class="name data-v-317cb378">
+					<text class="data-v-317cb378">
+						张俊丽
+					</text>
+					<text class="data-v-317cb378">
+						在线
+					</text>
+				</view>
+				<view class="dept data-v-317cb378">
+					<text class="data-v-317cb378">
+						主任医师 | 消化内科
+					</text>
+				</view>
+				<view class="hosLevel data-v-317cb378">
+					<text class="data-v-317cb378">
+						三甲
+					</text>
+					<text class="data-v-317cb378">
+						北京大学口腔医院
+					</text>
+				</view>
+			</view>
+			<image src="" class="right data-v-317cb378" mode="aspectFit">			</image>
+		</view>
+		<view class="evaluate data-v-317cb378">
+			<view class="data-v-317cb378">
+				<text class="data-v-317cb378">
+					评分
+				</text>
+				<text class="data-v-317cb378">
+					5.0
+				</text>
+			</view>
+			<view class="data-v-317cb378">
+				<text class="data-v-317cb378">
+					咨询量
+				</text>
+				<text class="data-v-317cb378">
+					1662
+				</text>
+			</view>
+			<view class="data-v-317cb378">
+				<text class="data-v-317cb378">
+					响应时间
+				</text>
+				<text class="data-v-317cb378">
+					2分钟
+				</text>
+			</view>
+		</view>
+		<view class="docIntro data-v-317cb378">
+			<image mode="aspectFit" src="" class="data-v-317cb378">			</image>
+			<view class="[data-v-317cb378 <nil>]">
+				<text class="data-v-317cb378">
+					多发病诊治、乏力、消瘦头晕等慢性病全，合管理，生长激素缺乏症、小儿消化不良症生长激素，缺乏症、小儿消化不良症生长激素缺乏症是靠近对方凯撒的肌肤深刻搭街坊空手道解放
+				</text>
+				<view class="btn data-v-317cb378" bindtap="">
+				</view>
+			</view>
+		</view>
+		<view class="consultView data-v-317cb378">
+			<view class="title data-v-317cb378">
+				<text class="data-v-317cb378">
+					在线咨询
+				</text>
+				<text class="data-v-317cb378">
+					￥ 20
+				</text>
+			</view>
+			<view class="description data-v-317cb378">
+				<view class="item data-v-317cb378">
+					<image class="data-v-317cb378" mode="aspectFit" src="">					</image>
+					<text class="data-v-317cb378">
+						医生随时接诊
+					</text>
+				</view>
+				<view class="item data-v-317cb378">
+					<image src="" class="data-v-317cb378" mode="aspectFit">					</image>
+					<text class="data-v-317cb378">
+						24小时内可多次咨询
+					</text>
+				</view>
+				<view class="item data-v-317cb378">
+					<image class="data-v-317cb378" mode="aspectFit" src="">					</image>
+					<text class="data-v-317cb378">
+						复诊患者可开处方
+					</text>
+				</view>
+				<view class="item data-v-317cb378">
+					<image class="data-v-317cb378" mode="aspectFit" src="">					</image>
+					<text class="data-v-317cb378">
+						24小时未接诊自动退款
+					</text>
+				</view>
+			</view>
+			<view class="btn data-v-317cb378">
+				<text class="data-v-317cb378">
+					去咨询
+				</text>
+			</view>
+		</view>
+		<view class="btn_nav data-v-317cb378">
+			<view class="left data-v-317cb378">
+				<view bindtap="" class="[data-v-317cb378 <nil>]">
+					文章动态
+				</view>
+				<view bindtap="" class="[data-v-317cb378 <nil>]" style="margin-left:60rpx">
+					医生评价()
+				</view>
+				<view class="[data-v-317cb378 <nil>]">				</view>
+			</view>
+			<view class="right data-v-317cb378">
+				<text bindtap="" class="data-v-317cb378">
+				</text>
+			</view>
+		</view>
+	</view>

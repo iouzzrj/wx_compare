@@ -1,0 +1,7 @@
+{
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "机构选择",
+    "usingComponents": {
+        "nodata": "../../components/nodata/index"
+    }
+}

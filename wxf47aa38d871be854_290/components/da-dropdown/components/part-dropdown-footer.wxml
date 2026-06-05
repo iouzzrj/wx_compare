@@ -1,0 +1,6 @@
+	<view class="da-dropdown-footer data-v-b0b9bbcc">
+		<view bindtap="" class="da-dropdown-footer--reset data-v-b0b9bbcc">
+		</view>
+		<view bindtap="" class="da-dropdown-footer--confirm data-v-b0b9bbcc">
+		</view>
+	</view>

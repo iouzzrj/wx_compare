@@ -1,0 +1,114 @@
+.uni-file-picker__files {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.uni-file-picker__lists {
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.file-picker__mask {
+    align-items: center;
+    background-color: rgba(0,0,0,.4);
+    bottom: 0;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.uni-file-picker__lists-box {
+    position: relative;
+}
+
+.uni-file-picker__item {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    padding: 8px 5px 8px 10px;
+}
+
+.files-border {
+    border-top: 1px solid #eee;
+}
+
+.files__name {
+    word-wrap: break-word;
+    color: #666;
+    flex: 1;
+    font-size: 14px;
+    margin-right: 25px;
+    word-break: break-all;
+}
+
+.icon-files {
+    background-color: initial;
+    position: static;
+}
+
+.is-list-card {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.files__image {
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.header-image {
+    height: 100%;
+    width: 100%;
+}
+
+.is-text-box {
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.is-text-image {
+    height: 25px;
+    margin-left: 5px;
+    width: 25px;
+}
+
+.rotate {
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.icon-del-box {
+    align-items: center;
+    bottom: 0;
+    display: -webkit-flex;
+    display: flex;
+    height: 26px;
+    justify-content: center;
+    margin: auto 0;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 26px;
+    z-index: 2;
+}
+
+.icon-del {
+    background-color: #333;
+    height: 1px;
+    width: 15px;
+}
+

@@ -1,0 +1,29 @@
+.com-rating .rating-icon.data-v-778d6c1a,.com-rating .rating-off.data-v-778d6c1a,.com-rating .rating-on.data-v-778d6c1a,.com-rating.data-v-778d6c1a {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.com-rating .rating-icon.data-v-778d6c1a:not(:last-child) {
+    margin-right: 10rpx;
+}
+
+.com-rating .rating-margin.data-v-778d6c1a:not(:last-child) {
+    margin-right: 40rpx;
+}
+
+.com-rating .rating-on.data-v-778d6c1a {
+    color: #000;
+    position: absolute;
+}
+
+.com-rating .rating-off.data-v-778d6c1a {
+    color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+}
+
+.com-rating image.data-v-778d6c1a {
+    position: static;
+    z-index: inherit;
+}
+

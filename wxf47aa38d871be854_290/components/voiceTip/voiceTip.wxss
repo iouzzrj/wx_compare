@@ -1,0 +1,115 @@
+.tip-box.data-v-a6d32394 {
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10rpx;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 400rpx;
+    justify-content: space-between;
+    left: 50%;
+    margin: -300rpx 0 0 -200rpx;
+    padding: 30rpx;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 400rpx;
+    z-index: 9999999;
+}
+
+.tip-box .tip-image-box.data-v-a6d32394 {
+    margin-top: 50rpx;
+}
+
+.tip-box .tip-image-box image.data-v-a6d32394 {
+    height: 200rpx;
+    width: 200rpx;
+}
+
+.tip-text-box text.data-v-a6d32394 {
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.wave.data-v-a6d32394 {
+    font-size: 28px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.wave .circle.data-v-a6d32394 {
+    border-radius: 50%;
+    margin-bottom: 30rpx;
+    margin-left: 10rpx;
+    opacity: 0;
+    position: absolute;
+}
+
+.wave.ripple .circle.data-v-a6d32394 {
+    border: 3px solid #fff;
+    height: calc(100% - 6px);
+    width: calc(100% - 6px);
+}
+
+.wave.ripple .circle.data-v-a6d32394:first-child,.wave.ripple .circle.data-v-a6d32394:nth-child(2) {
+    animation: circle-opacity-a6d32394 2s infinite;
+}
+
+.wave.ripple .circle.data-v-a6d32394:nth-child(2) {
+    animation-delay: .3s;
+}
+
+.wave.ripple .circle.data-v-a6d32394:nth-child(3) {
+    animation: circle-opacity-a6d32394 2s infinite;
+    animation-delay: .6s;
+}
+
+.wave.ripple.danger .circle.data-v-a6d32394,.wave.ripple.warning .circle.data-v-a6d32394,.wave.ripple.warning.data-v-a6d32394 {
+    background: #fff;
+}
+
+.wave.solid .circle.data-v-a6d32394 {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.wave.solid .circle.data-v-a6d32394:first-child {
+    animation: circle-opacity-a6d32394 2s infinite;
+}
+
+.wave.solid.danger .circle.data-v-a6d32394,.wave.solid.danger.data-v-a6d32394,.wave.solid.warning.data-v-a6d32394 {
+    background: #00f;
+}
+
+.wave.solid.warning .circle.data-v-a6d32394 {
+    background: #fff;
+}
+
+@-webkit-keyframes circle-opacity-a6d32394 {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+
+to {
+    opacity: 0;
+    transform: scale(1);
+}
+
+}
+@keyframes circle-opacity-a6d32394 {
+0% {
+    opacity: 1;
+    transform: scale(0);
+}
+
+to {
+    opacity: 0;
+    transform: scale(1);
+}
+
+}

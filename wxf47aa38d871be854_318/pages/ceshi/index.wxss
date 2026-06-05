@@ -1,0 +1,233 @@
+page {
+    background: #f5f6f8;
+}
+
+.topBg.data-v-317cb378 {
+    background: linear-gradient(180deg,#fff,#daf2f1 36%,#daf2f1 59%,#f5f6f8);
+    border-radius: 0rpx;
+    height: 1007rpx;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 750rpx;
+    z-index: 1;
+}
+
+.top.data-v-317cb378 {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 10rpx;
+    padding: 0 50rpx;
+    position: relative;
+    z-index: 2;
+}
+
+.top .left.data-v-317cb378 {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38rpx;
+}
+
+.top .left .name.data-v-317cb378 {
+    margin-top: 50rpx;
+}
+
+.top .left .name text.data-v-317cb378:nth-of-type(1) {
+    color: #1a1a1a;
+    font-size: 38rpx;
+    font-weight: 800;
+}
+
+.top .left .name text.data-v-317cb378:nth-of-type(2) {
+    background: #ffb31a;
+    border-radius: 30rpx;
+    color: #fff;
+    font-size: 24rpx;
+    margin-left: 20rpx;
+    padding: 4rpx 16rpx;
+}
+
+.top .left .dept.data-v-317cb378 {
+    margin-top: 30rpx;
+}
+
+.top .left .dept text.data-v-317cb378 {
+    color: #1a1a1a;
+    font-size: 28rpx;
+}
+
+.top .left .hosLevel.data-v-317cb378 {
+    margin-top: 15rpx;
+}
+
+.top .left .hosLevel text.data-v-317cb378:nth-of-type(1) {
+    background: rgba(100,217,210,.16);
+    border-radius: 8rpx;
+    color: var(--themeColor);
+    font-size: 22rpx;
+    padding: 4rpx 12rpx;
+}
+
+.top .left .hosLevel text.data-v-317cb378:nth-of-type(2) {
+    color: #1a1a1a;
+    font-size: 28rpx;
+    margin-left: 15rpx;
+}
+
+.top .right.data-v-317cb378 {
+    height: 266rpx;
+    position: absolute;
+    right: 5%;
+    width: 250rpx;
+}
+
+.evaluate.data-v-317cb378 {
+    background: #3f8884;
+    border-radius: 20rpx;
+    display: -webkit-flex;
+    display: flex;
+    height: 100rpx;
+    justify-content: space-between;
+    margin: 0 24rpx;
+    padding: 22rpx 30rpx;
+    position: relative;
+    z-index: 2;
+}
+
+.evaluate view text.data-v-317cb378:nth-of-type(1) {
+    color: #fff;
+    font-size: 26rpx;
+}
+
+.evaluate view text.data-v-317cb378:nth-of-type(2) {
+    color: #fff;
+    font-family: PingFang SC;
+    font-size: 33rpx;
+    margin-left: 15rpx;
+}
+
+.docIntro.data-v-317cb378 {
+    background: #fff;
+    border-radius: 20rpx;
+    box-shadow: 0 0 12rpx 1rpx rgba(0,0,0,.05);
+    margin: 0 24rpx;
+    padding: 30rpx 24rpx 60rpx;
+    position: relative;
+    top: -70rpx;
+    z-index: 3;
+}
+
+.docIntro image.data-v-317cb378 {
+    height: 29rpx;
+    left: 24rpx;
+    position: absolute;
+    top: 38rpx;
+    width: 120rpx;
+}
+
+.docIntro .docIntroHidden.data-v-317cb378 {
+    display: -webkit-box;
+    overflow: hidden;
+    text-indent: 135rpx;
+}
+
+.docIntro .docIntroAll.data-v-317cb378 {
+    height: auto;
+    text-indent: 135rpx;
+}
+
+.docIntro>view text.data-v-317cb378 {
+    color: #1a1a1a;
+    font-size: 28rpx;
+}
+
+.docIntro>view.data-v-317cb378:after {
+    content: "";
+    display: inline-block;
+    width: 100rpx;
+}
+
+.docIntro>view .btn.data-v-317cb378 {
+    bottom: 20rpx;
+    color: var(--themeColor);
+    font-size: 26rpx;
+    position: absolute;
+    right: 24rpx;
+}
+
+.consultView.data-v-317cb378 {
+    background: linear-gradient(180deg,#fff7e6,#fff);
+    border-radius: 20rpx;
+    box-shadow: 0 0 12rpx 1rpx rgba(0,0,0,.05);
+    margin: 20rpx 24rpx;
+    padding: 30rpx 24rpx;
+    position: relative;
+    top: -70rpx;
+    z-index: 2;
+}
+
+.consultView .title text.data-v-317cb378:nth-of-type(1) {
+    color: #1a1a1a;
+    font-size: 32rpx;
+    font-weight: 800;
+}
+
+.consultView .title text.data-v-317cb378:nth-of-type(2) {
+    color: #ff4736;
+    font-size: 33rpx;
+    font-weight: 800;
+}
+
+.consultView .description.data-v-317cb378 {
+    background: #fff;
+    border-radius: 8rpx;
+    box-shadow: 2rpx 3rpx 0 1rpx #ffdba6;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20rpx;
+    padding: 30rpx 24rpx 5rpx;
+}
+
+.consultView .description .item.data-v-317cb378 {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 25rpx;
+    width: 45%;
+}
+
+.consultView .description .item.data-v-317cb378:nth-of-type(2n) {
+    width: 50%!important;
+}
+
+.consultView .description .item image.data-v-317cb378 {
+    height: 28rpx;
+    width: 28rpx;
+}
+
+.consultView .description .item text.data-v-317cb378 {
+    color: #1a1a1a;
+    font-size: 26rpx;
+    margin-left: 10rpx;
+}
+
+.consultView .btn.data-v-317cb378 {
+    background: linear-gradient(311deg,#3f8884,#00c5ba);
+    border-radius: 50rpx;
+    height: 86rpx;
+    line-height: 86rpx;
+    margin-top: 30rpx;
+    text-align: center;
+    width: 654rpx;
+}
+
+.consultView .btn text.data-v-317cb378 {
+    color: #fff;
+    font-size: 28rpx;
+    font-weight: 700;
+}
+

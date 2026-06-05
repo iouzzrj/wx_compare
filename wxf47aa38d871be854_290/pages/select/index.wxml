@@ -1,0 +1,12 @@
+	<view class="data-v-90fa8ae3" style="height:20rpx">	</view>
+	<view class="data-v-90fa8ae3">
+		<view class="tip data-v-90fa8ae3">
+			<text class="data-v-90fa8ae3">
+				剩余号源实时变化，查询结果仅供参考
+			</text>
+		</view>
+		<view class="jgsection data-v-90fa8ae3">
+			<scroll-view class="hd_wrap data-v-90fa8ae3" scrollY="true" style="height:calc(100vh - 250rpx)">			</scroll-view>
+			<scroll-view class="bd_wrap data-v-90fa8ae3" scrollY="true" style="height:calc(100vh - 250rpx)">			</scroll-view>
+		</view>
+	</view>
