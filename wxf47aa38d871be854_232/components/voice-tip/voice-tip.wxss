@@ -1,0 +1,115 @@
+.tip-box {
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10rpx;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 400rpx;
+    justify-content: space-between;
+    left: 50%;
+    margin: -300rpx 0 0 -200rpx;
+    padding: 30rpx;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 400rpx;
+    z-index: 9999999;
+}
+
+.tip-box .tip-image-box {
+    margin-top: 50rpx;
+}
+
+.tip-box .tip-image-box image {
+    height: 200rpx;
+    width: 200rpx;
+}
+
+.tip-text-box text {
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.wave {
+    font-size: 28px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.wave .circle {
+    border-radius: 50%;
+    margin-bottom: 30rpx;
+    margin-left: 10rpx;
+    opacity: 0;
+    position: absolute;
+}
+
+.wave.ripple .circle {
+    border: 3px solid #fff;
+    height: calc(100% - 6px);
+    width: calc(100% - 6px);
+}
+
+.wave.ripple .circle:first-child,.wave.ripple .circle:nth-child(2) {
+    animation: circle-opacity 2s infinite;
+}
+
+.wave.ripple .circle:nth-child(2) {
+    animation-delay: .3s;
+}
+
+.wave.ripple .circle:nth-child(3) {
+    animation: circle-opacity 2s infinite;
+    animation-delay: .6s;
+}
+
+.wave.ripple.danger .circle,.wave.ripple.warning,.wave.ripple.warning .circle {
+    background: #fff;
+}
+
+.wave.solid .circle {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.wave.solid .circle:first-child {
+    animation: circle-opacity 2s infinite;
+}
+
+.wave.solid.danger,.wave.solid.danger .circle,.wave.solid.warning {
+    background: blue;
+}
+
+.wave.solid.warning .circle {
+    background: #fff;
+}
+
+@-webkit-keyframes circle-opacity {
+    from {
+    opacity: 1;
+    transform: scale(0);
+}
+
+to {
+    opacity: 0;
+    transform: scale(1);
+}
+
+}
+@keyframes circle-opacity {
+    from {
+    opacity: 1;
+    transform: scale(0);
+}
+
+to {
+    opacity: 0;
+    transform: scale(1);
+}
+
+}

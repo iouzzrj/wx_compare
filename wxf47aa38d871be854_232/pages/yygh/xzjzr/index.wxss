@@ -1,0 +1,280 @@
+page {
+    box-sizing: border-box;
+    padding: 20rpx 24rpx;
+}
+
+.item {
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.item .i-top {
+    height: 110rpx;
+    padding: 0 30rpx;
+    position: relative;
+}
+
+.item .i-top .block {
+    background: #14c79d;
+    height: 36rpx;
+    margin-right: 30rpx;
+    width: 6rpx;
+}
+
+.item .i-top .name {
+    font-size: 34rpx;
+    margin-right: 18rpx;
+}
+
+.item .i-top .txt_box {
+    border: 2rpx solid #ff625b;
+    border-radius: 7rpx;
+    color: #ff625b;
+    font-size: 26rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    text-align: center;
+    width: 70rpx;
+}
+
+.item .i-top .t-right {
+    border: 2rpx solid #14c79d;
+    border-radius: 7rpx;
+    color: #14c79d;
+    font-size: 28rpx;
+    height: 46rpx;
+    line-height: 46rpx;
+    text-align: center;
+    width: 136rpx;
+}
+
+.item .i-top .t-right image {
+    height: 47rpx;
+    padding: 0 20rpx;
+    width: 11rpx;
+}
+
+.item .info .row {
+    align-items: center;
+    border-top: 1rpx dashed #f0f1f1;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0 30rpx;
+}
+
+.item .info .row:nth-child(1) {
+    height: 160rpx;
+}
+
+.item .info .row.radio-box {
+    padding-bottom: 20rpx;
+    padding-top: 20rpx;
+}
+
+.l-style {
+    background: #ccc;
+    height: 40rpx;
+    position: relative;
+    width: 4rpx;
+}
+
+.l-style .hollow {
+    border-radius: 50%;
+    height: 14rpx;
+    width: 14rpx;
+}
+
+.l-style .top {
+    border: 4rpx solid #ff625b;
+    left: -8rpx;
+    position: absolute;
+    top: -22rpx;
+}
+
+.l-style .bottom {
+    border: 4rpx solid #22a7f3;
+    bottom: -22rpx;
+    left: -8rpx;
+    position: absolute;
+}
+
+.item .info .row:nth-child(1) .number {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    margin-left: 26rpx;
+}
+
+.item .info .row:nth-child(1) .number text {
+    color: #999;
+    line-height: 56rpx;
+}
+
+.footer {
+    background: #fff;
+    height: 90rpx;
+    padding: 0 24rpx;
+}
+
+.footer .f-left text:first-child {
+    color: #14c79d;
+    font-size: 48rpx;
+}
+
+.footer .f-left text:last-child {
+    color: #999;
+    font-size: 32rpx;
+    margin-left: 10rpx;
+}
+
+.footer .f-right text {
+    color: #ff625b;
+    font-size: 28rpx;
+}
+
+.footer .f-right image {
+    height: 15rpx;
+    margin-left: 10rpx;
+    transform: rotate(90deg);
+    width: 23rpx;
+}
+
+.tip_txt {
+    padding: 12rpx 12rpx 0rpx;
+}
+
+.tip_txt text {
+    background: #fc837e;
+    border-radius: 10rpx;
+    color: #fff;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 28rpx;
+    line-height: 1.8;
+    padding: 6px;
+    text-align: justify;
+}
+
+.r-left {
+    left: -13rpx;
+}
+
+.r-left,.r-right {
+    background: #f0f5f4;
+    border-radius: 50%;
+    height: 26rpx;
+    position: absolute;
+    top: 94rpx;
+    width: 26rpx;
+}
+
+.r-right {
+    right: -13rpx;
+}
+
+.df-ac {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.l_jt {
+    flex: 1;
+    text-align: right;
+}
+
+.df-ac image {
+    height: 22rpx;
+    width: 14rpx;
+}
+
+.popup {
+    align-items: center;
+    background-color: rgba(0,0,0,.549);
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.popup,.zixun {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zixun {
+    background: #fff;
+    border-radius: 12rpx;
+    flex-direction: column;
+    height: 81%;
+    width: 660rpx;
+}
+
+.zx_title {
+    font-size: 34rpx;
+    line-height: 90rpx;
+    text-align: center;
+}
+
+.zx_middle {
+    align-items: center;
+    border-bottom: 1rpx solid #ebebeb;
+    border-top: 1rpx solid #ebebeb;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 30rpx;
+    text-align: justify;
+}
+
+.zx_footer,.zx_middle {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zx_footer {
+    height: 90rpx;
+    justify-content: space-around;
+}
+
+.zx_footer text {
+    flex-grow: 1;
+    line-height: 90rpx;
+    text-align: center;
+}
+
+.zx_footer text:first-child {
+    border-right: 1px solid #ebebeb;
+}
+
+.txt_1 {
+    color: #14c79d;
+}
+
+.txt_1,.txt_2 {
+    font-family: 微软雅黑;
+    font-size: 32rpx;
+}
+
+.txt_2 {
+    color: #a5a4a4;
+}
+
+.txt_name {
+    font-size: 30rpx;
+}
+
+.agreement {
+    font-size: 28rpx;
+    height: 60rpx;
+    margin-left: 4rpx;
+    margin-top: 20rpx;
+}
+
+.agreement red_agree,.agreement text {
+    color: #ff5955;
+}
+

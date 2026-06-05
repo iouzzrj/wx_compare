@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "病历复印预约",
+    "usingComponents": {
+        "selector": "/components/selector/index",
+        "selectorInHospital": "/components/selectorInHospital/index",
+        "template-novisitor": "/components/template/novisitor/index"
+    }
+}

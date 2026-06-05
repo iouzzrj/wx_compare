@@ -1,0 +1,13 @@
+	<image class="img_1" mode="widthFix" src="/assets/images/welcome.png">	</image>
+	<image class="img_2" mode="widthFix" src="/assets/images/txtimg-weclome.png">	</image>
+	<view class="copyright">
+		<text class="l_tip">
+			北京大学口腔医院 
+		</text>
+	</view>
+	<view class="load-box">
+		<view class="tui-loading-3">		</view>
+		<text>
+			加载中
+		</text>
+	</view>

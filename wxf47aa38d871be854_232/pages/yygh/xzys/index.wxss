@@ -1,0 +1,381 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.tip {
+    background: #fff4e3;
+    flex-shrink: 0;
+    padding: 20rpx;
+    position: relative;
+    text-align: justify;
+}
+
+.tip .txt1 {
+    color: #ffaa48;
+    font-size: 26rpx;
+}
+
+.tip .txt2 {
+    color: red;
+    font-size: 28rpx;
+    margin: 0 6rpx;
+    text-decoration: underline;
+}
+
+.header {
+    background: #fff;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.header .touch {
+    height: 150rpx;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300rpx;
+    z-index: 99;
+}
+
+.h-box1 {
+    border-bottom: 1rpx solid #ebebeb;
+    flex-shrink: 0;
+    height: 100rpx;
+    padding: 0 24rpx;
+}
+
+.h-box1 .h-txt {
+    color: #999;
+    font-size: 32rpx;
+}
+
+.h-box1 .r-txt text {
+    border-radius: 8rpx;
+    color: #fff;
+    padding: 14rpx 30rpx;
+}
+
+.h-box1 .r-txt text:first-child {
+    background: #14c79d;
+    margin-right: 20rpx;
+}
+
+.h-box1 .r-txt text:last-child {
+    background: #ff625b;
+}
+
+.h-box2 {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.h-box2 .t-item {
+    align-items: center;
+    color: #999;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 24rpx;
+    justify-content: space-between;
+    padding: 20rpx 0;
+    width: 16.5%;
+}
+
+.h-box2 .t-item text {
+    padding: 5rpx 0;
+}
+
+.h-box2 .t-item .week {
+    color: #343434;
+}
+
+.h-box2 .t-item.selected text {
+    color: #14c79d;
+}
+
+.top {
+    align-items: center;
+    background: #f0f5f4;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -24rpx;
+    padding: 6rpx 24rpx;
+}
+
+.top .h_txt_1 {
+    flex: 1;
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.top .h_txt_3 {
+    flex: 2;
+    font-size: 25rpx;
+}
+
+.top .h_txt_2 {
+    color: #14c79d;
+    flex-shrink: 0;
+    font-size: 30rpx;
+    margin-left: 50rpx;
+}
+
+.section {
+    background: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 24rpx;
+}
+
+.section .t-select {
+    border: 2rpx solid #14c79d;
+    border-radius: 10rpx;
+    flex-shrink: 0;
+    height: 66rpx;
+    margin: 26rpx auto;
+    width: 596rpx;
+}
+
+.section .t-select text {
+    border-right: 2rpx solid #14c79d;
+    color: #14c79d;
+    flex: 1;
+    font-size: 32rpx;
+    line-height: 66rpx;
+    text-align: center;
+}
+
+.section .t-select text:last-child {
+    border: none;
+}
+
+.section .t-select .active {
+    background: #14c79d;
+    color: #fff;
+}
+
+.section .s-box .doc-item {
+    border-bottom: 1rpx solid #ebebeb;
+    height: 178rpx;
+}
+
+.section .s-box .doc-item image {
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 120rpx;
+    margin-right: 26rpx;
+    width: 120rpx;
+}
+
+.section .s-box .doc-item .info .name {
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.section .s-box .doc-item .info .expert {
+    background: #ff625b;
+}
+
+.section .s-box .doc-item .info .general {
+    background: #22a7f3;
+}
+
+.section .s-box .doc-item .i-txt {
+    color: #999;
+    font-size: 30rpx;
+    margin-top: 10rpx;
+}
+
+.section .s-box .doc-item .d-left {
+    align-items: center;
+    border: 2rpx solid #14c79d;
+    border-radius: 6rpx;
+    box-sizing: border-box;
+    color: #14c79d;
+    display: -webkit-flex;
+    display: flex;
+    height: 58rpx;
+    justify-content: center;
+    width: 138rpx;
+}
+
+.section .s-box .doc-item .d-left-num {
+    border-radius: 6rpx;
+    box-sizing: border-box;
+    color: red;
+    height: 58rpx;
+    line-height: 58rpx;
+    position: absolute;
+    right: 160rpx;
+    text-align: center;
+    width: 138rpx;
+}
+
+.section .s-box .doc-item .d-left text {
+    flex: 1;
+    flex-shrink: 0;
+    font-size: 28rpx;
+    line-height: 1;
+    text-align: center;
+}
+
+.section .s-box .doc-item .line_2 {
+    flex: 1;
+}
+
+.section .s-box .doc-item .line_3 {
+    flex: 1;
+    font-size: 30rpx;
+    margin-top: 10rpx;
+}
+
+.section .s-box .doc-item .unavailable {
+    border: 2rpx solid #999;
+    padding: 0;
+}
+
+.section .s-box .doc-item .unavailable text {
+    color: #999;
+    flex: 1;
+    text-align: center;
+}
+
+.doctor_name {
+    width: 160rpx;
+}
+
+.popup {
+    align-items: center;
+    background-color: rgba(0,0,0,.549);
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.popup,.zixun {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zixun {
+    background: #fff;
+    border-radius: 12rpx;
+    flex-direction: column;
+    height: 81%;
+    width: 660rpx;
+}
+
+.zx_title {
+    font-size: 34rpx;
+    line-height: 90rpx;
+    text-align: center;
+}
+
+.zx_middle {
+    align-items: center;
+    border-bottom: 1rpx solid #ebebeb;
+    border-top: 1rpx solid #ebebeb;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 30rpx;
+    text-align: justify;
+}
+
+.zx_footer,.zx_middle {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zx_footer {
+    height: 90rpx;
+    justify-content: space-around;
+}
+
+.zx_footer text {
+    flex-grow: 1;
+    line-height: 90rpx;
+    text-align: center;
+}
+
+.zx_footer text:first-child {
+    border-right: 1px solid #ebebeb;
+}
+
+.txt_1 {
+    color: #14c79d;
+}
+
+.txt_1,.txt_2 {
+    font-family: 微软雅黑;
+    font-size: 32rpx;
+}
+
+.txt_2 {
+    color: #a5a4a4;
+}
+
+.txt_name {
+    font-size: 30rpx;
+}
+
+.agreement {
+    font-size: 28rpx;
+    height: 60rpx;
+    margin-left: 4rpx;
+    margin-top: 20rpx;
+}
+
+.agreement red_agree,.agreement text {
+    color: #ff5955;
+}
+
+.p_detail {
+    overflow: auto;
+}
+
+.form-btn {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.form-btn,.form-btn button {
+    height: 100%;
+    width: 100%;
+}
+
+.department image {
+    height: 22rpx;
+    width: 14rpx;
+}
+
+.hang {
+    background: #fff;
+    bottom: 0rpx;
+    position: fixed;
+    width: 100vw;
+}
+
+.hang text {
+    background: #f0f5f4;
+    color: #14c79d;
+    display: block;
+    font-size: 32rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding: 20rpx;
+    text-align: center;
+}
+

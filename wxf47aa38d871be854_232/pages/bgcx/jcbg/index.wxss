@@ -1,0 +1,61 @@
+.container {
+    box-sizing: border-box;
+    padding: 12rpx;
+}
+
+.title {
+    background: #fff;
+    height: 140rpx;
+    margin-bottom: 20rpx;
+}
+
+.title text:first-child {
+    color: #14c79d;
+    font-size: 34rpx;
+}
+
+.title text:last-child {
+    color: #3c3c3c;
+    font-size: 28rpx;
+    margin-top: 4rpx;
+}
+
+.section {
+    background: #fff;
+    border-radius: 10rpx;
+    padding-left: 78rpx;
+}
+
+.section .box {
+    border-left: 2rpx solid #14c79d;
+    padding: 60rpx 60rpx 0;
+}
+
+.section .box .item {
+    padding-bottom: 60rpx;
+    position: relative;
+}
+
+.section .box .item .label {
+    font-size: 34rpx;
+    font-weight: 700;
+}
+
+.section .box .item .txt {
+    color: #4c4c4c;
+    display: block;
+    font-size: 28rpx;
+    line-height: 46rpx;
+    margin-top: 14rpx;
+}
+
+.section .box .item .dot {
+    background: #14c79d;
+    border-radius: 50%;
+    height: 28rpx;
+    left: -74rpx;
+    position: absolute;
+    top: 10rpx;
+    width: 28rpx;
+}
+

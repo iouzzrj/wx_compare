@@ -1,0 +1,40 @@
+@import "../../wxParse/wxParse.wxss";
+page {
+    background-color: #fff;
+}
+
+.section {
+    padding-bottom: 20rpx;
+}
+
+.section .list_cell {
+    border-bottom: 1rpx solid #f2f2f2;
+    padding: 20rpx;
+}
+
+.section .list_cell text {
+    word-wrap: normal;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.section .list_cell .title text {
+    color: #404040;
+    font-size: 32rpx;
+}
+
+.section .list_cell .desc text {
+    color: #999;
+    font-size: 27rpx;
+}
+
+.rich {
+    color: #999;
+    display: block;
+    font-size: 26rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+

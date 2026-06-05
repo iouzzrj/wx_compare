@@ -1,0 +1,290 @@
+.info {
+    padding: 24rpx;
+}
+
+.info .i-top {
+    background: #fff;
+    border-bottom: 3rpx dashed #14c79d;
+    border-top-left-radius: 8rpx;
+    border-top-right-radius: 8rpx;
+    height: 328rpx;
+    position: relative;
+}
+
+.info .i-top .round {
+    background: #f0f5f4;
+    border-radius: 50%;
+    height: 26rpx;
+    width: 26rpx;
+}
+
+.info .i-top .r-left {
+    bottom: -13rpx;
+    left: -13rpx;
+    position: absolute;
+}
+
+.info .i-top .r-right {
+    bottom: -13rpx;
+    position: absolute;
+    right: -13rpx;
+}
+
+.info .i-top image {
+    border-radius: 50%;
+    height: 152rpx;
+    margin-bottom: 20rpx;
+    width: 152rpx;
+}
+
+.info .i-top .name {
+    font-size: 36rpx;
+    font-weight: 700;
+}
+
+.info .i-top .job_title {
+    color: #999;
+    font-size: 28rpx;
+    margin-top: 10rpx;
+}
+
+.info .i-bottom {
+    background: #fff;
+    border-bottom-left-radius: 8rpx;
+    border-bottom-right-radius: 8rpx;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24rpx;
+}
+
+.info .i-bottom .row {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 24rpx 0;
+}
+
+.info .i-bottom .row text {
+    font-size: 32rpx;
+}
+
+.info .i-bottom .row text:last-child {
+    color: #14c79d;
+}
+
+.info .i-bottom .row .mark {
+    color: #ff625b!important;
+}
+
+.visit {
+    background: #fff;
+    height: 90rpx;
+    margin: 0 24rpx;
+    padding: 0 24rpx;
+}
+
+.visit .v-right image {
+    height: 22rpx;
+    width: 14rpx;
+}
+
+.visit .v-left .plus {
+    color: #14c79d;
+    font-size: 48rpx;
+    padding-top: 6rpx;
+}
+
+.visit .v-left .add {
+    color: #999;
+    font-size: 32rpx;
+    margin-left: 20rpx;
+}
+
+.visit .v-left .txt {
+    font-size: 32rpx;
+}
+
+.visit .v-right text {
+    color: #14c79d;
+    font-size: 32rpx;
+    margin-right: 10rpx;
+}
+
+.confirm {
+    margin: 110rpx 24rpx 20rpx;
+}
+
+.confirm button {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 36rpx;
+    height: 90rpx;
+}
+
+.custom_item {
+    padding: 20rpx;
+}
+
+.txt_2 {
+    padding: 0 20rpx;
+    text-align: justify;
+}
+
+.dy-tips {
+    background: rgba(51,51,51,.8);
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 100rpx;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 99999;
+}
+
+.dy-tips image {
+    width: 648rpx;
+}
+
+.dy-tips .dy-btn {
+    background-color: red;
+    height: 120rpx;
+    margin: 0 auto;
+    opacity: 0;
+    right: 0;
+    top: 850rpx;
+    width: 240rpx;
+}
+
+.dy-tips .dy-btn,.popup {
+    left: 0;
+    position: absolute;
+}
+
+.popup {
+    align-items: center;
+    background-color: rgba(0,0,0,.549);
+    height: 100%;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.popup,.zixun {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zixun {
+    background: #fff;
+    border-radius: 12rpx;
+    flex-direction: column;
+    width: 660rpx;
+}
+
+.zx_title {
+    color: red;
+    line-height: 90rpx;
+    text-align: center;
+}
+
+.zx_middle {
+    align-items: center;
+    border-bottom: 1rpx solid #ebebeb;
+    border-top: 1rpx solid #ebebeb;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 30rpx;
+    text-align: justify;
+}
+
+.zx_footer,.zx_middle {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.zx_footer {
+    border: 1rpx solid #14c79d;
+    border-radius: 10rpx;
+    height: 70rpx;
+    justify-content: space-around;
+    line-height: 70rpx;
+    margin-top: 20rpx;
+    width: 220rpx;
+}
+
+.zx_footer text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.txt_1 {
+    color: #14c79d;
+    font-size: 34rpx;
+}
+
+.txt_1,.txt_2 {
+    font-family: 微软雅黑;
+}
+
+.txt_2 {
+    color: #a5a4a4;
+    font-size: 32rpx;
+}
+
+.txt_name {
+    font-size: 30rpx;
+}
+
+.agreement {
+    font-size: 28rpx;
+    height: 60rpx;
+    margin-left: 4rpx;
+    margin-top: 20rpx;
+}
+
+.agreement red_agree,.agreement text {
+    color: #ff5955;
+}
+
+.p_detail {
+    font-size: 35rpx;
+    overflow: auto;
+    width: 100%;
+}
+
+.form-btn {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.form-btn,.form-btn button {
+    height: 100%;
+    width: 100%;
+}
+
+.department image {
+    height: 22rpx;
+    width: 14rpx;
+}
+
+.ul view {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul {
+    border-bottom: 1rpx solid #eee;
+    padding: 20rpx 0;
+}
+

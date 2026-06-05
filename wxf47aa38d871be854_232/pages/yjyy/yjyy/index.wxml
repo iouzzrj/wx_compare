@@ -1,0 +1,36 @@
+	<view bindtap="toSelect" class="visitor df-jb-ac">
+		<view class="info df-ac">
+			<image src="/assets/images/common/icon_male_patient.png">			</image>
+			<text class="name">
+			</text>
+			<text class="card">
+				()
+			</text>
+		</view>
+		<view class="select">
+			切换
+		</view>
+	</view>
+	<selector disableMessage="当前就诊卡无效，请重新选择" id="selector" title="选择就诊人" bindselect="doSelect" content="" defaultValue="">	</selector>
+	<view class="header flex-c">
+		<view class="title_select flex-x">
+			<view bindtap="cutReservation" class="item" data-index="1">
+				检查预约
+			</view>
+			<view bindtap="cutReservation" class="item" data-index="2">
+				检验预约
+			</view>
+		</view>
+	</view>
+	<scroll-view scrollY="true" class="section flex1">	</scroll-view>
+	<view class="footer flex-x">
+		<view class="allselect flex1 df-ac">
+			<checkbox bindtap="selectAll" checked="">			</checkbox>
+			<text>
+				全选
+			</text>
+		</view>
+		<view bindtap="goOder" class="btn">
+			立即预约
+		</view>
+	</view>

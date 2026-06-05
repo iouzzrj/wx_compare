@@ -1,0 +1,13 @@
+	<view hidden="true" bindtap="hide" class="mask">	</view>
+	<view animation="" class="selector">
+		<view class="title">
+			<text>
+			</text>
+		</view>
+		<scroll-view scrollWithAnimation="true" scrollY="true" class="body">		</scroll-view>
+		<view class="confirm" bindtap="confirm">
+			<text>
+				确认
+			</text>
+		</view>
+	</view>

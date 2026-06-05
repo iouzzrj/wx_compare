@@ -1,0 +1,230 @@
+.section {
+    background-color: #ebebeb;
+}
+
+.section .tab_bar {
+    align-items: center;
+    background-color: #14c79d;
+    color: #fff;
+    flex-direction: row;
+    height: 125rpx;
+    justify-content: center;
+    margin-bottom: 20rpx;
+    text-align: center;
+    width: 100%;
+}
+
+.section .tab_bar,.wrap {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.wrap {
+    border: 2rpx solid #fff;
+    border-radius: 12rpx;
+    height: 56rpx;
+    width: 256rpx;
+}
+
+.section .tab_bar .tab_item {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.section .tab_bar .tab_item text {
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.section .tab_bar .tab_item.selected {
+    background-color: #fff;
+    border-radius: 2rpx;
+}
+
+.section .tab_bar .tab_item.selected text {
+    color: #404040;
+    font-size: 30rpx;
+}
+
+.section .form_wrap {
+    display: block;
+    margin-top: 20rpx;
+}
+
+.section .form_wrap .input_item {
+    align-items: center;
+    border-bottom: 1rpx solid #ebebeb;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    height: 112rpx;
+    justify-content: center;
+    width: 100%;
+}
+
+.wraper {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0 24rpx;
+    width: 100%;
+}
+
+.section .form_wrap .input_item image {
+    height: 40rpx;
+    margin-right: 26rpx;
+    width: 40rpx;
+}
+
+.section .form_wrap .input_item .input,.section .form_wrap .input_item input {
+    color: #404040;
+    flex: 1;
+    font-size: 30rpx;
+}
+
+.letterspace {
+    justify-content: space-between;
+    width: 114rpx;
+}
+
+.around,.letterspace {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.around {
+    justify-content: space-around;
+    width: 120rpx;
+}
+
+.around text {
+    flex: 1;
+    height: 100%;
+}
+
+.lef {
+    text-align: left;
+}
+
+.cen {
+    text-align: center;
+}
+
+.rig {
+    text-align: right;
+}
+
+.section .form_wrap .input_item button {
+    background-color: #fff;
+    border: 1rpx solid #13ba84;
+    color: #13ba84;
+    font-size: 30rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 20rpx;
+    width: 220rpx;
+}
+
+button::after {
+    border: none;
+}
+
+.section .form_wrap .input_item button.disabled {
+    opacity: .5;
+}
+
+.section .form_wrap .input_item radio-group {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section .form_wrap .input_item radio-group radio {
+    flex: 1;
+}
+
+.section .form_wrap .last {
+    border-bottom: 0!important;
+}
+
+.section .form_wrap .wraper:last-child {
+    border-bottom: 1rpx solid #ebebeb;
+}
+
+.section .form_wrap .custom_item.item_switch {
+    background-color: #fff;
+    border-bottom: 1rpx solid #ebebeb;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 112rpx;
+    padding-left: 216rpx;
+}
+
+.section .form_wrap .custom_item.item_switch,.wuka,.youka {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.wuka,.youka {
+    height: 100%;
+    width: auto;
+}
+
+.wuka image,.youka image {
+    height: 32rpx;
+    margin-right: 24rpx;
+    width: 32rpx;
+}
+
+.youka text {
+    margin-right: 55rpx;
+}
+
+.section .form_wrap .custom_item.item_switch text {
+    color: #404040;
+    flex: 1;
+    font-size: 30rpx;
+}
+
+.section .form_wrap .custom_item.item_remark {
+    box-sizing: border-box;
+    padding: 30rpx 24rpx 0;
+    text-align: justify;
+}
+
+.section .form_wrap .custom_item.item_remark text {
+    color: #999;
+    font-size: 30rpx;
+    line-height: 40rpx;
+}
+
+.section .form_wrap .custom_item.item_option {
+    margin-top: 120rpx;
+}
+
+.section .form_wrap .custom_item.item_option button {
+    background-color: #14c79d;
+    border-radius: 8rpx;
+    color: #fff;
+    font-size: 30rpx;
+    width: 90%;
+}
+
+.btn {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 34rpx;
+    line-height: 90rpx;
+    margin-top: 140rpx;
+    text-align: center;
+}
+

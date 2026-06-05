@@ -1,0 +1,4 @@
+	<view class="_root " style="">
+		<slot>		</slot>
+		<node catchadd="_add" childs="" id="_root" opts="[<nil> <nil> <nil> <nil> <nil>]">		</node>
+	</view>

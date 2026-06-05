@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "北京大学口腔医院",
+    "usingComponents": {
+        "add-tips": "/components/add-tips/index"
+    }
+}

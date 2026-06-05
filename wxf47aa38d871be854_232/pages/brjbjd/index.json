@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "在线建档",
+    "usingComponents": {
+        "template-novisitor": "/components/template/novisitor/index",
+        "toptips": "/components/toptips/index"
+    }
+}

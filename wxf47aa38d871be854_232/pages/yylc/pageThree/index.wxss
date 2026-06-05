@@ -1,0 +1,115 @@
+page {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 42rpx 24rpx 0;
+}
+
+.container {
+    padding-bottom: 40rpx;
+}
+
+.wrap {
+    border: 2rpx solid #24dcac;
+    border-radius: 20rpx;
+    box-sizing: border-box;
+    padding: 50rpx 14rpx 40rpx;
+    position: relative;
+}
+
+.header {
+    background-color: #24dcac;
+    border-radius: 10rpx;
+    color: #fefefe;
+    font-size: 32rpx;
+    height: 51rpx;
+    line-height: 51rpx;
+    margin: 0 auto;
+    text-align: center;
+    width: 454rpx;
+}
+
+.p_title {
+    font-weight: 700;
+    margin: 40rpx 0;
+}
+
+.p_title,.p_txt {
+    color: #3a3a3a;
+    font-size: 28rpx;
+    text-align: justify;
+}
+
+.p_txt {
+    line-height: 1.6;
+    padding-left: 30rpx;
+}
+
+.list-box {
+    align-items: center;
+    background-blend-mode: normal,normal;
+    background-image: linear-gradient(0deg,#24dcac,#24dca5 50%,#24dc9d),linear-gradient(#24dcac,#24dcac);
+    border-radius: 50%;
+    bottom: 20%;
+    display: -webkit-flex;
+    display: flex;
+    height: 81rpx;
+    justify-content: center;
+    position: fixed;
+    right: 20rpx;
+    width: 81rpx;
+}
+
+.list-box.list-box-close .l_item {
+    visibility: hidden;
+}
+
+.list-box.list-box-open .l_item {
+    visibility: visible;
+}
+
+.list-box .open {
+    height: 43rpx;
+    width: 37rpx;
+}
+
+.list-box .close {
+    height: 36rpx;
+    width: 36rpx;
+}
+
+.list-box .l_item {
+    align-items: center;
+    background-blend-mode: normal,normal;
+    background-image: linear-gradient(0deg,#24dcac,#24dca5 50%,#24dc9d),linear-gradient(#fff,#fff);
+    border-radius: 50%;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    font-size: 28rpx;
+    height: 120rpx;
+    justify-content: center;
+    position: absolute;
+    width: 120rpx;
+}
+
+.list-box .l_item.l_item_1 {
+    left: -20rpx;
+    top: -183rpx;
+}
+
+.list-box .l_item.l_item_2 {
+    left: -160rpx;
+    top: -100rpx;
+}
+
+.list-box .l_item.l_item_3 {
+    left: -160rpx;
+    top: 60rpx;
+}
+
+.list-box .l_item.l_item_4 {
+    left: -20rpx;
+    top: 141rpx;
+}
+

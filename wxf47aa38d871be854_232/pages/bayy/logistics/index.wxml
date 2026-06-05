@@ -1,0 +1,15 @@
+	<view class="pageTop">
+		<view class="pageTopL">
+			<image src="/assets/images/yaoPing.png">			</image>
+			<view>			</view>
+		</view>
+		<view class="pageTopR">
+			<view>
+				<text>
+					物流状态
+				</text>
+				<text>
+				</text>
+			</view>
+		</view>
+	</view>

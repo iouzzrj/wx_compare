@@ -1,0 +1,380 @@
+	<view class="container">
+		<view class="header">
+			<view class="h_title">
+				预约就诊小贴士
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title_bgimg">
+				总院预约其他方式
+			</view>
+			<view class="insid-box">
+				<view class="titel_li first_li">
+					1. 北京市统一预约挂号平台:
+				</view>
+				<view class="p_txt">
+					114平台预约电话: 010-114/116114
+				</view>
+				<view class="p_txt">
+					网络平台预约网址: www.bjeguhio.gov.cn
+				</view>
+				<view class="p_txt">
+					可预约魏公村总院两周以内部分专业普通号源。
+				</view>
+				<view class="p_txt">
+					周一至周五上午10:00投放第15日号源。
+				</view>
+				<view class="p_txt">
+					例:1月1日10时投放11月15日号源。如不能按时就诊，请您最晚于就诊前一个工作日14:00前拨打114或者登录网站取消预约
+				</view>
+				<view class="titel_li first_li">
+					2. C楼预约:
+				</view>
+				<view class="p_txt">
+					总院的牙周科、儿童口腔科、综合治疗二科在西城区西四开设C楼诊区。
+				</view>
+				<view class="p_txt">
+					就诊地址：西城区西黄城根北街10号(地铁“西四”站向东300米)
+				</view>
+				<view class="p_txt">
+					牙周科C楼诊区：在C楼1层牙周科护士台，持就诊人有效证件原件现场预约
+				</view>
+				<view class="p_txt">
+					儿科C楼诊区：在C楼2层儿科护士台，持就诊人有效证件原件现场预约
+				</view>
+				<view class="p_txt">
+					综合二科C楼诊区：预约电话62179665可预约综合治疗号、牙周专业、牙体专业、外科专业
+				</view>
+				<view class="titel_li first_li">
+					3. 现场预约登记
+				</view>
+				<view class="p_txt">
+					持患者有效证件原件在门诊大厅一层咨询台注册登记。由院方根据临床诊疗工作择期安排就诊。
+				</view>
+				<view class="p_txt">
+					现场登记时间:
+				</view>
+				<view class="p_txt">
+					周一至周五：上午08:00-11:30，下午13:00-16:30
+				</view>
+				<view class="titel_li first_li">
+					4. 院内预约电话：010-62179665
+				</view>
+				<view class="titel_li first_li">
+					(周一至周五：上午8:00-11:30，下午13:00-16:30接听)
+				</view>
+				<view class="p_txt">
+					可预约总院部分号源(①综合治疗号；②70岁以上老年人残疾人预约部分科室普通号，预约时需提供残疾人证件编号)和第三、四门诊部部分号源。每工作日早8:00可预约总院3-8日号源。
+				</view>
+				<view class="p_txt">
+					如不能按时就诊，请您最晚于就诊前两个工作日15：00前来电取消预约。否则会影响就诊人的信用及下次的预约。
+				</view>
+				<view class="titel_li first_li">
+					5. 社区转诊预约:
+				</view>
+				<view class="p_txt">
+					经"海淀区口腔专科医联体”成员单位转诊预约我院号源。
+				</view>
+				<view class="titel_li first_li">
+					6. 特需医疗部:
+				</view>
+				<view class="p_txt">
+					特需医疗部设在医疗楼3层北侧，开展牙体牙髓专业、牙周专业、口腔修复专业、口腔外科专业。实行先预、后诊疗。拨打电话010-82195901 可预约总院特需医疗部的特需号。
+				</view>
+				<view class="titel_li first_li">
+					注：特需医疗部的全部费用均不能报销，收费执行我院特医疗收费标准。
+				</view>
+			</view>
+		</view>
+		<view class="header">
+			<view class="h_title">
+				挂号、开诊时间
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="insid-box" style="padding-top:46rpx;">
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						我院无需办理就诊卡，每天凌晨4点开大门，7点开始挂初诊号。
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						周一至周五全天门诊。周六，周日上午半天门诊
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						周一至周五每天下午16:30开设晚诊，包括儿童口腔专业、综合牙体专业、综合外科专业(节假日除外)。 
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						上午号8点开诊，下午号13点开诊，晚诊号16:30开诊，建议给医生留出充分操作时间。 
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						复诊患者持预约条可在各楼层挂号收费窗口或门诊大厅挂号窗口办理复诊挂号。 
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view class="titel_li first_li">
+						各挂号窗口每人每次限挂一个号。
+					</view>
+				</view>
+				<view class="titel_li first_li" style="color: #ff0000;">
+					特别提醒:现场排队挂号方式只能挂到预约剩余号源和爽约回流号源，请您合理选择挂号方式。
+				</view>
+			</view>
+		</view>
+		<view class="header">
+			<view class="h_title">
+				预约取号注意事项
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="insid-box" style="padding-top:46rpx;">
+				<view class="titel_li first_li">
+					1. 取预约号:
+				</view>
+				<view class="p_txt">
+					请务必于就诊当日按照预约信息提示的时间段到预约取号窗口取号，需持:①就诊人本人有效证件原件(身份证/户口簿/护照/出生证明/军官证/驾驶证、儿童患者就诊时需携带患儿身份证/户口本/出生证明)；②预约成功短信；③北京市医保患者同时还须携带社保卡原件。如就诊人身份信息与预约信息不一致的，当次预约作废。为保证医生有充足的时间进行诊疗。就诊人取号后，需按挂号条上提示的就诊顺序到科室签到等候就诊。
+				</view>
+				<view class="titel_li first_li">
+					2. 取号时间:
+				</view>
+				<view class="p_txt">
+					我院试行预约分时段取号制度，请您务必关注预约验证信息提示的现场取号时段。逾期未取号者，预约号源作废，同时记爽约1次。
+				</view>
+				<view class="titel_li first_li">
+					3. 取消预约:
+				</view>
+				<view class="p_txt">
+					由于预约号源有限，预约成功后请您务必按时就诊。如不能按时就诊，请您务必按不同预约方式和规定时限及时取消预约，否则会影响您的信用及下次的预约。
+				</view>
+				<view class="p_txt" style="color: #ff0000;">
+					提示:预约第2日号源的，预约成功后不能取消
+				</view>
+				<view class="titel_li first_li">
+					4. 爽约处理:
+				</view>
+				<view class="p_txt">
+					参照北京市卫生健康委预约就诊管理要求，逾期未按时完成预约取号的患者记录爽约，其预约号源不再保留。爽约号源投入号池内随机放出。患者爽约1次的。自爽约之日起限制预约权限30日，180日内爽约2次的，限制预约权限90日，360日内爽约3次的，取消其预约权限。
+				</view>
+			</view>
+		</view>
+		<view class="header">
+			<view class="h_title">
+				现场挂号注意事项
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="insid-box" style="padding-top:46rpx;">
+				<view class="titel_li first_li">
+					1.挂号时请您主动出示患者的有效证件原件。
+				</view>
+				<view class="titel_li first_li">
+					2.本市参保人员就医挂号时需主动出示社保卡(新发与补换社保卡领卡证明)等;
+				</view>
+				<view class="p_txt">
+					公费医疗患者挂号时需主动出示转诊单。挂号时未出示社保卡、公疗转诊单的患者将影响您的报销。口腔修复专业、种植专业、正畸专业的所有诊疗项目均为自费。
+				</view>
+				<view class="titel_li first_li">
+					3.如您有《北京地区门急诊病历手册)或我院挂号证请您一并出示。
+				</view>
+			</view>
+		</view>
+		<view class="header">
+			<view class="h_title">
+				该挂哪科小提示
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="insid-box" style="padding-top:46rpx;">
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							牙体牙髓专业:
+						</view>
+						<view class="p_txt">
+							龋齿补牙、牙髓疾病、根管治疗、根尖手术、牙齿冷热酸痛敏感、牙齿美白等。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							牙周专业:
+						</view>
+						<view class="p_txt">
+							牙龈炎(刷牙出血/口臭)、牙周炎(口臭/牙齿疼痛/牙齿松动)、洁牙(洗牙)、龈下刮治、牙周手术、种植体周围炎。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							儿童口腔专业:
+						</view>
+						<view class="p_txt">
+							16岁以下儿童龋齿、牙髓疾病、牙外伤、牙齿发育异常。儿童早期矫治等。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔粘膜科:
+						</view>
+						<view class="p_txt">
+							口腔溃疡、扁平苔癣、白斑、唇舌疾病、口腔感染性疾病等。复诊患者也排队挂号
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔修复专业:
+						</view>
+						<view class="p_txt">
+							镶牙，烤瓷冠、全瓷冠、美学修复、数字化修复、种植修复、面部缺损修复等。 修复专业所有诊疗项目均自费。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔正畸科:
+						</view>
+						<view class="p_txt">
+							青少年、成人牙齿矫正。正畸科所有收费项目均自费
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔外科:
+						</view>
+						<view class="p_txt">
+							拔牙、智齿冠周炎、心电监护拨牙、外科急症、三叉神经痛、小肿物切除等。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔颔面外科:
+						</view>
+						<view class="p_txt">
+							颔面部肿瘤、创伤、感染、正颔外科矫治、唇腭裂、涎腺疾病等。
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔种植科:
+						</view>
+						<view class="p_txt">
+							牙根没--不磨牙、人工牙根固定、牙根坏--即刻拔牙即刻种、种植专业所有诊疗项目均自费。 
+						</view>
+					</view>
+				</view>
+				<view class="line">
+					<text>
+						●
+					</text>
+					<view>
+						<view class="titel_li first_li">
+							口腔综合专业:
+						</view>
+						<view class="p_txt">
+							成人口腔全面检查及治疗方案制定，补牙、洗牙、拔牙、镶牙、做牙冠。
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view bindtap="doOpen" class="list-box list-box-open">
+		<image class="close" src="/assets/images/icon_close.png">		</image>
+		<navigator class="l_item l_item_1" openType="redirect" url="/pages/yylc/pageOne/index">
+			<view>
+				挂号
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_2" openType="redirect" url="/pages/yylc/pageTwo/index">
+			<view>
+				预约
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_3" openType="redirect" url="/pages/yylc/pageThree/index">
+			<view>
+				预约
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+		<navigator openType="redirect" url="/pages/yylc/pageFour/index" class="l_item l_item_4">
+			<view>
+				患者
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+	</view>

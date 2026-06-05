@@ -1,0 +1,59 @@
+	<toptips duration="1500" id="tips" type="error">	</toptips>
+	<view class="container">
+		<view class="header">
+			<view class="login-photo">
+				<open-data class="photo-image" type="userAvatarUrl">				</open-data>
+			</view>
+			<view class="txt_1">
+				请进行人脸识别登录验证
+			</view>
+			<view class="txt_2">
+				信息将与当前微信绑定（用于身份验证）
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="row">
+				<text class="r_txt">
+					姓名
+				</text>
+				<input placeholderClass="place-color" type="text" maxlength="20" value="" placeholder="请输入微信持有者姓名">				</input>
+			</view>
+			<view class="row">
+				<text class="r_txt">
+					身份证
+				</text>
+				<input maxlength="18" value="" placeholder="请输入微信持有者身份证" placeholderClass="place-color" type="idcard">				</input>
+			</view>
+		</view>
+		<view class="wrap">
+			<view bindtap="doChange" class="row row_select" data-index="1">
+				<view class="check-box ">
+					<view class="check">					</view>
+				</view>
+				<view class="r_tips">
+					<view class="tips_txt_1">
+						反光识别
+					</view>
+					<view class="tips_txt_2">
+						需要静止并等待屏幕闪烁
+					</view>
+				</view>
+			</view>
+			<view bindtap="doChange" class="row row_select" data-index="0">
+				<view class="check-box ">
+					<view class="check">					</view>
+				</view>
+				<view class="r_tips">
+					<view class="tips_txt_1">
+						读数识别
+					</view>
+					<view class="tips_txt_2">
+						需要朗读手机屏幕展示的数字
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="btn" bindtap="toAuth">
+			开始认证
+		</view>
+	</view>

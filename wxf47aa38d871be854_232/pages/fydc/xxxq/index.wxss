@@ -1,0 +1,246 @@
+page {
+    background-color: #f6f7fb;
+}
+
+.holder {
+    height: 1rpx;
+    width: 1rpx;
+}
+
+.card {
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx #dbdbdb;
+    margin: 30rpx;
+}
+
+.card .brand {
+    border-radius: 20rpx 20rpx 0 0;
+    overflow: hidden;
+    padding: 20rpx 50rpx;
+    position: relative;
+}
+
+.card .brand.brand_1 {
+    background-color: #0ac381;
+    background-image: linear-gradient(90deg,#0ac381,#4adb7b);
+}
+
+.card .brand.brand_2 {
+    background-color: #ee7c32;
+    background-image: linear-gradient(90deg,#ee7c32,#fdad56);
+}
+
+.card .brand.brand_3 {
+    background-color: #f14d21;
+    background-image: linear-gradient(90deg,#f14d21,#f78a64);
+}
+
+.card .brand text {
+    color: #fff;
+    display: block;
+    padding: 10rpx 0;
+}
+
+.card .brand .s1 {
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.card .brand .s2 {
+    color: #404040;
+    font-size: 56rpx;
+    font-weight: 700;
+}
+
+.card .brand .mark {
+    height: 180rpx;
+    opacity: .6;
+    position: absolute;
+    right: -40rpx;
+    top: -30rpx;
+    transform: rotate(0deg);
+    width: 180rpx;
+}
+
+.card .panel {
+    background-color: #fff;
+    border-radius: 0 0 20rpx 20rpx;
+    overflow: hidden;
+    padding: 0 30rpx;
+}
+
+.card .panel .head {
+    flex-direction: row;
+    padding: 20rpx 80rpx 22rpx;
+}
+
+.card .panel .head,.card .panel .head text {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.card .panel .head text {
+    flex-direction: column;
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.card .panel .head .line {
+    color: #ebebeb;
+}
+
+.card .panel .head .tap {
+    color: #b3b3b3;
+    flex: 1;
+}
+
+.card .panel .head .tap::after {
+    border-radius: 20rpx;
+    content: "";
+    display: inline-block;
+    height: 8rpx;
+    margin-top: 6rpx;
+    width: 60rpx;
+}
+
+.card .panel .head .tap.selected {
+    color: #404040;
+}
+
+.card .panel.panel_1 .head .tap.selected::after {
+    background: #0ac381;
+}
+
+.card .panel.panel_2 .head .tap.selected::after {
+    background: #ee7c32;
+}
+
+.card .panel.panel_3 .head .tap.selected::after {
+    background: #f14d21;
+}
+
+.card .panel .page {
+    background-color: #fff;
+    border-bottom: 1rpx solid #ebebeb;
+}
+
+.card .panel .page swiper {
+    height: 650rpx;
+    width: 100%;
+}
+
+.card .panel .page .code {
+    height: 620rpx;
+    margin: auto;
+    position: relative;
+    width: 620rpx;
+}
+
+.card .panel .page .code .logo {
+    height: 120rpx;
+    left: calc(50% - 60rpx);
+    position: absolute;
+    top: calc(50% - 60rpx);
+    width: 120rpx;
+}
+
+.card .panel .page .form {
+    box-sizing: border-box;
+    height: 620rpx;
+    margin: auto;
+    overflow: scroll;
+    padding: 10rpx;
+    width: 620rpx;
+}
+
+.card .panel.panel_1 .page .form {
+    border: 1rpx solid #0ac381;
+}
+
+.card .panel.panel_2 .page .form {
+    border: 1rpx solid #ee7c32;
+}
+
+.card .panel.panel_3 .page .form {
+    border: 1rpx solid #f14d21;
+}
+
+.card .panel .page .form text {
+    color: #404040;
+    font-size: 30rpx;
+    letter-spacing: 2rpx;
+    line-height: 1.5rem;
+}
+
+.card .panel .page .form .cate {
+    text-align: left;
+}
+
+.card .panel .page .form .issue {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+}
+
+.card .panel .page .form .issue .single {
+    flex: 1;
+}
+
+.card .panel .page .form .issue .single .ts {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.card .panel .page .form .issue .single .ts.s0,.card .panel .page .form .issue .single .ts.s1_0 {
+    color: #0ac381;
+}
+
+.card .panel .page .form .issue .single .ts.s1_1 {
+    color: #ee7c32;
+}
+
+.card .panel .page .form .issue .single .ts.s2_0 {
+    color: #0ac381;
+}
+
+.card .panel .page .form .issue .single .ts.s2_1 {
+    color: #f14d21;
+}
+
+.card .panel .foot {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20rpx 0;
+}
+
+.card .panel .foot image {
+    height: 40rpx;
+    margin: 0 2rpx;
+    width: 40rpx;
+}
+
+.card .panel .foot text {
+    font-size: 32rpx;
+    margin: 0 2rpx;
+}
+
+.card .panel.panel_1 .foot text {
+    color: #0ac381;
+}
+
+.card .panel.panel_2 .foot text {
+    color: #ee7c32;
+}
+
+.card .panel.panel_3 .foot text {
+    color: #f14d21;
+}
+

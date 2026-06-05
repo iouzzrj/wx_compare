@@ -1,0 +1,3 @@
+	<view class="visitorFixed">
+		<select-visitor visitor="" bindmyevent="getSelevtVisitor">		</select-visitor>
+	</view>

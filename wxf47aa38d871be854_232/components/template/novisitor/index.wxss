@@ -1,0 +1,28 @@
+.no-visitor {
+    padding-top: 30%;
+    text-align: center;
+}
+
+.no-visitor image {
+    height: 240rpx;
+    width: 240rpx;
+}
+
+.no-visitor text {
+    color: #404040;
+    display: block;
+    font-size: 30rpx;
+}
+
+.no-visitor button {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 34rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    margin: 100rpx auto 0;
+    text-align: center;
+    width: calc(100% - 48rpx);
+}
+

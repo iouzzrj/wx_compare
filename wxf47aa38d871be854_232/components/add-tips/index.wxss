@@ -1,0 +1,40 @@
+.box {
+    align-items: flex-end;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+}
+
+.arrow {
+    border: 10rpx solid transparent;
+    border-bottom-color: rgba(0,0,0,.75);
+    height: 0;
+    width: 0;
+}
+
+.page {
+    align-items: center;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 10rpx;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    padding: 10rpx 20rpx;
+}
+
+.tips {
+    color: #fff;
+    flex: 1;
+    font-size: 26rpx;
+}
+
+.close {
+    height: 16rpx;
+    margin-left: 16rpx;
+    width: 16rpx;
+}
+

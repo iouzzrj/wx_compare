@@ -1,0 +1,105 @@
+page {
+    box-sizing: border-box;
+    padding-top: 20rpx;
+}
+
+.header {
+    background: #fff;
+    height: 190rpx;
+    padding: 0 24rpx;
+}
+
+.header image {
+    height: 108rpx;
+    margin-right: 26rpx;
+    width: 108rpx;
+}
+
+.header text {
+    display: block;
+}
+
+.header .name {
+    font-size: 34rpx;
+    margin-bottom: 10rpx;
+}
+
+.header .card {
+    color: #999;
+    font-size: 28rpx;
+}
+
+.section {
+    overflow: hidden;
+    padding: 20rpx 24rpx 0;
+    position: relative;
+}
+
+.section .item {
+    background: #fff;
+    border-bottom: 1rpx solid #ebebeb;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 210rpx;
+    justify-content: center;
+    padding-left: 20rpx;
+    position: relative;
+}
+
+.section .item text:nth-child(1) {
+    font-size: 34rpx;
+    margin-bottom: 10rpx;
+}
+
+.section .item text:nth-child(2) {
+    color: #999;
+    font-size: 26rpx;
+    margin-bottom: 20rpx;
+}
+
+.section .item image {
+    height: 52rpx;
+    width: 52rpx;
+}
+
+.section .axis {
+    border-left: 3rpx solid #14c79d;
+    height: 100%;
+    position: absolute;
+    right: 24rpx;
+    top: 170rpx;
+    width: 30rpx;
+}
+
+.section .item .time {
+    align-items: center;
+    bottom: 40rpx;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    right: 22rpx;
+}
+
+.section .item .time .txt {
+    color: #14c79d;
+    width: 100rpx;
+}
+
+.section .item .time .round {
+    background: #14c79d;
+    border-radius: 50%;
+    height: 20rpx;
+    width: 20rpx;
+}
+
+.btn {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 36rpx;
+    line-height: 90rpx;
+    margin: 120rpx 24rpx 0;
+    text-align: center;
+}
+

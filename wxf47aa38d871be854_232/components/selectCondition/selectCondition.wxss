@@ -1,0 +1,195 @@
+.selectBtnBox {
+    background: hsla(0,0%,100%,.9)!important;
+    border-radius: 43rpx!important;
+    box-shadow: 0 0 8rpx 2rpx rgba(29,35,33,.08)!important;
+    height: 90rpx!important;
+    justify-content: space-between!important;
+    margin: 20rpx auto 40rpx!important;
+    width: 690rpx!important;
+}
+
+.selectBtnBox,.selectBtnBox .selectBtn {
+    align-items: center!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+}
+
+.selectBtnBox .selectBtn {
+    color: #1a1a1a!important;
+    flex: 1!important;
+    font-size: 28rpx!important;
+    font-weight: 500!important;
+    height: 28rpx!important;
+    height: 90rpx!important;
+    justify-content: center!important;
+    line-height: 90rpx!important;
+    text-align: center!important;
+}
+
+.selectBtnBox .selectBtnActive {
+    color: var(--themeColor)!important;
+}
+
+.selectBtnBox .selectBtn:last-of-type text {
+    border: none!important;
+}
+
+.selectBtnBox .selectBtn text {
+    border-right: 1px solid #c6c6c6!important;
+    line-height: 26rpx!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.filterMask {
+    background: rgba(0,0,0,.5)!important;
+    height: 100vh!important;
+    top: 0!important;
+    width: 100vw!important;
+    z-index: 999!important;
+}
+
+.filterBox,.filterMask {
+    position: fixed!important;
+}
+
+.filterBox {
+    background: #fff!important;
+    border-radius: 30rpx 30rpx 0 0!important;
+    bottom: 0!important;
+    height: auto!important;
+    left: 0!important;
+    padding-bottom: 20rpx!important;
+    width: 100%!important;
+    z-index: 1000!important;
+}
+
+@-webkit-keyframes slidown {
+    from {
+    bottom: -100%!important;
+}
+
+to {
+    bottom: 0!important;
+}
+
+}
+@keyframes slidown {
+    from {
+    bottom: -100%!important;
+}
+
+to {
+    bottom: 0!important;
+}
+
+}
+.filterBottom {
+    align-items: center!important;
+    border-top: 1px solid #ddd!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    height: 150rpx!important;
+    justify-content: space-between!important;
+    margin-top: 50rpx!important;
+    width: 100%!important;
+}
+
+.filterBottom view:first-of-type {
+    border: 2rpx solid #999!important;
+    color: grey!important;
+    font-weight: 500!important;
+    height: 70rpx!important;
+    line-height: 68rpx!important;
+}
+
+.filterBottom view:first-of-type,.filterBottom view:last-of-type {
+    border-radius: 34rpx!important;
+    font-size: 32rpx!important;
+    text-align: center!important;
+    width: 331rpx!important;
+}
+
+.filterBottom view:last-of-type {
+    background: var(--themeColor)!important;
+    color: #fff!important;
+    height: 74rpx!important;
+    line-height: 69rpx!important;
+}
+
+.filterName {
+    color: #1a1a1a!important;
+    font-size: 36rpx!important;
+    font-weight: 700!important;
+    line-height: 120rpx!important;
+    text-align: center!important;
+    width: 100%!important;
+}
+
+.closeMask {
+    height: 40rpx!important;
+    position: absolute!important;
+    right: 30rpx!important;
+    top: 36rpx!important;
+    width: 40rpx!important;
+}
+
+.filterTimePicker {
+    align-items: center!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    justify-content: space-between!important;
+    margin: 20rpx auto 0!important;
+    width: calc(100% - 60rpx)!important;
+}
+
+.filterTimePicker view {
+    background: #f3f6f9!important;
+    border-radius: 30rpx!important;
+    color: #b2b2b2!important;
+    height: 60rpx!important;
+    line-height: 60rpx!important;
+    text-align: center!important;
+    width: 310rpx!important;
+}
+
+.filterFunName {
+    color: #1a1a1a!important;
+    font-size: 30rpx!important;
+    font-weight: 700!important;
+    margin-top: 20rpx!important;
+    text-indent: 30rpx!important;
+    width: 100%!important;
+}
+
+.statesList {
+    display: -webkit-flex!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    margin: 0 auto!important;
+    width: calc(100% - 60rpx)!important;
+}
+
+.statesList .statesView {
+    background: #f3f6f9!important;
+    border-radius: 30rpx!important;
+    color: #b2b2b2!important;
+    height: 60rpx!important;
+    line-height: 60rpx!important;
+    margin-right: 72rpx!important;
+    margin-top: 20rpx!important;
+    text-align: center!important;
+    width: 180rpx!important;
+}
+
+.statesList .statesView:nth-of-type(3n) {
+    margin-right: 0rpx!important;
+}
+
+.statesList .statesActive {
+    background: #dbf7ee!important;
+    color: #11c98c!important;
+    font-size: 28rpx!important;
+    font-weight: 500!important;
+}
+

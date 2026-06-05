@@ -1,0 +1,11 @@
+	<view class="inputBox">
+		<view class="search-form">
+			<image src="/assets/images/search.png" class="image_icon" mode="aspectFit">			</image>
+			<input confirmType="search" data-value="" value="" placeholder="搜索感兴趣的内容" placeholderStyle="color: rgb(164, 164, 164)" type="text" bindconfirm="searchInfoAxios" bindinput="doSearch">			</input>
+		</view>
+	</view>
+	<scroll-view class="scorllBox" scrollY="true">
+		<view class="zh_body">
+			<view class="zh_body_li">			</view>
+		</view>
+	</scroll-view>

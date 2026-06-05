@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#40db7b",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "北京大学口腔医院",
+    "usingComponents": {
+        "toptips": "/components/toptips/index"
+    }
+}

@@ -1,0 +1,258 @@
+.card {
+    background-color: #fff;
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx #c3d8d1;
+    margin: 20rpx 25rpx 0;
+    padding: 40rpx 0;
+}
+
+.card .base {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20rpx;
+}
+
+.card .base .photo {
+    position: relative;
+}
+
+.card .base .photo image {
+    height: 180rpx;
+    width: 180rpx;
+}
+
+.card .base .photo text {
+    border-radius: 20rpx;
+    bottom: 15rpx;
+    color: #fff;
+    font-size: 26rpx;
+    height: 42rpx;
+    line-height: 42rpx;
+    padding: 1rpx 2rpx;
+    position: absolute;
+    right: -10rpx;
+    text-align: center;
+    width: 100rpx;
+}
+
+.card .base .photo text.primary {
+    background-color: #f87259;
+}
+
+.card .base .photo text.normal {
+    background-color: #55b3f8;
+}
+
+.card .base .info {
+    flex: 1;
+    margin-left: 40rpx;
+}
+
+.card .base .info .title {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card .base .info .title text {
+    word-wrap: normal;
+    color: #404040;
+    flex: 1;
+    font-size: 34rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 394rpx;
+}
+
+.card .base .info .title image {
+    height: 48rpx;
+    width: 48rpx;
+}
+
+.card .base .info .sub_title {
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 394rpx;
+}
+
+.card .base .info .sub_title text {
+    color: #999;
+    font-size: 30rpx;
+    margin-left: 10rpx;
+}
+
+.card .base .info .sub_title text:first-child {
+    margin-left: 0rpx;
+}
+
+.card .base .info .detail_link {
+    color: #14c79d;
+    display: block;
+    font-size: 30rpx;
+    margin-top: 20rpx;
+}
+
+.card .base .info .detail_link::after {
+    border-color: #14c79d;
+    border-style: solid;
+    border-width: 1rpx 1rpx 0 0;
+    content: "";
+    display: inline-block;
+    height: 12rpx;
+    width: 12rpx;
+}
+
+.card .base .info .expand::after {
+    transform: matrix(.71,.71,.71,-.71,8,-3);
+}
+
+.card .base .info .collapse::after {
+    transform: matrix(.71,-.71,.71,.71,8,0);
+}
+
+.card .detail {
+    border-top: 1rpx solid #f2f2f2;
+    margin-top: 30rpx;
+    padding: 0 20rpx;
+}
+
+.card .detail .detail_item {
+    align-items: flex-start;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20rpx;
+}
+
+.card .detail .detail_item .title {
+    color: #404040;
+    font-size: 30rpx;
+}
+
+.card .detail .detail_item .desc {
+    word-wrap: break-word;
+    color: #999;
+    display: -webkit-box;
+    flex: 1;
+    font-size: 30rpx;
+    margin-left: 10rpx;
+    overflow: hidden;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.card .detail .no_detail {
+    margin-top: 20rpx;
+    text-align: center;
+}
+
+.card .detail .no_detail text {
+    color: #ccc;
+    font-size: 30rpx;
+}
+
+.grid-body {
+    padding: 20rpx 25rpx 0;
+    text-align: center;
+}
+
+.grid-body .weui-flex:first-child {
+    padding-top: 13rpx;
+}
+
+.grid-body .weui-flex:last-child {
+    padding-bottom: 13rpx;
+}
+
+.weui-flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.grid-body .weui-flex .weui-flex__item {
+    border-radius: 8rpx;
+    box-shadow: 0 0 20rpx #d7e9e3;
+    margin: 13rpx;
+    padding: 30rpx;
+    text-align: center;
+}
+
+.grid-body .weui-flex .weui-flex__item.none {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.grid-body .body_item {
+    width: 150rpx;
+}
+
+.grid-body .body_item text {
+    word-wrap: normal;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.grid-body .body_item .photo {
+    position: relative;
+}
+
+.grid-body .body_item .photo image {
+    height: 152rpx;
+    width: 140rpx;
+}
+
+.grid-body .body_item .photo text {
+    border-radius: 20rpx;
+    bottom: 15rpx;
+    color: #fff;
+    font-size: 24rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    padding: 1rpx 2rpx;
+    position: absolute;
+    right: -20rpx;
+    text-align: center;
+    width: 100rpx;
+}
+
+.grid-body .body_item .photo text.primary {
+    background-color: #f87259;
+}
+
+.grid-body .body_item .photo text.normal {
+    background-color: #55b3f8;
+}
+
+.grid-body .body_item .title {
+    color: #404040;
+    font-size: 30rpx;
+    margin-top: 6rpx;
+}
+
+.dept_info,.grid-body .body_item .sub_title {
+    color: #999;
+    font-size: 28rpx;
+}
+
+.dept_info {
+    display: -webkit-box;
+    line-height: 40rpx;
+    margin-top: 16rpx;
+    overflow: hidden;
+    text-indent: -3em;
+    text-overflow: ellipsis;
+}
+

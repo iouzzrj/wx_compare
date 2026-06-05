@@ -1,0 +1,89 @@
+	<toptips duration="3000" id="tips" type="error">	</toptips>
+	<view class="section" style="min-height:px">
+		<form class="form_wrap" bindsubmit="toAdd">
+			<view class="wraper">
+				<view class="input_item">
+					<view class="letterspace">
+						<text class="align twoword">
+							姓
+						</text>
+						<text>
+							名
+						</text>
+					</view>
+					： 
+					<text class="input">
+					</text>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						身份证号
+					</text>
+					： 
+					<text class="input">
+					</text>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<view class="around">
+						<text class="lef">
+							手
+						</text>
+						<text class="cen">
+							机
+						</text>
+						<text class="rig">
+							号
+						</text>
+					</view>
+					： 
+					<text class="input">
+					</text>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						常住地址
+					</text>
+					： 
+					<input placeholder="请输入常住地址" type="text" value="" bindblur="permanentAddressInput" bindinput="permanentAddressInput" confirmType="done" maxlength="100" name="in_permanentAddress">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						紧急联系人
+					</text>
+					： 
+					<input value="" bindblur="contactNameInput" bindinput="contactNameInput" confirmType="done" maxlength="20" name="in_contactName" placeholder="请输入紧急联系人" type="text">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						紧急联系人电话
+					</text>
+					： 
+					<input placeholder="请输入紧急联系人电话" type="number" value="" bindblur="contactPhoneInput" bindinput="contactPhoneInput" confirmType="done" maxlength="11" name="in_contactPhone">					</input>
+				</view>
+			</view>
+			<view class="custom_item item_remark">
+				<text>
+					温馨提示：
+
+				</text>
+				<text>
+					由于系统升级，需要您先完善就诊人信息，完善后才能进行挂号等相关业务
+				</text>
+			</view>
+			<view class="custom_item item_option">
+				<button class="btn" formType="submit">
+					确认保存
+				</button>
+			</view>
+		</form>
+	</view>

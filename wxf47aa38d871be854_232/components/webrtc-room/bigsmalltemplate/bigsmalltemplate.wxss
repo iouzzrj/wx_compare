@@ -1,0 +1,61 @@
+.bigsmalltemplate.videoview {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.bigsmalltemplate .pusher-box {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+}
+
+.bigsmalltemplate live-pusher {
+    height: 100%;
+    width: 100%;
+}
+
+.bigsmalltemplate .player-box {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.bigsmalltemplate .poster {
+    background-color: #000;
+    left: 0;
+    top: 0;
+}
+
+.bigsmalltemplate .poster,.bigsmalltemplate .set {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.bigsmalltemplate live-player {
+    height: 100%;
+    width: 100%;
+}
+
+.bigsmalltemplate .loading {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.bigsmalltemplate .loading cover-image {
+    height: 30px;
+    left: calc(50% - 15px);
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 30px;
+}
+

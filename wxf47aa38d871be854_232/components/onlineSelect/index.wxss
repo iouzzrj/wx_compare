@@ -1,0 +1,93 @@
+.mask {
+    background-color: rgba(0,0,0,.7);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.selectBox {
+    height: 500rpx;
+}
+
+.selectBox,.selectBoxs {
+    background-color: #fff;
+    border-radius: 16rpx 16rpx 0 0;
+    bottom: -500rpx;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+.selectBoxs {
+    height: 400rpx;
+}
+
+.title {
+    color: #666;
+    font-family: PingFang SC;
+    font-size: 32rpx;
+    font-weight: 500;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    width: 100%;
+}
+
+.closeImg {
+    height: 30rpx;
+    position: absolute;
+    right: 20rpx;
+    top: 20rpx;
+    width: 30rpx;
+}
+
+.addVisitor {
+    align-items: center;
+    background-color: #fff;
+    border-top: 20rpx solid #f7f7f7;
+    bottom: 0;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 30rpx;
+    height: 120rpx;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.addVisitor .newAdd {
+    height: 35rpx;
+    margin-right: 20rpx;
+    width: 35rpx;
+}
+
+.obody {
+    max-height: 260rpx;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.obody view {
+    align-items: center;
+    border-top: 1px solid var(--headOutLine);
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 30rpx;
+    height: 85rpx;
+    justify-content: center;
+    line-height: 85rpx;
+    padding: 0 30rpx;
+    width: clac(100% - 60rpx);
+}
+
+.obody view text:first-of-type {
+    margin-right: 20rpx;
+}
+
+.obody .oActive {
+    color: var(--themeColor);
+}
+

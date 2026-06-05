@@ -1,0 +1,63 @@
+	<toptips duration="3000" id="tips" type="error">	</toptips>
+	<view class="info">
+		<view class="i-top flex-y-c">
+			<view class="round r-left">			</view>
+			<view class="round r-right">			</view>
+			<image src="/assets/images/common/icon_male_avatar.png">			</image>
+			<text class="name">
+			</text>
+			<text class="job_title">
+			</text>
+		</view>
+		<view class="i-bottom">
+			<view class="row">
+				<text>
+					就诊科室
+				</text>
+				<text>
+				</text>
+			</view>
+			<view class="row">
+				<text>
+					就诊时间
+				</text>
+				<text>
+					NaN-aN-aN 
+				</text>
+			</view>
+			<view class="row">
+				<text>
+					医事服务费
+				</text>
+				<text class="mark">
+					元
+				</text>
+			</view>
+		</view>
+	</view>
+	<view bindtap="toSelect" class="visit df-jb-ac">
+		<view class="v-left df-ac">
+			<text class="txt">
+				就诊人
+			</text>
+		</view>
+		<view class="v-right">
+			<text>
+			</text>
+			<image src="/assets/images/hospital/icon_right.png">			</image>
+		</view>
+	</view>
+	<selector bindselect="doSelect" content="" defaultValue="" disableMessage="当前就诊卡无效，请重新选择" id="selector" title="选择就诊人">	</selector>
+	<view class="custom_item">
+		温馨提示：
+	</view>
+	<view class="txt_2">
+		每名患者在同一诊疗单元内只能够挂一个专业的一个号源；同一就诊人，连续七日内的挂号总量不得超过3个。
+	</view>
+	<form reportSubmit="true" bindtap="beforeConfirm">
+		<view class="confirm">
+			<button class="btnColor" disabled="true" formType="submit">
+				确认占号
+			</button>
+		</view>
+	</form>

@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#16C79D",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "信息填写",
+    "usingComponents": {
+        "toptips": "/components/toptips/index"
+    }
+}

@@ -1,0 +1,136 @@
+page {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.visitor {
+    background: #fff;
+    flex-shrink: 0;
+    height: 100rpx;
+    padding: 0 24rpx;
+}
+
+.visitor .info {
+    font-size: 34rpx;
+}
+
+.visitor .info image {
+    border-radius: 50%;
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.visitor .info .name {
+    margin-left: 20rpx;
+}
+
+.visitor .info .card {
+    color: #14c79d;
+    margin-left: 10rpx;
+}
+
+.visitor .select {
+    border: 2rpx solid #14c79d;
+    border-radius: 5rpx;
+    color: #14c79d;
+    height: 44rpx;
+    line-height: 44rpx;
+    text-align: center;
+    width: 94rpx;
+}
+
+.section {
+    box-sizing: border-box;
+    padding: 20rpx 24rpx 0;
+}
+
+.section .item {
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.section .item .i-top {
+    border-bottom: 1rpx solid #ebebeb;
+    height: 100rpx;
+    padding-left: 30rpx;
+}
+
+.section .item .i-top .dot {
+    background: #ff625b;
+    border-radius: 50%;
+    height: 22rpx;
+    margin-right: 20rpx;
+    width: 22rpx;
+}
+
+.section .item .i-top text {
+    font-size: 34rpx;
+}
+
+.section .item .i-bot {
+    flex-direction: column;
+    padding-top: 20rpx;
+}
+
+.section .item .i-bot .info {
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 30rpx;
+    text-align: justify;
+}
+
+.section .item .i-bot .info text {
+    line-height: 60rpx;
+}
+
+.section .item .i-bot .info text:nth-child(1) {
+    flex: none;
+    margin-right: 20rpx;
+}
+
+.section .item .i-bot .info text:last-child {
+    color: #999;
+}
+
+.see {
+    height: 130rpx;
+}
+
+.see .txt {
+    border: 2rpx solid #14c79d;
+    border-radius: 5rpx;
+    color: #14c79d;
+    font-size: 34rpx;
+    height: 66rpx;
+    line-height: 66rpx;
+    text-align: center;
+    width: 246rpx;
+}
+
+.txt {
+    line-height: 1.6;
+    padding: 20rpx 30rpx;
+    text-align: justify;
+}
+
+.no-visitor {
+    padding: 30rpx 0;
+}
+
+button {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 34rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 48rpx);
+}
+

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "机构选择",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index"
+    }
+}

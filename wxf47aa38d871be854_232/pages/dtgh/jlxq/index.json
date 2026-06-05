@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "挂号单",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index"
+    }
+}

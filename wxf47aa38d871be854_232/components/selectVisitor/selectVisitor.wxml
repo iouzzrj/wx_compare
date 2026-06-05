@@ -1,0 +1,16 @@
+	<view bindtap="showSelect" class="topMask" hidden="true">	</view>
+	<view class="oPage">
+		<view bindtap="showSelect" class="visitorShow">
+			<view>
+				<text>
+				</text>
+				<text>
+					（）
+				</text>
+			</view>
+			<view>
+				切换
+			</view>
+		</view>
+		<view class="seleListone sliup" hidden="true">		</view>
+	</view>

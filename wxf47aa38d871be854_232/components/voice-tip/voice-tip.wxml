@@ -1,0 +1,16 @@
+	<view class="tip-box">
+		<view class="wave ripple danger">
+			<view class="circle">			</view>
+			<view class="circle">			</view>
+			<view class="circle">			</view>
+			<view class="content">
+				<view class="tip-image-box">
+					<image src="../../online-inquiry/images/mkf.png">					</image>
+				</view>
+			</view>
+		</view>
+		<view class="tip-text-box">
+			<text>
+			</text>
+		</view>
+	</view>

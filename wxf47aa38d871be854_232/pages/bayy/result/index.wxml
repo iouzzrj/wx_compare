@@ -1,0 +1,53 @@
+	<view class="panel result_wrap">
+		<view class="result">
+			<icon size="60" type="warn">			</icon>
+			<text class="title">
+				预约失败
+			</text>
+			<text class="sub_title success">
+				预约结果处理中,请注意订阅消息通知
+			</text>
+		</view>
+		<view class="result_list">
+			<view class="result_item">
+				<text>
+					失败原因
+				</text>
+				<text>
+				</text>
+			</view>
+			<view class="result_item">
+				<text>
+					订单类型
+				</text>
+				<text>
+					病案预约
+				</text>
+			</view>
+			<view class="result_item">
+				<text>
+					患者姓名
+				</text>
+				<text class="value_text1">
+				</text>
+			</view>
+			<view class="result_item">
+				<text decode="true" space="true">
+					取件类型
+				</text>
+				<text class="value_text1">
+					自取
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="option_wrap">
+		<button class="btn" bindtap="checkRecord">
+			查看记录
+		</button>
+	</view>
+	<view class="option_wrap">
+		<button class="btn" bindtap="goBack">
+			返回首页
+		</button>
+	</view>

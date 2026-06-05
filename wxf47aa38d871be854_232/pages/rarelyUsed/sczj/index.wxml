@@ -1,0 +1,80 @@
+	<toptips duration="1500" id="tips" type="error">	</toptips>
+	<view class="oBox">
+		<scroll-view scrollY="true" class="scroll">
+			<view class="top">			</view>
+			<view style="padding: 0 26rpx;">
+				<view class="oBox_ts1">
+					上传证件照片
+				</view>
+				<view class="oBox_ts2">
+					仅用于验证您的身份，请确认照片中包含完整的姓名、证 件类型、证件号码等关键信息
+				</view>
+				<view bindtap="scimg" class="uploading" data-index="0">
+					<image src="" mode="aspectFill">					</image>
+					<view>
+						<text>
+							点击
+						</text>
+						上传证件正面
+					</view>
+				</view>
+				<view bindtap="scimg" class="uploading" data-index="1">
+					<image mode="aspectFill" src="">					</image>
+					<view>
+						<text>
+							点击
+						</text>
+						上传证件反面
+					</view>
+				</view>
+				<view class="gfbox">
+					<view class="gfbox_top">
+						拍摄须知
+					</view>
+					<view class="psxzgf">
+						<view>
+							<image src="">							</image>
+							<text>
+								标准拍摄
+							</text>
+						</view>
+						<view>
+							<image src="">							</image>
+							<text>
+								拍摄模糊
+							</text>
+						</view>
+						<view>
+							<image src="">							</image>
+							<text>
+								拍摄不全
+							</text>
+						</view>
+						<view>
+							<image src="">							</image>
+							<text>
+								闪光过度
+							</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</scroll-view>
+		<view class="btnbox">
+			<view class="agreement">
+				<checkbox bindtap="doAgree" color="#13ba84">
+					已阅读并同意
+				</checkbox>
+				<navigator openType="navigate" url="/pages/jzr/rzxy/index">
+					《用户协议》
+				</navigator>
+				及 
+				<navigator openType="navigate" url="/pages/jzr/yszc/index">
+					《隐私政策》
+				</navigator>
+			</view>
+			<button bindtap="" class="btn">
+				提交审核
+			</button>
+		</view>
+	</view>

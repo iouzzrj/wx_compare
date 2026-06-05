@@ -1,0 +1,202 @@
+	<view class="container">
+		<view class="header">
+			<view>
+				<text>
+					北京大学口腔医院预约挂号方式
+				</text>
+				<image class="title_bg" src="/assets/images/title_bgimg.png">				</image>
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title">
+				<view class="number">
+					<view class="txt">
+						1
+					</view>
+					<view class="shape">
+						<view class="round">						</view>
+					</view>
+				</view>
+				<view class="title_txt_box">
+					<text>
+						总院其他预约方式
+					</text>
+					<view class="line_1">					</view>
+					<view class="line_2">					</view>
+				</view>
+			</view>
+			<view class="content">
+				<view class="titel_li first_li">
+					1. 北京市统一预约挂号平台：
+				</view>
+				<view class="p_txt">
+					114平台预约电话: 010-114/116114
+				</view>
+				<view class="p_txt">
+					网络平台预约网址: www.bjguahao.gov.cn
+				</view>
+				<view class="p_txt">
+					可预约魏公村总院两周以内部分专业普通号源。
+				</view>
+				<view class="p_txt">
+					周一至周五上午10:00投放第15日号源。
+				</view>
+				<view class="titel_li">
+					2. C楼全预约诊区
+				</view>
+				<view class="p_txt">
+					总院的牙周科、儿童口腔科、综合治疗二科在西城区开设了C楼诊区，全部号源开放患者预约。
+				</view>
+				<view class="p_txt">
+					就诊地址：西城区西黄城根北街10号（地铁“西四”站向东300米）
+				</view>
+				<view class="p_txt">
+					牙周科C楼诊区预约：在C楼1层牙周科护士台，持就诊人有效证件原件现场预约
+				</view>
+				<view class="p_txt">
+					儿童口腔科C楼诊区预约：在C楼2层儿科护士台，持就诊人有效证件原件现场预约
+				</view>
+				<view class="p_txt">
+					综合二科C楼诊区：预约电话62179665
+				</view>
+				<view class="p_txt">
+					口腔正畸科C楼诊区：1.现场登记预约；2.电话预约53295220，电话接听时间：每周二、三8：00-11:00,13:00-15:00
+				</view>
+				<view class="titel_li">
+					3. 院内预约电话：010-62179665
+				</view>
+				<view class="p_txt">
+					可预约总院部分号源（①综合治疗号；②为70岁以上老年人、残疾人预约部分科室普通号）和第三、第四门诊部的部分号源。
+				</view>
+				<view class="p_txt">
+					周一至周五早8点可预约总院第3~8日部分号源，暂不开放周末号/晚诊号预约。
+				</view>
+				<view class="titel_li">
+					4. 特需医疗部预约：
+				</view>
+				<view class="p_txt">
+					拨打电话010-82195901，可预约总院特需医疗部号源。
+				</view>
+				<view class="titel_li">
+					5.社区转诊预约 ：
+				</view>
+				<view class="p_txt">
+					经“海淀区口腔专科医联体”成员单位转诊预约。
+				</view>
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title">
+				<view class="number">
+					<view class="txt">
+						2
+					</view>
+					<view class="shape">
+						<view class="round">						</view>
+					</view>
+				</view>
+				<view class="title_txt_box">
+					<text>
+						分支机构（院外门诊部）
+					</text>
+					<view class="line_1">					</view>
+					<view class="line_2">					</view>
+				</view>
+			</view>
+			<view class="content">
+				<view class="titel_li first_li">
+					电话预约
+				</view>
+				<view class="p_txt">
+					第一门诊部（西城西四）：咨询电话：53295000
+				</view>
+				<view class="p_txt">
+					地址：西城区西黄城根北街10号，地铁4号线“西四”站B口向东300米。
+				</view>
+				<view class="p_txt">
+					第二门诊部（北四环大屯路）预约电话 82196299
+				</view>
+				<view class="p_txt">
+					实行“全预约诊疗” 
+				</view>
+				<view class="p_txt">
+					地址：朝阳区安立路66号安立花园A座2层、5层，B座5层、6层(地铁15号线“安立路”站B口北100米) 
+				</view>
+				<view class="p_txt">
+					第三门诊部（北三环花园东路）：预约电话 82037030
+				</view>
+				<view class="p_txt">
+					地址：海淀区花园东路10号高德大厦2-3层（北四环志新桥南200米路东）
+				</view>
+				<view class="p_txt">
+					第四门诊部（东四环慈云寺）：预约电话 85715955、85715965或62179665 
+				</view>
+				<view class="p_txt">
+					实行“全预约诊疗” 
+				</view>
+				<view class="p_txt">
+					地址：朝阳区东四环中路41号（慈云寺桥西北角）嘉泰国际大厦A座1层 
+				</view>
+				<view class="p_txt">
+					第五门诊部（东二环朝阳门）：预约电话 65538893、65530988 
+				</view>
+				<view class="p_txt">
+					实行“全预约诊疗” 
+				</view>
+				<view class="p_txt">
+					地址：朝阳区朝阳门外吉庆里14号佳汇国际中心A座3层（朝阳门桥东北方向800米） 
+				</view>
+				<view class="p_txt">
+					总院地址：海淀区中关村南大街22号
+				</view>
+				<view class="p_txt">
+					行车路线：地铁四号线“魏公村站”，出B口向南700米。26、320、332、563、653、695、特4、运通105、运通106到”魏公村站”下车
+				</view>
+				<view class="p_txt">				</view>
+				<view class="p_txt">
+					电话：82195391、62179665、82195390（接听时间：工作日8:00-11:30、13:00-16:30）
+				</view>
+				<view class="p_txt">
+					咨询电话总机 ：62179977 
+				</view>
+				<view class="p_txt">
+					官方网站 ：http://ss.bjmu.edu.cn/ 
+				</view>
+			</view>
+		</view>
+	</view>
+	<view bindtap="doOpen" class="list-box list-box-open">
+		<image class="close" src="/assets/images/icon_close.png">		</image>
+		<navigator class="l_item l_item_1" openType="redirect" url="/pages/yylc/pageOne/index">
+			<view>
+				挂号
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_2" openType="redirect" url="/pages/yylc/pageTwo/index">
+			<view>
+				预约
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_3" openType="redirect" url="/pages/yylc/pageThree/index">
+			<view>
+				预约
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+		<navigator openType="redirect" url="/pages/yylc/pageFour/index" class="l_item l_item_4">
+			<view>
+				患者
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+	</view>

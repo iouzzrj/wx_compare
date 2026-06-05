@@ -1,0 +1,9 @@
+{
+    "navigationBarBackgroundColor": "#14c79d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "人脸核身",
+    "usingComponents": {
+        "template-novisitor": "/components/template/novisitor/index",
+        "toptips": "/components/toptips/index"
+    }
+}

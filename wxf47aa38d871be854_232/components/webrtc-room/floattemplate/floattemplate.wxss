@@ -1,0 +1,72 @@
+.float.videoview {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.float .pusher-box {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+.float .pusher-box,.float live-pusher {
+    height: 100%;
+    width: 100%;
+}
+
+.float .player-box {
+    bottom: 20vw;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 123.07vw + 6vw;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    width: 30.65vw;
+}
+
+.float .player-box .player-item {
+    display: inline-block;
+    height: calc(123.07vw/3);
+    margin-top: 2vw;
+    position: relative;
+    width: 30.65vw;
+}
+
+.float live-player {
+    height: 100%;
+    width: 100%;
+}
+
+.float .character {
+    bottom: 0;
+    color: #999;
+    font-size: 16px;
+    height: 10vw;
+    left: 0;
+    line-height: 10vw;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+.float .loading {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.float .loading cover-image {
+    height: 30px;
+    left: calc(50% - 15px);
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 30px;
+}
+

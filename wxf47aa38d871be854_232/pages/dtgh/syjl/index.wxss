@@ -1,0 +1,187 @@
+.oBody,page {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.oBody {
+    height: 100vh;
+    width: 100%;
+}
+
+.bodyList {
+    flex: 1;
+    margin-top: 100rpx;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.visitorFixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.visitor {
+    background: #fff;
+    flex-shrink: 0;
+    height: 100rpx;
+    padding: 0 24rpx;
+}
+
+.visitor .info {
+    font-size: 34rpx;
+}
+
+.visitor .info image {
+    border-radius: 50%;
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.visitor .info .name {
+    margin-left: 20rpx;
+}
+
+.visitor .info .card {
+    color: #14c79d;
+    margin-left: 10rpx;
+}
+
+.visitor .select {
+    border: 2rpx solid #14c79d;
+    border-radius: 5rpx;
+    color: #14c79d;
+    height: 44rpx;
+    line-height: 44rpx;
+    text-align: center;
+    width: 170rpx;
+}
+
+.section {
+    box-sizing: border-box;
+    padding: 20rpx 24rpx 0;
+}
+
+.section .item {
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.section .item .title {
+    border-bottom: 1px solid #ebebeb;
+    height: 100rpx;
+    padding-left: 30rpx;
+}
+
+.section .item .title text {
+    font-size: 34rpx;
+    font-weight: 700;
+}
+
+.section .item .title view {
+    border-bottom-left-radius: 30rpx;
+    border-top-left-radius: 30rpx;
+    color: #fff;
+    font-size: 32rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-indent: 40rpx;
+    width: 200rpx;
+}
+
+.section .item .title .red {
+    background: #ff625b;
+}
+
+.section .item .title .green {
+    background: #14c79d;
+}
+
+.section .item .title .gray {
+    background: #d7d9d9;
+}
+
+.section .item .detail {
+    border-bottom: 1px solid #ebebeb;
+    padding: 0 30rpx;
+}
+
+.section .item .detail .d_box {
+    border-left: 3rpx solid #14c79d;
+}
+
+.section .item .detail .d_box .row {
+    color: #4c4c4c;
+    font-size: 32rpx;
+    padding-left: 24rpx;
+    padding-top: 30rpx;
+    position: relative;
+}
+
+.section .item .detail .d_box .row:nth-child(1) {
+    padding-top: 40rpx;
+}
+
+.section .item .detail .d_box .row:last-child {
+    padding-bottom: 30rpx;
+}
+
+.section .item .detail .d_box .row .round {
+    background: #14c79d;
+    border-radius: 50%;
+    height: 20rpx;
+    left: -10rpx;
+    position: absolute;
+    width: 20rpx;
+}
+
+.section .item .detail .d_box .row .r_1 {
+    top: 52rpx;
+}
+
+.section .item .detail .d_box .row .r_2,.section .item .detail .d_box .row .r_3 {
+    top: 42rpx;
+}
+
+.section .item .detail .d_box .row .info {
+    background: #ebebeb;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 28rpx;
+    height: 100rpx;
+    justify-content: center;
+    padding-left: 20rpx;
+}
+
+.section .item .detail .d_box .row .info text:first-child {
+    margin-bottom: 6rpx;
+}
+
+.section .item .select {
+    height: 110rpx;
+}
+
+.section .item .select text {
+    border-radius: 8rpx;
+    font-size: 32rpx;
+    line-height: 70rpx;
+    margin: 0 30rpx;
+    text-align: center;
+    width: 226rpx;
+}
+
+.section .item .select .left {
+    border: 1px solid #ff625b;
+    color: #ff625b;
+}
+
+.section .item .select .right {
+    border: 1px solid #14c79d;
+    color: #14c79d;
+}
+

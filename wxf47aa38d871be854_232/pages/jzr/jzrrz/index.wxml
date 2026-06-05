@@ -1,0 +1,17 @@
+	<toptips type="error" duration="3000" id="tips">	</toptips>
+	<view class="section flex-y-c">
+		<view class="stepper_item">
+			<view class="line">
+				<view class="line_item ">				</view>
+				<view class="line_item ">				</view>
+			</view>
+		</view>
+	</view>
+	<view class="remark">
+		<text>
+			温馨提示：
+		</text>
+		<text>
+			应国家网络安全要求，所有就诊用户必须经过实名认证。
+		</text>
+	</view>

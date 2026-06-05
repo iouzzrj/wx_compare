@@ -1,0 +1,16 @@
+.no-data {
+    text-align: center;
+}
+
+.no-data image {
+    height: 222rpx;
+    width: 260rpx;
+}
+
+.no-data text {
+    color: #ccc;
+    display: block;
+    font-size: 30rpx;
+    margin: 10rpx;
+}
+

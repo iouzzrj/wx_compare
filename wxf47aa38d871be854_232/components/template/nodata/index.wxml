@@ -1,0 +1,5 @@
+	<view class="no-data" style="padding-top: ">
+		<image mode="scaleToFill" src="">		</image>
+		<text style="">
+		</text>
+	</view>

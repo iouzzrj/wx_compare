@@ -1,0 +1,14 @@
+	<image class="header" mode="aspectFill" src="/assets/images/xq_bgimg.png">	</image>
+	<view class="info">
+		<image class="bg_img" src="/bg_ksxq.png">		</image>
+		<view class="name">
+		</view>
+	</view>
+	<view class="section">
+		<view class="txt_3">
+			简介
+		</view>
+		<view class="detail">
+			<template-nodata content="暂无科室介绍" src="/assets/images/common/nodata/nodata.png" top="40%">			</template-nodata>
+		</view>
+	</view>

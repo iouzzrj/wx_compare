@@ -1,0 +1,24 @@
+	<view class="container">
+		<view class="section">
+			<view class="box">
+				<view class="item">
+					<view class="dot">					</view>
+					<text class="label">
+						检查结果
+					</text>
+					<text class="txt">
+						有多年抽烟史,牙体整体发黄。
+					</text>
+				</view>
+				<view class="item">
+					<view class="dot">					</view>
+					<text class="label">
+						诊断建议
+					</text>
+					<text class="txt">
+						少抽烟,多喝水。
+					</text>
+				</view>
+			</view>
+		</view>
+	</view>

@@ -1,0 +1,1 @@
+	<selector bindselect="doChangeUser" content="" defaultValue="" disableMessage="无效人员" id="selector" title="选择人员">	</selector>

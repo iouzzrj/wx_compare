@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "搜索科室",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index"
+    }
+}

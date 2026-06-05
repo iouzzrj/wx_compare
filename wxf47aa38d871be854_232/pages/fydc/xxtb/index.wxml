@@ -1,0 +1,15 @@
+	<toptips duration="3000" id="tips" type="error">	</toptips>
+	<view class="bottomBox2">	</view>
+	<view class="bottomBox">
+		<view class="agreement" bindtap="doAgree">
+			<checkbox checked="" class="red_agree">			</checkbox>
+			<text>
+				我已经充分了解上述信息的重要性并保证如实填写相关情况。
+			</text>
+		</view>
+		<view class="footer">
+			<button bindtap="" class="btn disabled">
+				提交
+			</button>
+		</view>
+	</view>

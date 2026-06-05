@@ -1,0 +1,243 @@
+	<view class="section">
+		<scroll-view scrollY="true" style="height: calc(100vh - 20rpx)" class="hd_wrap">
+			<view bindtap="changeClassify" class="hd_item " data-classify="1" data-view="v_mzl">
+				<text>
+					医疗楼
+				</text>
+			</view>
+			<view bindtap="changeClassify" class="hd_item " data-classify="2" data-view="v_zybbl">
+				<text>
+					综合楼
+				</text>
+			</view>
+		</scroll-view>
+		<scroll-view scrollY="true" style="height: calc(100vh - 20rpx)" bindscroll="doScroll" class="bd_wrap" scrollIntoView="" scrollWithAnimation="true">
+			<view class="list_cell" id="v_mzl">
+				<view class="title">
+					<text>
+						一、医疗楼
+					</text>
+				</view>
+				<view class="content table">
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								1F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								医学影像科、关节中心、药房、挂号收费科、咨询台、住院处
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								2F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔修复科、检验科、注射室
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								3F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								牙体牙髓科、特需医疗部、牙周洁治室
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								4F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔正畸科
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								5F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								牙周科、儿童口腔科
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								6F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								综合治疗科、综合治疗二科
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								7F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔种植科、特诊科
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								8F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔颌面外科门诊、口腔黏膜科
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								9F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								麻醉科、手术室、复苏室
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								10F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								消毒供应中心
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								11F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔颌面外科一病区
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								12F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔颌面外科二病区
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								13F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔颌面外科三病区
+							</text>
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								14F
+							</text>
+						</view>
+						<view class="tb_cell">
+							<text>
+								口腔颌面外科四病区
+							</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="list_cell" id="v_zybbl">
+				<view class="title">
+					<text>
+						二、综合楼
+					</text>
+				</view>
+				<view class="content table">
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								2F
+							</text>
+						</view>
+						<view class="tb_cell">
+							 医务处 
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								3F
+							</text>
+						</view>
+						<view class="tb_cell">
+							 激光整形美容门诊、儿童口腔科全麻诊室 
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								6F
+							</text>
+						</view>
+						<view class="tb_cell">
+							 口腔预防科、口腔正畸科 
+						</view>
+					</view>
+					<view class="tb_row">
+						<view class="tb_cell">
+							<text>
+								9F
+							</text>
+						</view>
+						<view class="tb_cell">
+							 口腔颌面外科五病区 
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="placeholder" style="height:px">			</view>
+		</scroll-view>
+	</view>

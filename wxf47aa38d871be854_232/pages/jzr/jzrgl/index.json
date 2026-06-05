@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "就诊人管理",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index",
+        "template-novisitor": "/components/template/novisitor/index"
+    }
+}

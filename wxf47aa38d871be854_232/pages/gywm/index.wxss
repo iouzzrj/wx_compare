@@ -1,0 +1,80 @@
+@import "../../wxParse/wxParse.wxss";
+page {
+    background-color: #fff;
+}
+
+.section {
+    padding: 0 20rpx 20rpx;
+}
+
+.section .title {
+    color: #333;
+    font-size: 37rpx;
+    margin: 30rpx 0;
+    text-align: center;
+}
+
+.section .date {
+    color: #999;
+    font-size: 22rpx;
+    text-align: center;
+}
+
+.section .bg_img {
+    height: 106rpx;
+    margin: 20rpx auto;
+    width: 708rpx;
+}
+
+.section .list_cell {
+    padding-top: 20rpx;
+}
+
+.section .list_cell text {
+    word-wrap: break-word;
+    display: block;
+    line-height: 1.8;
+    text-align: justify;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.section .list_cell .title text {
+    color: #404040;
+    font-size: 34rpx;
+    font-weight: 700;
+}
+
+.section .list_cell .desc {
+    padding: 0 20rpx;
+    text-align: justify;
+}
+
+.section .list_cell .desc text {
+    color: #999;
+    font-size: 30rpx;
+}
+
+.section .list_cell .desc text.mark {
+    color: #f87259;
+}
+
+.section .list_cell .desc.step text {
+    display: inline;
+}
+
+.section .list_cell .desc.step text:not(:last-child)::after {
+    content: "→";
+    margin: 0 10rpx;
+}
+
+.detail {
+    letter-spacing: 2rpx;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.detail text {
+    line-height: 1.8;
+}
+

@@ -1,0 +1,29 @@
+.com-rating,.com-rating .rating-icon,.com-rating .rating-off,.com-rating .rating-on {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.com-rating .rating-icon:not(:last-child) {
+    margin-right: 10rpx;
+}
+
+.com-rating .rating-margin:not(:last-child) {
+    margin-right: 40rpx;
+}
+
+.com-rating .rating-on {
+    color: #000;
+    position: absolute;
+}
+
+.com-rating .rating-off {
+    color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+}
+
+.com-rating image {
+    position: initial;
+    z-index: inherit;
+}
+

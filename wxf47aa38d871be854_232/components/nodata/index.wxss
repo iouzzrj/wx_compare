@@ -1,0 +1,17 @@
+.no-data {
+    padding-bottom: 100rpx;
+    text-align: center;
+}
+
+.no-data .no-data-image {
+    height: 364rpx;
+    width: 100%;
+}
+
+.no-data .no-data-text {
+    color: #b3b3b3;
+    display: block;
+    font-size: 30rpx;
+    text-align: center;
+}
+

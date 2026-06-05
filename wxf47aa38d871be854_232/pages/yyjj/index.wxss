@@ -1,0 +1,155 @@
+page {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rpx;
+}
+
+.section {
+    text-align: center;
+}
+
+.section .tab_bar {
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1rpx solid #f2f2f2;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.section .tab_bar .tab_item {
+    border-bottom: 4rpx solid #fff;
+    flex: 1;
+    padding: 20rpx 0;
+}
+
+.section .tab_bar .tab_item text {
+    color: #404040;
+    font-size: 30rpx;
+}
+
+.section .tab_bar .tab_item.selected {
+    border-bottom: 4rpx solid #14c79d;
+}
+
+.section .tab_bar .tab_item.selected text {
+    color: #14c79d;
+    font-size: 30rpx;
+}
+
+.scroll_box {
+    background-color: #fff;
+    flex: 1;
+    overflow: auto!important;
+}
+
+.scroll_box .article {
+    padding: 0 20rpx;
+}
+
+.scroll_box .article .title {
+    padding: 30rpx 0;
+}
+
+.scroll_box .article .title text {
+    color: #404040;
+    font-size: 36rpx;
+    font-weight: 700;
+}
+
+.scroll_box .article .content text {
+    word-wrap: break-word;
+    color: #404040;
+    display: block;
+    font-size: 30rpx;
+    letter-spacing: 2rpx;
+    line-height: 1.8;
+    padding-bottom: 20rpx;
+    text-align: justify;
+    text-indent: 2em;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.scroll_box .article .content image {
+    height: 208rpx;
+    width: 710rpx;
+}
+
+.scroll_box .guide {
+    padding: 20rpx 20rpx 0;
+}
+
+.scroll_box .guide .list_cell {
+    margin-bottom: 30rpx;
+}
+
+.scroll_box .guide .list_cell:last-child {
+    margin-bottom: 20rpx;
+}
+
+.scroll_box .guide .list_cell .innertext,.scroll_box .guide .list_cell text {
+    word-wrap: break-word;
+    display: block;
+    line-height: 1.8;
+    text-align: justify;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.scroll_box .guide .list_cell .innertext {
+    text-indent: 2em;
+}
+
+.scroll_box .guide .list_cell text:nth-child(1) {
+    color: #404040;
+    font-size: 30rpx;
+    font-weight: 700;
+}
+
+.scroll_box .guide .list_cell text:nth-child(2) {
+    color: #404040;
+    font-size: 30rpx;
+}
+
+.scroll_box .contact {
+    padding: 20rpx 20rpx 0;
+}
+
+.scroll_box .contact .list_cell {
+    margin-bottom: 30rpx;
+}
+
+.scroll_box .contact .list_cell:last-child {
+    margin-bottom: 20rpx;
+}
+
+.scroll_box .contact .list_cell text {
+    word-wrap: break-word;
+    display: inline-block;
+    line-height: 1.8;
+    text-align: justify;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.scroll_box .contact .list_cell .cell_hd text {
+    color: #404040;
+    font-size: 30rpx;
+    font-weight: 700;
+}
+
+.scroll_box .contact .list_cell .cell_bd text {
+    color: #404040;
+    font-size: 30rpx;
+    margin-right: 20rpx;
+}
+
+.scroll_box .contact .list_cell .cell_bd text:last-child {
+    margin-right: 0;
+}
+

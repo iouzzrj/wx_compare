@@ -1,0 +1,21 @@
+	<view class="search-box">
+		<view class="search">
+			<image alt="" mode="aspectFit" src="/assets/images/common/icon_search.png">			</image>
+			<input bindconfirm="confirm" bindinput="inputValue" confirmType="search" placeholder="请输入科室或医生进行搜索" placeholderStyle="font-size:28rpx" type="text" value="">			</input>
+		</view>
+	</view>
+	<view style="height:100rpx">	</view>
+	<view class="l_history">
+		<view class="title">
+			<view class="left">
+				<text>
+					历史搜索
+				</text>
+				<image mode="aspectFit" src="/assets/images/common/l.png">				</image>
+			</view>
+			<view bindtap="null" class="right">
+				清除
+			</view>
+		</view>
+		<view class="content">		</view>
+	</view>

@@ -1,0 +1,5 @@
+	<view class="container">
+		<view class="header">
+			<scroll-view scrollX="true" bindtouchstart="doTouch" class="h-box2">			</scroll-view>
+		</view>
+	</view>

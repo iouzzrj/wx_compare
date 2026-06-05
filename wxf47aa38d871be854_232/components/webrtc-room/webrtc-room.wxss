@@ -1,0 +1,11 @@
+.conponent-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@import "../../app.wxss";
+@import "bigsmalltemplate/bigsmalltemplate.wxss";
+@import "gridtemplate/gridtemplate.wxss";
+@import "floattemplate/floattemplate.wxss";

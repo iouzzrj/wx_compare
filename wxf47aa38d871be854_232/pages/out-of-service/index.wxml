@@ -1,0 +1,11 @@
+	<view class="title">
+		系统提示：
+	</view>
+	<view class="content">
+	</view>
+	<view class="maintain">
+		<image mode="" src="/bg_maintain.png">		</image>
+		<button bindtap="doExit">
+			我知道了
+		</button>
+	</view>

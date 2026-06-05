@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "selector": "/components/selector/index",
+        "template-nodata": "/components/template/nodata/index",
+        "template-novisitor": "/components/template/novisitor/index"
+    }
+}

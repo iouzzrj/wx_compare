@@ -1,0 +1,111 @@
+.header {
+    height: 330rpx;
+    width: 750rpx;
+}
+
+.info {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12rpx;
+    box-shadow: 7rpx 7rpx 54rpx 0rpx hsla(0,0%,54%,.24);
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 330rpx;
+    justify-content: center;
+    margin: -298rpx auto 0;
+    position: relative;
+    width: 690rpx;
+}
+
+.info .avatar {
+    background: #ebebeb;
+    border-radius: 62rpx;
+    flex-shrink: 0;
+    height: 123rpx;
+    overflow: hidden;
+    width: 123rpx;
+}
+
+.info .btn {
+    color: #14c79d;
+    font-size: 37rpx;
+    line-height: 1;
+    margin-top: 30rpx;
+}
+
+.info .btn.name {
+    color: #333;
+}
+
+.info .phone {
+    color: #999;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+
+.wrap {
+    background: #fff;
+    border-radius: 12rpx;
+    margin: 20rpx auto 0;
+    padding: 0 20rpx;
+    width: calc(100% - 100rpx);
+}
+
+.wrap .row {
+    border-bottom: 1rpx solid #ebebeb;
+    height: 94rpx;
+}
+
+.wrap .row:last-child {
+    border: none;
+}
+
+.wrap .row .icon {
+    height: 42rpx;
+    width: 42rpx;
+}
+
+.wrap .row .arrow {
+    height: 18rpx;
+    transform: rotate(90deg);
+    width: 25rpx;
+}
+
+.wrap .row text {
+    color: #4c4c4c;
+    margin-left: 20rpx;
+}
+
+.t-right-create {
+    border: 2rpx solid #14c79d;
+    border-radius: 7rpx;
+    color: #14c79d;
+    font-size: 28rpx;
+    height: 46rpx;
+    line-height: 46rpx;
+    text-align: center;
+    width: 150rpx;
+}
+
+.item .i-top .t-right-create image {
+    height: 47rpx;
+    padding: 0 20rpx;
+    width: 11rpx;
+}
+
+.yjfk {
+    position: relative;
+}
+
+.yjfk button {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+

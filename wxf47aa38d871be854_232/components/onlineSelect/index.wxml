@@ -1,0 +1,8 @@
+	<view bindtap="hide" class="mask" hidden="true">	</view>
+	<view animation="" class="selectBoxs">
+		<view class="title">
+			 选择就诊人 
+			<image bindtap="hide" class="closeImg" src="../../assets/images/close.png">			</image>
+		</view>
+		<view class="obody">		</view>
+	</view>

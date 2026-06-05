@@ -1,0 +1,96 @@
+	<view class="container">
+		<view class="header">
+			<image src="/assets/images/icon_ys_002.png">			</image>
+			<view class="left_box">
+				<view>
+					尊敬的患者：
+				</view>
+				<view>
+					您好！为进一步落实层级转诊，方便医联体内成员单位间，以及部分区妇幼保健院等患者的转诊，改善患者就医感受，北大口腔特开设本预约转诊途径，请您在就诊过程中根据接诊医师的建议，并在接诊医师的协助下办理转诊预约申请手续。在预约前请仔细阅读以下须知:
+				</view>
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title_box">
+				<view class="l_tip">				</view>
+				<view class="title">
+					一
+				</view>
+				<view class="r_tip">				</view>
+			</view>
+			<view class="p_txt">
+				预约转诊不提供专家点名预约服务，将根据转诊需求并结合我院实际情况酌情安排。
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title_box">
+				<view class="l_tip">				</view>
+				<view class="title">
+					二
+				</view>
+				<view class="r_tip">				</view>
+			</view>
+			<view class="p_txt">
+				预约转诊实行分时段就诊制度，预约成功后将提前48小时发送预约安排通知，请您务必关注手机短信，并按照通知要求在规定时段内完成取号或取消预约。请您持有效身份证件原件(包括身份证、出生证、户口本、护照)、医保卡原件及预约成功短信取号。
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title_box">
+				<view class="l_tip">				</view>
+				<view class="title">
+					三
+				</view>
+				<view class="r_tip">				</view>
+			</view>
+			<view class="p_txt">
+				参照北京市卫生计生委预约管理要求，未按规定时段完成预约取号的患者记录爽约1次，其预约号源不再保留；患者爽约1次的，自爽约之日起限制预约权限30日；180日内爽约2次的，限制预约权限90日；360日内爽约3次的，取消在我院的预约权限。
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="title_box">
+				<view class="l_tip">				</view>
+				<view class="title">
+					四
+				</view>
+				<view class="r_tip">				</view>
+			</view>
+			<view class="p_txt">
+				如您20天内没有接到就诊通知或者有任何不明之处，请您与申请转诊医师联系。 
+			</view>
+		</view>
+	</view>
+	<view class="list-box list-box-open" bindtap="doOpen">
+		<image class="close" src="/assets/images/icon_close.png">		</image>
+		<navigator openType="redirect" url="/pages/yylc/pageOne/index" class="l_item l_item_1">
+			<view>
+				挂号
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator url="/pages/yylc/pageTwo/index" class="l_item l_item_2" openType="redirect">
+			<view>
+				预约
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator openType="redirect" url="/pages/yylc/pageThree/index" class="l_item l_item_3">
+			<view>
+				预约
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_4" openType="redirect" url="/pages/yylc/pageFour/index">
+			<view>
+				患者
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+	</view>

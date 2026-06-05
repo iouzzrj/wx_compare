@@ -1,0 +1,11 @@
+{
+    "navigationBarTitleText": "爽约记录",
+    "usingComponents": {
+        "loadMore": "/components/loadMore/loadMore",
+        "noData-noNet": "/components/noDataAndNoNet/noDataAndNoNet",
+        "select-visitor": "/components/selectVisitor/selectVisitor",
+        "selectCondition": "/components/selectCondition/selectCondition",
+        "selector": "/components/selector/index",
+        "template-novisitor": "/components/template/novisitor/index"
+    }
+}

@@ -1,0 +1,149 @@
+.pageTop {
+    background: #fff;
+    height: 240rpx;
+    margin-bottom: 20rpx;
+    padding: 0 30rpx;
+    width: 100%;
+}
+
+.pageTop,.pageTop .pageTopL {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.pageTop .pageTopL {
+    background: var(--themeColor);
+    border-radius: 8rpx;
+    height: 180rpx;
+    justify-content: center;
+    margin-right: 30rpx;
+    position: relative;
+    width: 180rpx;
+}
+
+.pageTop .pageTopL image {
+    height: 100rpx;
+    width: 100rpx;
+}
+
+.pageTop .pageTopL view {
+    background: rgba(0,0,0,.4);
+    border-radius: 0 0 8rpx 8rpx;
+    bottom: 0;
+    color: #fff;
+    font-size: var(--jc_h3);
+    height: 48rpx;
+    line-height: 48rpx;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.pageTopR view:first-of-type text:first-of-type {
+    color: var(--jc_text_one);
+    font-size: var(--jc_h2);
+    margin-right: 15rpx;
+}
+
+.pageTopR view:first-of-type text:last-of-type {
+    color: var(--themeColor);
+    font-size: var(--jc_h2);
+}
+
+.pageTopR view:nth-of-type(2),.pageTopR view:nth-of-type(3) {
+    color: var(--jc_text_two);
+    font-size: var(--jc_h3);
+    margin-top: 15rpx;
+}
+
+.scroll_body {
+    background: #fff;
+    height: calc(100vh - 260rpx);
+}
+
+.scroll_body .info {
+    background: #fff;
+    padding: 40rpx 30rpx;
+}
+
+.sh_where {
+    width: 100%;
+}
+
+.sh_where,.sh_where_l {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.sh_where_l {
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    margin-right: 30rpx;
+}
+
+.sh_where_l image {
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.sh_where_l view {
+    border-right: 2px dashed var(--themeColor);
+    flex: 1;
+    width: 30rpx;
+}
+
+.info_list {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.info_list_l text {
+    border: 1px solid gray;
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.info_list_l {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 30rpx;
+}
+
+.info_list_l image {
+    height: 60rpx;
+    width: 60rpx;
+}
+
+.sh_where_R {
+    color: var(--jc_text_one);
+    font-size: var(--jc_h3);
+    line-height: 45rpx;
+    padding-bottom: 50rpx;
+}
+
+.info_list_l view {
+    border-right: 2px dashed var(--themeColor);
+    flex: 1;
+    width: 2px;
+}
+
+.info_list_r {
+    flex: 1;
+    height: auto;
+    padding-bottom: 100rpx;
+}
+
+.bottomNone {
+    padding: 0;
+}
+
+.where_time {
+    font-size: var(--jc_h3);
+}
+

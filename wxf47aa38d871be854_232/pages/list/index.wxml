@@ -1,0 +1,14 @@
+	<view class="list">
+		<navigator url="../jzr/yhxy/index" class="li">
+			<text>
+				用户协议
+			</text>
+			<image src="/assets/images/icon_right.png">			</image>
+		</navigator>
+		<navigator class="li" url="/pages/yyfw/index">
+			<text>
+				服务协议
+			</text>
+			<image src="/assets/images/icon_right.png">			</image>
+		</navigator>
+	</view>

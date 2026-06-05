@@ -1,0 +1,7 @@
+{
+    "enablePullDownRefresh": false,
+    "navigationBarTitleText": "口腔科普",
+    "usingComponents": {
+        "noData": "/components/nodata/index"
+    }
+}

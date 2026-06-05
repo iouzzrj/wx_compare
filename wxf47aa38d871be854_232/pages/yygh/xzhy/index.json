@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "选择号源",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index",
+        "toptips": "/components/toptips/index"
+    }
+}

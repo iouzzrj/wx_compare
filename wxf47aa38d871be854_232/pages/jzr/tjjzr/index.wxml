@@ -1,0 +1,89 @@
+	<toptips id="tips" type="error" duration="3000">	</toptips>
+	<view class="section" style="min-height:px">
+		<form bindsubmit="toAdd" class="form_wrap">
+			<view class="wraper">
+				<view class="input_item">
+					<view class="letterspace">
+						<text class="align twoword">
+							姓
+						</text>
+						<text>
+							名
+						</text>
+					</view>
+					： 
+					<input placeholder="请输入姓名" type="text" bindblur="userNameInput" bindinput="userNameInput" confirmType="done" maxlength="20" name="in_username">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						身份证号
+					</text>
+					： 
+					<input maxlength="18" name="in_idcard" placeholder="请输入身份证号" type="idcard" bindblur="idCardInput" bindinput="idCardInput" confirmType="done">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<view class="around">
+						<text class="lef">
+							手
+						</text>
+						<text class="cen">
+							机
+						</text>
+						<text class="rig">
+							号
+						</text>
+					</view>
+					： 
+					<input confirmType="done" maxlength="11" name="in_phone" placeholder="请输入手机号" type="number" bindinput="phoneNoInput">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						常住地址
+					</text>
+					： 
+					<input name="in_permanentAddress" placeholder="请输入常住地址" type="text" bindblur="permanentAddressInput" bindinput="permanentAddressInput" confirmType="done" maxlength="100">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						紧急联系人
+					</text>
+					： 
+					<input name="in_contactName" placeholder="请输入紧急联系人" type="text" bindblur="contactNameInput" bindinput="contactNameInput" confirmType="done" maxlength="20">					</input>
+				</view>
+			</view>
+			<view class="wraper">
+				<view class="input_item">
+					<text class="align">
+						紧急联系人电话
+					</text>
+					： 
+					<input name="in_contactPhone" placeholder="请输入紧急联系人电话" type="number" bindblur="contactPhoneInput" bindinput="contactPhoneInput" confirmType="done" maxlength="11">					</input>
+				</view>
+			</view>
+			<view class="custom_item item_remark">
+				<text>
+					温馨提示：
+
+				</text>
+				<text>
+					您可在个人中心页面绑定就诊人信息，除微信实名认证的本人外，您还可以绑定2名就诊人。如添加1名就诊人信息，自绑定之日起90日内无法将其删除，请您谨慎添加。
+				</text>
+			</view>
+			<view class="custom_item item_option">
+				<button class="btn" formType="submit">
+					立即添加
+				</button>
+			</view>
+			<view bindtap="gospz" class="spz">
+				生僻字、港澳台及外籍患者入口
+			</view>
+		</form>
+	</view>

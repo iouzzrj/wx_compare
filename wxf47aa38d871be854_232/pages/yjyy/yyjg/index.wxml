@@ -1,0 +1,48 @@
+	<view class="panel">
+		<view class="p-top flex-y-c">
+			<view class="hang">			</view>
+			<view class="round r-left">			</view>
+			<view class="round r-right">			</view>
+			<image class="img_2" src="/assets/images/common/icon_fail.png">			</image>
+			<text>
+				充值成功
+			</text>
+		</view>
+		<view class="p-bottom">
+			<view class="row">
+				<text>
+					付款金额
+				</text>
+				<text>
+					￥20.00
+				</text>
+			</view>
+			<view class="row">
+				<text>
+					就诊人
+				</text>
+				<text>
+					李浩
+				</text>
+			</view>
+			<view class="row">
+				<text>
+					挂号医生
+				</text>
+				<text class="mark">
+					朱家欣
+				</text>
+			</view>
+			<view class="row">
+				<text>
+					就诊时间
+				</text>
+				<text class="mark">
+					2018-06-20 10:30:25
+				</text>
+			</view>
+			<view bindtap="doConfirm" class="confirm">
+				确认
+			</view>
+		</view>
+	</view>

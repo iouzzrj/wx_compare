@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "身份认证",
+    "usingComponents": {
+        "toptips": "/components/toptips/index"
+    }
+}

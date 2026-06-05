@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "添加就诊人",
+    "usingComponents": {
+        "toptips": "/components/toptips/index"
+    }
+}

@@ -1,0 +1,81 @@
+.background_screen {
+    background: #000;
+    color: #fff;
+    height: 100%;
+    opacity: .2;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+}
+
+.attr_box,.background_screen {
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.attr_box {
+    background: #fff;
+    border-radius: 24rpx 24rpx 0rpx 0rpx;
+    bottom: 0;
+    height: 800rpx;
+    padding-top: 20rpx;
+    z-index: 2000;
+}
+
+.attr_box .back {
+    height: 20rpx;
+    margin-top: -30rpx;
+    width: 20rpx;
+}
+
+.attr_box .ctTitle {
+    color: #333;
+    font-family: PingFang SC;
+    font-size: 30rpx;
+    font-weight: 500;
+    text-align: center;
+}
+
+.thresholdBtn image {
+    position: absolute;
+    right: 30rpx;
+    top: 30rpx;
+}
+
+.massageBox {
+    padding: 58rpx 33rpx;
+}
+
+.massageBox image {
+    height: 33rpx;
+    margin-right: 8rpx;
+    margin-top: 7rpx;
+    width: 33rpx;
+}
+
+.topText {
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    font-weight: 700;
+    justify-items: center;
+    margin: 35rpx 0 20rpx;
+}
+
+.bottomText,.topText {
+    font-family: PingFang SC;
+    font-size: 28rpx;
+}
+
+.bottomText {
+    color: #666;
+    font-weight: 500;
+}
+
+.image_res {
+    display: block;
+    height: 350rpx;
+    width: 250rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "医生详情",
+    "usingComponents": {
+        "template-nodata": "/components/template/nodata/index"
+    }
+}

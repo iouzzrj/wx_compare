@@ -1,0 +1,107 @@
+page {
+    box-sizing: border-box;
+    padding: 54rpx 42rpx 0;
+}
+
+.panel .p-top {
+    background: #fff;
+    border-bottom: 3rpx dashed #14c79d;
+    height: 364rpx;
+    position: relative;
+}
+
+.panel .p-top .hang {
+    background: #14c79d;
+    border-radius: 14rpx;
+    height: 28rpx;
+    left: -16rpx;
+    padding: 0 18rpx;
+    position: absolute;
+    top: -14rpx;
+    width: 100%;
+    z-index: -1;
+}
+
+.panel .p-top .round {
+    background: #f0f5f4;
+    border-radius: 50%;
+    height: 26rpx;
+    width: 26rpx;
+}
+
+.panel .p-top .r-left {
+    bottom: -13rpx;
+    left: -13rpx;
+    position: absolute;
+}
+
+.panel .p-top .r-right {
+    bottom: -13rpx;
+    position: absolute;
+    right: -13rpx;
+}
+
+.panel .p-top .img_1 {
+    height: 147rpx;
+    width: 123rpx;
+}
+
+.panel .p-top .img_2 {
+    height: 128rpx;
+    width: 170rpx;
+}
+
+.panel .p-top text {
+    font-size: 32rpx;
+    margin-top: 28rpx;
+}
+
+.panel .p-bottom {
+    background: #fff;
+    border-bottom-left-radius: 8rpx;
+    border-bottom-right-radius: 8rpx;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30rpx;
+}
+
+.panel .p-bottom .row {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 24rpx 0;
+}
+
+.panel .p-bottom .row text {
+    font-size: 32rpx;
+}
+
+.panel .p-bottom .row text:first-child {
+    color: #999;
+}
+
+.panel .p-bottom .confirm {
+    background: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 36rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    margin-top: 50rpx;
+    text-align: center;
+}
+
+.remark_wrap {
+    border-top: 1rpx solid #ebebeb;
+    padding-top: 20rpx;
+    text-align: justify;
+}
+
+.remark_wrap text {
+    color: #999;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+

@@ -1,0 +1,33 @@
+.oBody {
+    align-items: center!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.oBody,.oBody image {
+    width: 100%!important;
+}
+
+.oBody image {
+    height: 420rpx!important;
+}
+
+.oBody text {
+    color: gray!important;
+    font-size: 30rpx!important;
+}
+
+.oBody .refreshBtn {
+    border: 2rpx solid var(--themeColor)!important;
+    border-radius: 8rpx!important;
+    color: var(--themeColor)!important;
+    font-size: 30rpx!important;
+    font-weight: 500!important;
+    height: 50rpx!important;
+    line-height: 48rpx!important;
+    margin-top: 60rpx!important;
+    text-align: center!important;
+    width: 142rpx!important;
+}
+

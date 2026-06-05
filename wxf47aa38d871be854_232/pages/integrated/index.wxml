@@ -1,0 +1,208 @@
+	<view class="zh_nav">
+		<view class="zh_name">
+			<view class="zh_name_l">
+				 综合查询
+				<image src="../../assets/images/zh_line.png">				</image>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="goMyreport">
+				<image src="/assets/images/query/ic_bgcx.png">				</image>
+				<text>
+					报告查询
+				</text>
+			</view>
+			<view bindtap="goJzrecord">
+				<image src="/assets/images/query/ic_jzjl.png">				</image>
+				<text>
+					就诊记录
+				</text>
+			</view>
+			<view bindtap="noKf">
+				<image src="/assets/images/query/ic_sftx.png">				</image>
+				<text>
+					随访填写
+				</text>
+			</view>
+			<view bindtap="goDownLoadCf">
+				<image src="/assets/images/query/ic_xzcf.png">				</image>
+				<text>
+					下载处方
+				</text>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="dzpj">
+				<image src="/assets/images/query/ic_dzpj.png">				</image>
+				<text>
+					电子票据
+				</text>
+			</view>
+			<view bindtap="goYyrecord">
+				<image src="/assets/images/query/ic_yyjl.png">				</image>
+				<text>
+					预约记录
+				</text>
+			</view>
+			<view bindtap="goMzfyrecord">
+				<image src="/assets/images/query/ic_mzfy.png">				</image>
+				<text>
+					门诊费用
+				</text>
+			</view>
+			<view bindtap="goCydyrecord">
+				<image src="/assets/images/query/ic_ypsm.png">				</image>
+				<text>
+					出院带药
+				</text>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="goZyyjrecord">
+				<image src="/assets/images/query/ic_yjjl.png">				</image>
+				<text>
+					预交记录
+				</text>
+			</view>
+			<view bindtap="goCyxjrecord">
+				<image src="/assets/images/query/ic_bgcx.png">				</image>
+				<text>
+					出院小结
+				</text>
+			</view>
+			<view bindtap="goHztx">
+				<image src="/assets/images/query/ic_hzcx.png">				</image>
+				<text>
+					候诊提醒
+				</text>
+			</view>
+			<view bindtap="goYhcx">
+				<image src="/assets/images/query/ic_yhcx.png">				</image>
+				<text>
+					余号查询
+				</text>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="goHygh">
+				<image src="/assets/images/query/ic_hygs.png">				</image>
+				<text>
+					号源公示
+				</text>
+			</view>
+			<view bindtap="goBayyNew">
+				<image src="/assets/images/query/ic_jzjl.png">				</image>
+				<text>
+					病案复印(新)
+				</text>
+			</view>
+			<view bindtap="goYpcs">
+				<image src="/assets/images/query/ic_ypsm.png">				</image>
+				<text>
+					药品说明书
+				</text>
+			</view>
+			<view bindtap="goTzgs">
+				<image src="/assets/images/query/ic_hygs.png">				</image>
+				<text>
+					停诊公示
+				</text>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="goYnbm">
+				<image src="/assets/images/query/ic_ynbm.png">				</image>
+				<text>
+					院内便民
+				</text>
+			</view>
+			<view bindtap="goZyyj">
+				<image src="/assets/images/query/ic_yjjl.png">				</image>
+				<text>
+					住院预交
+				</text>
+			</view>
+			<view bindtap="goMzjf">
+				<image src="/assets/images/query/ic_mzjf.png">				</image>
+				<text>
+					门诊缴费
+				</text>
+			</view>
+			<view bindtap="goCyjs">
+				<image src="/assets/images/query/ic_mzjf.png">				</image>
+				<text>
+					出院结算
+				</text>
+			</view>
+		</view>
+		<view class="zh_nav_li">
+			<view bindtap="gobl">
+				<image src="/assets/images/query/ic_ynbm.png">				</image>
+				<text>
+					住院登记
+				</text>
+			</view>
+			<view bindtap="toDiancan">
+				<image src="/assets/images/query/ic_dc.png">				</image>
+				<text>
+					营养订餐
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="zh_body">
+		<view class="zh_name">
+			<view class="zh_name_l">
+				 医学知识
+				<image src="/assets/images/zh_line.png">				</image>
+			</view>
+		</view>
+		<view bindtap="goTextPage" class="zh_body_li" data-index="0">
+			<view class="text_name">
+				莫把病原体口口相传给宝宝
+			</view>
+			<view class="text_body">
+				唾液是病原体传播的载体，现在有很多研究表明，龋病是可以在母婴间“传播”的，这个所谓的“传播”并不是“遗传”或“传染”，如果妈妈口腔内有多颗未经治疗的龋齿，就算还没有引起什么不适的症状，这些龋齿也都是孕育致龋菌的温床，这些特殊的病菌在日常生活接触中难免就会“传播”到宝宝的口内，那宝宝可就真的是输在起跑线上了。
+			</view>
+			<view class="text_bottom">
+				<text>
+					中华口腔医学会
+				</text>
+				<text>
+					2023-11-03
+				</text>
+			</view>
+		</view>
+		<view data-index="1" bindtap="goTextPage" class="zh_body_li">
+			<view class="text_name">
+				选择适合自己的牙刷
+			</view>
+			<view class="text_body">
+				牙刷，是保持口腔清洁的重要工具，包括手动牙刷和电动牙刷。根据刷头形状和刷毛排列的不同，牙刷又分为通用型和特异型两大类。通用型牙刷以直柄为宜，刷毛软硬适度，排列平齐，毛束排列一般为10～12束长、3～4束宽，各束之间有一定间距（图1-14-1 通用型牙刷）。
+			</view>
+			<view class="text_bottom">
+				<text>
+					中华口腔医学会
+				</text>
+				<text>
+					2023-10-10
+				</text>
+			</view>
+		</view>
+		<view bindtap="goTextPage" class="zh_body_li" data-index="2">
+			<view class="text_name">
+				食物嵌塞及牙缝清洁
+			</view>
+			<view class="text_body">
+				日常生活中，有些人饭后会有食物塞在牙缝之间，必须剔出来才感觉舒服，年龄大的人这种情况更常见。为什么随着年龄增长，会更容易塞牙？除了用牙签剔牙外，还有哪些方法可以清理牙齿间隙呢？
+			</view>
+			<view class="text_bottom">
+				<text>
+					中华口腔医学会
+				</text>
+				<text>
+					2023-09-05
+				</text>
+			</view>
+		</view>
+	</view>

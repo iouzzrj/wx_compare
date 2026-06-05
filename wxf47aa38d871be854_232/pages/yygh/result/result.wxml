@@ -1,0 +1,71 @@
+	<view class="container">
+		<view class="top">
+			<text class="t_txt_1">
+				订单已取消
+			</text>
+		</view>
+		<view class="wrap">
+			<view class="row">
+				<text class="txt_1">
+					医事服务费:
+				</text>
+				<text class="txt_2">
+					元
+				</text>
+			</view>
+			<view class="row">
+				<text class="txt_1">
+					挂号凭证:
+				</text>
+				<text class="txt_3">
+				</text>
+			</view>
+			<view class="row padding-bottom-none">
+				<text class="txt_1">
+					接诊医生:
+				</text>
+			</view>
+			<view class="inside">
+				<image src="/assets/images/common/icon_male_avatar.png">				</image>
+				<view>
+					<view class="w_box">
+						<text class="inside_txt_1">
+						</text>
+						<text class="inside_txt_2">
+							专家
+						</text>
+					</view>
+					<view class="inside_txt_3">
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="row">
+				<text class="txt_1">
+					患者信息:
+				</text>
+				<text class="txt_3">
+				</text>
+			</view>
+			<view class="row">
+				<text class="txt_1">
+					挂号时间:
+				</text>
+				<text class="txt_3">
+					NaN年aN月aN日
+				</text>
+			</view>
+			<view class="row padding-bottom-none">
+				<text class="txt_1">
+					就诊日期:
+				</text>
+				<text class="txt_3">
+					NaN年aN月aN日
+				</text>
+			</view>
+		</view>
+		<view class="footer_wrap">
+			<view class="footer">			</view>
+		</view>
+	</view>

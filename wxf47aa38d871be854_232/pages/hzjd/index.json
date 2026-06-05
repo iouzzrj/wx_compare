@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "",
+    "usingComponents": {
+        "template-novisitor": "/components/template/novisitor/index",
+        "toptips": "/components/toptips/index"
+    }
+}

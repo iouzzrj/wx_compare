@@ -1,0 +1,24 @@
+	<image class="header" src="/assets/images/xq_bgimg.png">	</image>
+	<view class="info">
+		<image class="avatar" src="">		</image>
+		<view class="txt_1">
+			<text class="h1">
+			</text>
+			<text class="h2">
+			</text>
+		</view>
+		<view class="txt_2">
+			<text>
+			</text>
+		</view>
+	</view>
+	<view class="section">
+		<view style="  background-color: #f0f5f4;height:24rpx;width:100%;">		</view>
+		<view style="  background-color: #f0f5f4;height:24rpx;width:100%;">		</view>
+		<view class="wrap margin-top-20 docDesc">
+			<view class="txt_3">
+				医生简介
+			</view>
+			<template-nodata content="暂无医生详情" src="/assets/images/common/nodata/nodata.png" top="25%">			</template-nodata>
+		</view>
+	</view>

@@ -1,0 +1,242 @@
+	<add-tips>	</add-tips>
+	<view class="swiperBox">
+		<swiper nextMargin="0rpx" circular="true" interval="3000" duration="300" indicatorDots="true" previousMargin="0rpx" vertical="false" autoplay="true" displayMultipleItems="1">
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYKSAUu-bAACTzLfasqY064.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYR-AXjLHAACOaFR5-gw843.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYT-ADlMrAACgLhkSsOU501.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYVKAOWBtAACbu7RrOBU123.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/assets/images/hospital/rBsAEGGXYWSAMCXuAADTmOei2yI612.jpg" mode="scaleToFill">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYXKAIS9HAAB9Jc8wRPM989.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYXKAIS9HAAB9Jc8wRPM990.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYXKAIS9HAAB9Jc8wRPM991.jpg">				</image>
+			</swiper-item>
+			<swiper-item>
+				<image mode="scaleToFill" src="/assets/images/hospital/rBsAEGGXYXKAIS9HAAB9Jc8wRPM992.jpg">				</image>
+			</swiper-item>
+		</swiper>
+	</view>
+	<view class="grid-title">
+		<image mode="scaleToFill" src="/assets/images/mcy_tt.png">		</image>
+		<view class="g_line">		</view>
+		<swiper bindtap="toGgList" circular="true" duration="300" indicatorDots="false" interval="3000" vertical="true" autoplay="true">		</swiper>
+	</view>
+	<view class="yygh">
+		<view class="yyghL" bindtap="doJump">
+			<image src="/assets/images/icon/icon_yygh.png">			</image>
+			<view>
+				<text>
+					预约挂号
+				</text>
+				<text>
+					挂号快人一步
+				</text>
+			</view>
+		</view>
+		<view class="yyghR" bindtap="doJumpDTgh">
+			<image src="/assets/images/icon/icon_dtgh.png">			</image>
+			<view>
+				<text>
+				</text>
+				<text>
+					余号精准预约
+				</text>
+			</view>
+		</view>
+	</view>
+	<view class="bg" style="height: 120rpx;">
+		<view bindtap="toYhcx" class="czxxbg">
+			<text class="askBoxname">
+				剩余号源一览
+			</text>
+		</view>
+	</view>
+	<view class="bg" style="height: 180rpx;">
+		<view data-name="国合门诊部(国际门诊)" bindtap="toYygh" class="yydjbg" data-code="6">
+			<text class="askBoxname1">
+				国合门诊部(国际门诊)
+			</text>
+			<text class="askBoxname2">
+				预约挂号入口
+			</text>
+			<image class="gjyydjimg" src="/assets/images/bg_yydj.png">			</image>
+		</view>
+	</view>
+	<view class="bg" style="height: 180rpx;">
+		<view bindtap="toYygh" class="yydjbg" data-code="7" data-name="天竺门诊部(非医保单位)">
+			<text class="askBoxname1">
+				天竺门诊部(非医保单位)
+			</text>
+			<text class="askBoxname2">
+				预约挂号入口
+			</text>
+			<image class="gjyydjimg" src="/assets/images/bg_yydj.png">			</image>
+		</view>
+	</view>
+	<view class="bg" style="height: 180rpx;">
+		<view bindtap="toYygh" class="yydjbg" data-code="100" data-name="北大口腔三亚医院">
+			<text class="askBoxname1">
+				北大口腔三亚医院（非医保单位）
+			</text>
+			<text class="askBoxname2">
+				预约挂号入口
+			</text>
+			<image class="gjyydjimg" src="/assets/images/bg_yydj_sy.jpg">			</image>
+		</view>
+	</view>
+	<view class="askBox">
+		<view class="askBoxR">
+			<view bindtap="goAsk" class="askBoxRt">
+				<view class="rtop">
+					推荐
+				</view>
+				<view class="askBoxname1">
+					互联网诊疗
+				</view>
+				<view class="askBoxname2">
+					就医更便捷
+				</view>
+				<image class="askImg2" src="/assets/images/icon/icon_hlwyy.png">				</image>
+			</view>
+			<view bindtap="doBayy" class="askBoxRb">
+				<view class="askBoxname1">
+					病案预约
+				</view>
+				<view class="askBoxname2">
+					预约速率快
+				</view>
+				<image class="askImg3" src="/assets/images/icon/icon_bayy.png">				</image>
+			</view>
+		</view>
+		<view class="askBoxR">
+			<view bindtap="doJumpZJjs" class="askBoxRt">
+				<view class="askBoxname1">
+					医生介绍
+				</view>
+				<view class="askBoxname2">
+					更多专家医师
+				</view>
+				<image class="askImg2" src="/assets/images/icon/icon_zjjs.png">				</image>
+			</view>
+			<view bindtap="doJumpTSks" class="askBoxRb">
+				<view class="askBoxname1">
+					特色科室
+				</view>
+				<view class="askBoxname2">
+					医院特色科室
+				</view>
+				<image class="askImg3" src="/assets/images/icon/icon_tsks.png">				</image>
+			</view>
+		</view>
+	</view>
+	<view bindtap="toMedicalCert" class="bg">
+		<image class="ll" src="/assets/images/11.png">		</image>
+		<text class="ty">
+			医保电子凭证
+		</text>
+		<image class="tbb" src="/assets/images/hospital/icon_right.png">		</image>
+	</view>
+	<view class="info_box">
+		<view class="info_line">
+			<navigator url="/hospital-introduce/pages/yyjj/index" hoverClass="none">
+				<view class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_yyjj.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							医院简介
+						</view>
+						<view class="name_txt_2">
+							INTRODUCTION
+						</view>
+					</view>
+				</view>
+			</navigator>
+			<view class="center_border">			</view>
+			<navigator hoverClass="none" url="/pages/lcfb/index">
+				<view class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_lcfb.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							楼层分布
+						</view>
+						<view class="name_txt_2">
+							FLOOR DISTRIBUTION
+						</view>
+					</view>
+				</view>
+			</navigator>
+		</view>
+		<view class="info_line">
+			<navigator>
+				<view bindtap="doNavigate" class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_lydh.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							来院导航
+						</view>
+						<view class="name_txt_2">
+							HOSPITAL NAVIGATION
+						</view>
+					</view>
+				</view>
+			</navigator>
+			<view class="center_border">			</view>
+			<navigator hoverClass="none" url="/instruction-manual/pages/jyzn/index">
+				<view class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_ghzn.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							就医指南
+						</view>
+						<view class="name_txt_2">
+							MEDICAL GUIDE
+						</view>
+					</view>
+				</view>
+			</navigator>
+		</view>
+		<view class="info_line">
+			<navigator appId="wx8735a8a39cf58b5e" path="pages/index?id=Dx4EVOZfd4,QkNOhuFUkR" target="miniProgram">
+				<view class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_lydh.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							院内导航
+						</view>
+						<view class="name_txt_2">
+							HOSPITAL NAVIGATION
+						</view>
+					</view>
+				</view>
+			</navigator>
+			<view class="center_border">			</view>
+			<navigator url="/instruction-manual/pages/index/index" hoverClass="none">
+				<view class="l_item">
+					<image class="item_img" src="/assets/images/icon/icon_syzn.png">					</image>
+					<view class="name_box">
+						<view class="name_txt_1">
+							使用指南
+						</view>
+						<view class="name_txt_2">
+							OPERATING GUIDE
+						</view>
+					</view>
+				</view>
+			</navigator>
+		</view>
+	</view>
+	<view catchtouchmove="true">	</view>

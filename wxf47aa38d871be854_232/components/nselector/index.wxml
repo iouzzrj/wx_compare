@@ -1,0 +1,8 @@
+	<view bindtap="hide" class="mask" hidden="true">	</view>
+	<view class="selector" animation="">
+		<view class="title">
+			<text>
+			</text>
+		</view>
+		<scroll-view class="body" scrollIntoView="v_" scrollWithAnimation="true" scrollY="true">		</scroll-view>
+	</view>

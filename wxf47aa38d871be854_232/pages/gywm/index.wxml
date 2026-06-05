@@ -1,0 +1,14 @@
+	<view class="section">
+		<view class="title">
+			北京大学口腔医院医疗服务助手
+		</view>
+		<view class="date">
+			版本号： 
+		</view>
+		<image class="bg_img" src="/assets/images/tongzhi_bgimg.png">		</image>
+		<view class="detail">
+			<text space="ensp">
+				北京大学口腔医院医疗服务助手是由北京大学口腔医院主导研发，在手机上实现“轻松就医，方便就诊”的智慧医疗应用，目前提供挂号 、导医服务等功能，大大简化了传统就医流程，是您不可缺少的就医好帮手。
+			</text>
+		</view>
+	</view>

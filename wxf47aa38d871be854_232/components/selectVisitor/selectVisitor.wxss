@@ -1,0 +1,147 @@
+@import "../../utils/colorui/icon.wxss";
+.oPage {
+    position: relative;
+    z-index: 777;
+}
+
+.visitorShow {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 90rpx;
+    justify-content: space-between;
+    padding: 0 30rpx;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+}
+
+.visitorShow,.visitorShow view:first-of-type {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.visitorShow view:first-of-type {
+    color: #2e2f31;
+    font-size: 30rpx;
+}
+
+.visitorShow view:first-of-type text:first-of-type {
+    text-align: center;
+    width: 100rpx;
+}
+
+.visitorShow view:last-of-type {
+    border: 1px solid var(--themeColor);
+    border-radius: 26rpx;
+    color: var(--themeColor);
+    font-size: 28rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    width: 121rpx;
+}
+
+.listbox {
+    align-items: center;
+    background: #fff;
+    border-top: 1rpx solid #f7f7f7;
+    font-size: 30rpx;
+    height: 100rpx;
+    justify-content: space-between;
+    padding: 0 30rpx;
+    width: calc(100%- 60rpx);
+}
+
+.listbox,.listbox view {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.listbox view text:first-of-type {
+    text-align: center;
+    width: 100rpx;
+}
+
+.active2 {
+    color: var(--themeColor)!important;
+}
+
+.slidown {
+    animation: aaa .3s ease-in both;
+}
+
+@-webkit-keyframes aaa {
+    from {
+    transform: translateY(-100%);
+}
+
+to {
+    transform: translateY(0);
+}
+
+}
+@keyframes aaa {
+    from {
+    transform: translateY(-100%);
+}
+
+to {
+    transform: translateY(0);
+}
+
+}
+.sliup {
+    animation: bbb .3s ease-in both;
+}
+
+@-webkit-keyframes bbb {
+    from {
+    transform: translateY(0);
+}
+
+to {
+    transform: translateY(-100%);
+}
+
+}
+@keyframes bbb {
+    from {
+    transform: translateY(0);
+}
+
+to {
+    transform: translateY(-100%);
+}
+
+}
+.topMask {
+    background-color: rgba(0,0,0,.6);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.addPeople {
+    align-items: center!important;
+    background-color: #fff;
+    border-top: 1rpx solid #f7f7f7;
+    display: -webkit-flex!important;
+    display: flex!important;
+    font-size: 30rpx!important;
+    height: 90rpx!important;
+    justify-content: center!important;
+    line-height: 90rpx!important;
+    width: 100%!important;
+}
+
+.addPeople text {
+    color: var(--themeColor)!important;
+    margin: 0 5rpx!important;
+}
+

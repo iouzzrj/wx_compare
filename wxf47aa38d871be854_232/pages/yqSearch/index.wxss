@@ -1,0 +1,124 @@
+.search-box {
+    background: #fff;
+    min-height: 100rpx;
+    position: fixed;
+    top: 0;
+    width: 750rpx;
+}
+
+.search,.search-box {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.search {
+    background-color: #f0f5f4;
+    border-radius: 50rpx;
+    height: 64rpx;
+    margin: 0 30rpx;
+    padding: 0 20rpx;
+    width: 100%;
+}
+
+.search image {
+    height: 30rpx;
+    margin-right: 20rpx;
+    width: 30rpx;
+}
+
+.search image:nth-child(3) {
+    margin-right: 0rpx;
+}
+
+.search input {
+    flex: 1;
+    font-size: 28rpx;
+}
+
+.l_history {
+    padding: 30rpx 25rpx 0;
+}
+
+.l_history .title {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rpx;
+}
+
+.l_history .title .left {
+    align-items: center;
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.l_history .title image {
+    height: 35rpx;
+    margin-left: 10rpx;
+    width: 35rpx;
+}
+
+.l_history .title .right {
+    border-bottom: 1rpx solid #24dcac;
+    color: #24dcac;
+    font-size: 30rpx;
+}
+
+.l_history .content {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l_history .content .li {
+    background-color: #f3f3f3;
+    border-radius: 2em;
+    color: #4d4d4d;
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    margin-right: 20rpx;
+    min-width: 100rpx;
+    overflow: hidden;
+    padding: 16rpx 20rpx;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.null {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35%;
+    padding: 30rpx;
+}
+
+.null image {
+    height: 350rpx;
+    width: 350rpx;
+}
+
+.list {
+    background: #fff;
+}
+
+.list .li {
+    align-items: center;
+    border-bottom: 1rpx solid #f2f2f2;
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx;
+}
+
+.list .li image {
+    height: 24rpx;
+    margin-left: 20rpx;
+    width: 12rpx;
+}
+

@@ -1,0 +1,156 @@
+.inputBox,page {
+    background-color: #fff;
+}
+
+.inputBox {
+    height: 68rpx;
+    left: 20rpx;
+    position: fixed;
+    top: 0;
+    width: 710rpx;
+    z-index: 9999;
+}
+
+.search-form {
+    align-items: center;
+    background-color: #eee;
+    border-radius: 50rpx;
+    color: #495058;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    height: 68rpx;
+    line-height: 68rpx;
+    z-index: 999;
+}
+
+.search-form .image_icon {
+    height: 28rpx!important;
+    margin-left: 35rpx;
+    margin-right: 20rpx;
+    width: 29rpx!important;
+}
+
+.search-form input {
+    color: var(--jc_text_two);
+    flex: 1;
+    font-size: var(--jc_h3);
+    height: 68rpx;
+    line-height: 64px;
+}
+
+.scorllBox {
+    height: calc(100vh - 88rpx);
+    position: fixed;
+    top: 88rpx;
+}
+
+.zh_body {
+    background: #fff;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20rpx;
+    width: calc(100% - 40rpx);
+}
+
+.zh_body_li {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.zh_body_li_box {
+    background: #f7f7f7;
+    border-radius: 16rpx;
+    height: auto;
+    margin-bottom: 20rpx;
+    padding-bottom: 24rpx;
+    width: 349rpx;
+}
+
+.video_box {
+    height: 172rpx;
+    position: relative;
+    width: 349rpx;
+}
+
+.video_box,.video_box .thumbnail {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.video_box .thumbnail {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.video_box .thumbnail text {
+    font-size: 28rpx;
+    text-align: center;
+}
+
+.video_box .thumbnail image {
+    height: 33rpx;
+    width: 200rpx;
+}
+
+.video_box .video_play {
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: flex;
+    height: 54rpx;
+    justify-content: center;
+    position: absolute;
+    width: 54rpx;
+    z-index: 3;
+}
+
+.video_box .video_play .video_sanjiao {
+    border-bottom: 14rpx solid transparent;
+    border-left: 22rpx solid #fff;
+    border-top: 14rpx solid transparent;
+    height: 0;
+    margin-left: 10rpx;
+    width: 0;
+}
+
+.video_name {
+    color: #1a1a1a;
+    font-size: 28rpx;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.video_bottom,.video_name {
+    font-family: PingFang SC;
+    margin-top: 16rpx;
+    padding: 0 12rpx;
+    width: calc(100% - 24rpx);
+}
+
+.video_bottom {
+    align-items: center;
+    color: #b3b3b3;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 22rpx;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.video_bottom view {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 60%;
+}
+

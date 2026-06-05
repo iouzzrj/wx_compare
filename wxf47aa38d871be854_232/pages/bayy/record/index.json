@@ -1,0 +1,13 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "病历预约",
+    "usingComponents": {
+        "loadMore": "/components/loadMore/loadMore",
+        "noData-noNet": "/components/noDataAndNoNet/noDataAndNoNet",
+        "select-visitor": "/components/selectVisitor/selectVisitor",
+        "selectCondition": "/components/selectCondition/selectCondition",
+        "selectTimePeop": "/components/selectTimePeop/selectTimePeop",
+        "template-nodata": "/components/template/nodata/index",
+        "template-novisitor": "/components/template/novisitor/index"
+    }
+}

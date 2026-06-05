@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "报告查询",
+    "usingComponents": {
+        "selector": "/components/selector/index"
+    }
+}

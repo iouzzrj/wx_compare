@@ -1,0 +1,36 @@
+.mask {
+    background-color: transparent;
+    bottom: 0;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.mask,.toptips {
+    left: 0;
+    position: fixed;
+    right: 0;
+}
+
+.toptips {
+    color: #fff;
+    font-size: 40rpx;
+    padding: 30rpx;
+    text-align: center;
+    top: -140rpx;
+    z-index: 1000;
+}
+
+.toptips_success {
+    background-color: #4cd964;
+}
+
+.toptips_warn {
+    background-color: #f60;
+}
+
+.toptips_error {
+    background-color: #e64340;
+}
+

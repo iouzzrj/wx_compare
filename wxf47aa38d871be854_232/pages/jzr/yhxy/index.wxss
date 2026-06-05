@@ -1,0 +1,26 @@
+.section {
+    background-color: #fff;
+    padding: 20rpx 20rpx 0;
+}
+
+.section text {
+    word-wrap: break-word;
+    color: #404040;
+    display: block;
+    font-size: 30rpx;
+    line-height: 1.6;
+    padding-bottom: 20rpx;
+    text-align: justify;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.section text.title {
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.section text.right {
+    text-align: right;
+}
+

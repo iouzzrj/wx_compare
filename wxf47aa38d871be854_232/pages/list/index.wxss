@@ -1,0 +1,15 @@
+.li {
+    align-items: center;
+    background: #fff;
+    border-bottom: 1rpx solid #eee;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx;
+}
+
+.li image {
+    height: 25rpx;
+    width: 16rpx;
+}
+

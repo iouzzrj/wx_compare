@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "信息完善",
+    "usingComponents": {
+        "toptips": "/components/toptips/index"
+    }
+}

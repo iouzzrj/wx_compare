@@ -1,0 +1,34 @@
+	<toptips duration="1500" id="tips" type="error">	</toptips>
+	<view class="container">
+		<view class="header">
+			<view class="login-photo">
+				<open-data class="photo-image" type="userAvatarUrl">				</open-data>
+			</view>
+			<view class="txt_1">
+				请进行实名核身登录验证
+			</view>
+			<view class="txt_2">
+				信息将与当前微信绑定（用于身份验证）
+			</view>
+		</view>
+		<view class="wrap">
+			<view class="row">
+				<text class="r_txt">
+					姓名
+				</text>
+				<input type="text" maxlength="20" value="" placeholder="请输入微信持有者姓名" placeholderClass="place-color">				</input>
+			</view>
+			<view class="row">
+				<text class="r_txt">
+					身份证
+				</text>
+				<input placeholder="请输入微信持有者身份证" placeholderClass="place-color" type="idcard" maxlength="18" value="">				</input>
+			</view>
+		</view>
+		<view bindtap="toAuth" class="btn">
+			开始认证
+		</view>
+		<view bindtap="gospz" class="spz">
+			生僻字、港澳台及外籍患者入口
+		</view>
+	</view>

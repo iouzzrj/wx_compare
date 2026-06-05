@@ -1,0 +1,419 @@
+	<view class="section">
+		<text decode="true" space="true">
+			&emsp;&emsp;欢迎使用“北京大学口腔医院”线上诊疗服务产品（以下简称“我们”），我们深知个人信息对您的重要性，我们严格遵守法律法规要求，采取相应的安全保护措施，致力于保护您个人信息的安全可控，为您提供更加安全、可靠的服务。根据《中华人民共和国人信息保护法》第十七条有关告知个人信息处理规则的规定，我们将通过本个人信息保护政策向您说明在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;在开始使用我们的产品和服务前，请您务必仔细阅读并理解本政策，特别应重点阅读我们以粗体表示的条款内容，确保您充分理解和同意之后再开始使用，因为这些内容可能会对您的权利产生重要影响。本《政策》中涉及的专业词汇，我们尽量以简明通俗的表述向您说明，并提供进一步说明的链接，以便您的理解。如您不同意本政策中的任何条款，您应立即停止使用，如对本政策内容有任何疑问、意见或建议，您可通过文末提供的各种联系方式与我们联系。您表示同意或注册使用本产品和服务，即意味着您知晓且同意本政策。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;您确认，您具备中华人民共和国法律规定的与您行为相适应的民事行为能力，确保有能力对您使用我们小程序服务的一切行为独立承担责任。如您不具备前述民事主体资格或您是未满十八周岁的未成年人，请在您的监护人的陪同下阅读本协议，并特别注意未成年人使用条款：如果您是未满十四周岁的未成年人，还应请您的监护人陪同阅读本政策，并在获得您的监护人的同意之后，注册使用我们的产品和服务。
+		</text>
+		<text class="title" decode="true" space="true">
+			本政策将帮助您了解以下内容：
+		</text>
+		<text class="title" decode="true" space="true">
+			一、适用范围
+		</text>
+		<text class="title" decode="true" space="true">
+			二、信息收集与使用
+		</text>
+		<text class="title" decode="true" space="true">
+			三、信息的存储
+		</text>
+		<text space="true" class="title" decode="true">
+			四、信息的安全
+		</text>
+		<text class="title" decode="true" space="true">
+			五、信息共享/对外提供
+		</text>
+		<text class="title" decode="true" space="true">
+			六、您的权利
+		</text>
+		<text space="true" class="title" decode="true">
+			七、未成年人保护
+		</text>
+		<text decode="true" space="true" class="title">
+			八、所有权及知识产权条款
+		</text>
+		<text space="true" class="title" decode="true">
+			九、政策变更
+		</text>
+		<text class="title" decode="true" space="true">
+			十、联系我们
+		</text>
+		<text space="true" class="title" decode="true">
+			&nbsp;
+		</text>
+		<text class="title" decode="true" space="true">
+			一、适用范围
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;本政策适用本产品所有服务，包括向您提供小程序登录、页面浏览、通过本小程序提交相关信息以及通过本小程序向您提供的技术服务。某些服务如有其特定的隐私指引/声明该特定隐私指引/声明更具体地说明我们在该服务中如何处理您的信息。如本政策与特定服务的隐私指引/声明有不一致之处，请以该特定隐私指引声明为准。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;请您注意，本政策不适用除本小程序外由其他公司或个人提供的服务。例如，您通过使用第三方小程序或其任何网络应用使用其他公司或个人提供的服务。如您使用第三方服务和产品须受其用户信息保护政策(而非本政策)约束，您需要仔细阅其政策内容。
+		</text>
+		<text class="title" decode="true" space="true">
+			二、信息收集与使用
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;我们秉承合法、正当、必要的原则，仅收集实现本小程序服务功能所必要的信息。我们提供服务时，会收集、储存、使用和分享下列与您有关的信息。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;您提供的资料信息需真实、准确、完整、合法有效，用户资料如有变动的，应及时更新其资料信息。如果用户提供的资料信息不合法、不真实、不准确、不详尽的，引起其他相关问题，用户需承担因此引起的相应责任及后果。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;如果您拒绝提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。
+		</text>
+		<text space="true" decode="true">
+			1.&ensp;认证建档所提交的信息
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;在您首次登录小程序时，您需要完成认证建档，为此，我们需要收集您的姓名、身份证号、手机号码、就诊卡、地址等，如果您拒绝提供此类信息则无法完成用认证建档。绑定他人时，需要手机该用户的姓名、身份证号、手机号码、就诊卡、地址等。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;在您完成认证建档后，再次登录小程序时，需要再次提供您的姓名、身份证号、手机号码、就诊卡、地址等信息，否则您无法使用相关产品和服务。
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;您在接受我们的医疗服务所提交的信息
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;为帮助您实现准确、及时、有效的医疗服务，满足您的特定医疗服务需求，我们在征得您或您的监护人事先单独授权同意的前提下，可能收集和使用您的个人健康信息、医疗诊断信息敏感身份信息及14周岁以下儿童的个人信息等个人敏感信息，若您选择不提供该类信息，则可能无法正常使用服务中的特定功能，但不影响您使用 服务中的其他功能。
+		</text>
+		<text decode="true" space="true">
+			3.&ensp;下单与支付信息
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;为了帮助您在选中相应服务并确认需求订单后进行网络支付，校验下单账号和支付账号是否一致，我们会收集您的支付账号，但不会存储您的这些账号。
+		</text>
+		<text decode="true" space="true">
+			4.&ensp;客服、反馈及其他功能
+		</text>
+		<text decode="true" space="true">
+			（1）为了保障您的账号与系统安全，解决您在使用我们服务过程中的问题时，我们会保存您所反馈的问题记录，包括姓名、账号信息(用户D)、反馈信息(文字、图片、文件)
+		</text>
+		<text space="true" decode="true">
+			（2）为了向您提供服务反馈，确保您向客服反馈的信息能准确有效处理，我们还需要收集您的账号信息(用户ID)、订单信息、联系方式(手机号码)
+		</text>
+		<text space="true" decode="true">
+			（3）当您使用我们服务时，我们会自动收集您对我们服务的详细使用情况，作为有关网络日志保存。包括您的搜索和浏览记录、订单记录、IP地址、WIFI网络、访问日期和时间等
+		</text>
+		<text decode="true" space="true">
+			5.&ensp;运营和程序安全维护信息
+		</text>
+		<text decode="true" space="true">
+			（1）我们将收集您的如下信息，以便为您提供持续稳定的服务支持(如数据的实时同步等)并识别账号异常状态、了解服务适配性、保障本小程序服务的网络及运营安全，以维护前述基本功能的正常运行。我们会收集您的设备信息(包括设备型号、设备类型、设备序列号、设备识别码(安卓ID、广告标识符(IDFA)、IMSI、IME1、MAC地址)、设备厂商、操作系统版本、应用列表、设备设置基本信息)、日志信息(管理员账号、登录模块、操作功能描述、IP地址)、网络信息（包括使用的移动网络运营商网络数据信息、WI-FI信号信息、宽带数据信息)、浏览器类型
+		</text>
+		<text decode="true" space="true">
+			（2）请您注意，单独的设备信息、服务日志信息是无法识别特定自然人身份的信息。如果我们将这类非个人信息与其他信息结合用于识别特定自然人身份，或者将其与个人信息结合使用，则在结合使用期间，这类非个人信息将被视为个人信息，除取得您授权或法律法规另有规定外，我们会将这类信息做匿名化、去标识化处理
+		</text>
+		<text decode="true" space="true">
+			6.&ensp;从第三方合作伙伴获取的信息
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;我们可能会获得您在使用第三方合作伙伴服务时所产生的信息。例如，您使用本小程序账号登录第三方合作伙伴服务时，我们会获得您登录第三方合作伙伴 服务的名称、登录时间，方便您进行授权管理。请您仔细阅读第三方合作伙伴服务的用户协议或个人信息保护政策。
+		</text>
+		<text decode="true" space="true">
+			我们可能将在向您提供服务的过程之中所收集的信息用作下列用途：
+		</text>
+		<text decode="true" space="true">
+			（1）向您提供服务
+		</text>
+		<text space="true" decode="true">
+			&emsp;&emsp;在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性。
+		</text>
+		<text space="true" decode="true">
+			（2）帮助我们设计新服务，改善我们现有服务
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;使我们更加了解您如何接入和使用我们的服务，从而针对性地回应您的个性化需求，例如语言设定、位置设定、个性化的帮助服务和指示，或对您和其他用户出其他方面的回应。
+		</text>
+		<text space="true" decode="true">
+			（3）向您提供与您更加相关的广告以替代普遍投放的广告
+		</text>
+		<text space="true" decode="true">
+			&emsp;&emsp;评估我们服务中的广告和其他促销及推广活动的效果，并加以改善。
+		</text>
+		<text decode="true" space="true">
+			（4）软件认证或管理软件升级
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;让您参与有关我们产品和服务的调查。
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;为了让您有更好的体验、改善我们的服务或您同意的其他用途，在符合相关法律法规的前提下，我们可能将通过某一项服务所收集的信息，以汇集信息或者个性化的方式，用于我们的其他服务。例如在您使用我们的一项服务时所收集的信息，可能在另一服务中用于向您提供特定的内容，或向您展示与您相关的、非普遍推送的信息。如果我们在相关服务中提供了相应选项，则您可以通过主动点击“同意”等选项做出肯定性动作授权我们将该服务所提供和储存的信息用于我们的其他服务。
+		</text>
+		<text class="title" decode="true" space="true">
+			三、信息的存储
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;信息存储的方式和期限
+		</text>
+		<text decode="true" space="true">
+			（1）我们会通过安全的方式存储您的信息
+		</text>
+		<text decode="true" space="true">
+			（2）一般情况下，我们仅在为实现目的所必需的最短时间内保留您的个人信息，但下列情况除外：
+		</text>
+		<text decode="true" space="true">
+			①为遵守适用的法律法规等有关规定；
+		</text>
+		<text space="true" decode="true">
+			②为遵守法院判决、裁定或其他法律程序的规定；
+		</text>
+		<text decode="true" space="true">
+			③为遵守相关政府机关执法的要求；
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;信息存储的地域
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;我们会按照法律法规规定，将中华人民共和国境内集的用户个人信息存储于境内。
+		</text>
+		<text decode="true" space="true">
+			3.&ensp;产品或服务停止运营时的通知
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;当我们的产品或服务发生停止运营的情形时，我们将采取例如推送通知、公告等形式通知您，并在合理的期限内删除或匿名化处理您的个人信息，法律法规另有规定的除外。
+		</text>
+		<text class="title" decode="true" space="true">
+			四、信息的安全
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;我们努力为您的信息安全提供保障，以防止信息的泄露、丢失、不当使用、未经授权访问和披露等。我们使用多方位的安全保护措施，以确保您的个人信息保护处于合理的安全水平，包括技术保护手段、管理制度控制、安全体系保障等诸多方面。
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;我们将在合理的安全水平内使用各种安全保护措施以保障信息的安全。例如，我们会使用加密技术(例如SSL)、去标识化、匿名化处理等手段来保护您的个人信息。
+		</text>
+		<text decode="true" space="true">
+			3.&ensp;我们建立专门的管理制度、操作规程和组织以保障信息的安全。例如，我们严格限制访问信息的人员范围，要求他们遵守保密义务，并进行审计。此外，腾讯还会设立主要由外部成员组成的独立机构对我们的个人信息保护情况进行监督。
+		</text>
+		<text decode="true" space="true">
+			4.&ensp;但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网环境下，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题。
+		</text>
+		<text decode="true" space="true">
+			5.&ensp;若发生个人信息泄露等安全事件，我们会启动应急预案，阻止安全事件扩大，按照《国家网络安全事件应急预案》等有关规定及时上报，并以发送邮件、推送通知、公告等形式告知您相关情况，并向您给出安全建议。
+		</text>
+		<text space="true" decode="true">
+			6.&ensp;本小程序账号及微信账号均有安全保护功能，但您也需要妥善保护自己的个人信息，除非您判断认为必要的情形下，否则不向任何第三人提供您的账号 密码等个人信息。
+		</text>
+		<text class="title" decode="true" space="true">
+			五、信息共享/对外提供
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;共享
+		</text>
+		<text decode="true" space="true">
+			我们不会与其他组织和个人共享您的用户信息，但以下情况除外：
+		</text>
+		<text decode="true" space="true">
+			（1）履行法定义务所必需的共享：我们可能会根据法律法规规定、诉讼、争议解决需要，或按行政、司法机关依法提出的要求，对外共享您的个人信息。
+		</text>
+		<text decode="true" space="true">
+			（2）在获得您的明确同意后共享：我们会与其他方共享您的个人信息。
+		</text>
+		<text decode="true" space="true">
+			（3）为订立、履行您作为一方当事人的合同所必需的情况下共享：您购买的商品或服务，我们会根据您的选择，将您的订单信息中与交易有关的必要信息共享给相关商品或服务的提供者，以实现您的交易、配送及售后服务需求。
+		</text>
+		<text decode="true" space="true">
+			（4）与关联公司间共享：为便于我们与关联公司共同向您提供服务，推荐您可能感兴趣的信息，识别用户账户异常，保护提供者及其关联公司或其他用户或公众的人身财产安全免遭侵害，您的个人信息可能会与我们的关联公司和/或其指定的服务提供商共享。我们只会共享必要的个人信息，且受本政策中所声明目的的约束，如果我们共享您的个人敏感信息或关联公司改变个人信息的使用及处理目的，将再次征求您的授权同意。
+		</text>
+		<text space="true" decode="true">
+			&emsp;&emsp;请注意，您在使用我们服务时自愿共享甚至公开分享的信息，可能会涉及您或他人的个人信息甚至敏感个人信息。请您更加谨慎地考虑并做出决定。
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;委托处理
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;我们可能委托受信赖的合作伙伴来提供服务(如人脸识别服务)，因此我们可能会向合作伙伴提供您的某些用户信息，以提供更好的用户服务和优化用户体验。我们会与其签署严格的保密协定，并与其约定委托处理的目的、期限、处理方式、个人信息的种类、保护措施以及双方的权利和义务等，我们会监督其个人信息处理活动要求他们按照我们的要求、本政策以及其他任何相关的保密和安全措施来处理个人信息。
+		</text>
+		<text space="true" decode="true">
+			3.&ensp;披露
+		</text>
+		<text decode="true" space="true">
+			我们会在以下情况，公开披露您的个人信息：
+		</text>
+		<text space="true" decode="true">
+			（1）遵守适用的法律法规等有关规定
+		</text>
+		<text decode="true" space="true">
+			（2）遵守法院判决、裁定或其他法律程序的规定
+		</text>
+		<text decode="true" space="true">
+			（3）遵守相关政府机关或其他有权机关的要求
+		</text>
+		<text space="true" decode="true">
+			（4）我们有理由确信需遵守法律法规等有关规
+		</text>
+		<text decode="true" space="true">
+			（5）为执行相关服务协议或本《个人信息保护政策》、维护社会公共利益、处理投诉/纠所合理必需的用途
+		</text>
+		<text decode="true" space="true">
+			（6）经过您合法授权的情形
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;如我们因上述原因而披露您的信息，我们将在遵守法律法规相关规定及本声明的基础上及时告知您。
+		</text>
+		<text decode="true" space="true">
+			4.&ensp;共享、公开披露个人信息时事先征得授权同意的例外
+		</text>
+		<text decode="true" space="true">
+			以下情形中，我们在共享、转让、公开披露个人信息不必事先征得您的授权同意：
+		</text>
+		<text decode="true" space="true">
+			（1）与我们履行法律法规规定的义务相关的
+		</text>
+		<text decode="true" space="true">
+			（2）与国家安全、国防安全直接相关的
+		</text>
+		<text decode="true" space="true">
+			（3）与公共安全、公共卫生、重大公共利益直接相关的
+		</text>
+		<text decode="true" space="true">
+			（4）与刑事侦查、起诉、审判和判决执行等直接相关的
+		</text>
+		<text decode="true" space="true">
+			（5）出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的
+		</text>
+		<text decode="true" space="true">
+			（6）您自行向社会公众公开的个人信息
+		</text>
+		<text decode="true" space="true">
+			（7）从合法公开披露的信息中收集个人信息的，如合法的新闻报道、政府信息公开等渠道
+		</text>
+		<text class="title" decode="true" space="true">
+			六、您的权利
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;在您使用本产品期间，为了让您更便捷地查询访问、删除、更正、复制您的个人信息，同时保障您撤回个人信息使用的同意的权利，我们在产品设计中为您提供了相应的操作设置，您可参考下面的指引进行操作。
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;访问个人信息
+		</text>
+		<text decode="true" space="true">
+			（1）进入小程序后，点击”我的”
+		</text>
+		<text decode="true" space="true">
+			（2）进行个人信息查询访问
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;查阅历史订单信息
+		</text>
+		<text decode="true" space="true">
+			（1）进入小程序后，点击”我的”
+		</text>
+		<text decode="true" space="true">
+			（2）点击“业务记录”
+		</text>
+		<text decode="true" space="true">
+			（3）进行历史订单信息查询访问
+		</text>
+		<text decode="true" space="true">
+			3.&ensp;撤回同意
+		</text>
+		<text decode="true" space="true">
+			（1）小程序主页右上角“...”
+		</text>
+		<text space="true" decode="true">
+			（2）点击“设置”
+		</text>
+		<text decode="true" space="true">
+			（3）点击“小程序已获取的信息”
+		</text>
+		<text decode="true" space="true">
+			（4）点击特定信息
+		</text>
+		<text space="true" decode="true">
+			（5）点击“不允许”，即可撤回对我们的授权
+		</text>
+		<text decode="true" space="true">
+			4.&ensp;投诉举报
+		</text>
+		<text space="true" decode="true">
+			（1）进入小程序后，点击”我的”
+		</text>
+		<text decode="true" space="true">
+			（2）点击“意见反馈”，进行信息反馈
+		</text>
+		<text decode="true" space="true">
+			5.&ensp;注销账号
+		</text>
+		<text decode="true" space="true">
+			您可以通过一下方式申请注销您的账户：
+		</text>
+		<text decode="true" space="true">
+			（1）进入小程序后，点击”我的”
+		</text>
+		<text decode="true" space="true">
+			（2）点击“我的就诊人”
+		</text>
+		<text decode="true" space="true">
+			（3）本人点击就诊人信息卡片右上角的“更多”-注销，进行注销请求反馈
+		</text>
+		<text decode="true" space="true">
+			（4）绑定的他人就诊人信息卡片右上角的“解绑”，进行注销
+		</text>
+		<text class="title" decode="true" space="true">
+			七、未成年人保护
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;若您是18周岁以下的未成年人，在使用我们的产品和(或)服务前，您应在监护人的陪同下阅读本政策，并应确保已征得您的监护人同意后使用我们的服务并向我们提供您的信息。我们会根据国家相关法律法规的规定着重保护未成年人的个人信息。
+		</text>
+		<text space="true" decode="true">
+			2.&ensp;如您的监护人不同意您按照本政策使用我们的服务或向我们提供信息，请您立即终止使用我们的服务并及时通知我们。
+		</text>
+		<text decode="true" space="true">
+			3.&ensp;对于经父母或法定监护人同意而收集未成年人个人信息的情况，我们只会在受到法律允许、父母或监护人明确同意或者保护未成年人所必要的情况下使用或公开披露此信息。
+		</text>
+		<text decode="true" space="true">
+			4.&ensp;若您是未成年人的监护人，当您对您所监护的未成年人使用我们的服务或其向我们提供的用户信息有任何疑问时，请您及时与我们联系。我们将根据国家相法律法规及本政策的规定保护未成年人用户信息的保密性及安全性。
+		</text>
+		<text class="title" decode="true" space="true">
+			八、政策变更
+		</text>
+		<text decode="true" space="true">
+			&emsp;&emsp;我们可能适时修订本个人信息保护政策的条款，该等修订构成本《个人信息保护政策》的一部分。如可能造成您在本个人信息保护政策下权利的实质减少或扩大收集、使用信息的范围等重要规则变更时，我们将在修订生效前通过在主页上显著位置提示或向您发送公告通知您。在该种情况下，若您继续使用我们的服务，即表示同意接受修订的 本个人信息保护政策的约束。
+		</text>
+		<text class="title" decode="true" space="true">
+			九、所有权及知识产权条款
+		</text>
+		<text decode="true" space="true">
+			1.&ensp;除明确归属于合作伙伴、第三方所有的信息资料外，本软件服务内所有内容，包括但不限于文字、图片、图形、表格、动画、程序、软件等单独或组合的版权。任何被授权的浏览、复制、打印和传播属于本网站内的内容必须符合以下条件：
+		</text>
+		<text decode="true" space="true">
+			（1）所有的资料和图像均以获得信息为目的
+		</text>
+		<text decode="true" space="true">
+			（2）所有的资料和图像均不得用于商业目的
+		</text>
+		<text decode="true" space="true">
+			（3）所有的资料、图像及其任何部分都必须包括此版权声明未经本软件许可，任何人不得擅自，包括但不限于以非法的方式复制、传播、展示、镜像、上载、下载使用。否则，本软件将依法追究法律责任
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;本软件为提供网络服务而自行开发的软件，包括不限于无线客户端应用等，拥有完整的知识产权。本软件在此授予您个人非独家、不可转让、可撤销的，并通过在一部拥有所有权或使用权的手机或计算机上使用本软件的权利，且该使用仅限于个人非商业性使用之合法目的。
+		</text>
+		<text decode="true" space="true">
+			您应当保证合法使用该等软件，并承诺不对该等软件进行如下行为：
+		</text>
+		<text decode="true" space="true">
+			（1）开展反向工程、反向编译或反汇编，或以其他方式发现其原始编码，以及实施任何涉嫌侵害著作权等其他知识产权的行为
+		</text>
+		<text decode="true" space="true">
+			（2）以出租、租赁、销售、转授权、分配或其他任何方式向第三方转让该等软件或利用该等软件为任何第三方提供相似服务
+		</text>
+		<text decode="true" space="true">
+			（3）任何复制该等软件的行为
+		</text>
+		<text space="true" decode="true">
+			（4）以移除、规避、破坏、损害或其他任何方式干扰该等软件的安全功能
+		</text>
+		<text decode="true" space="true">
+			（5）以不正当手段取消该等软件上权利声明或权利通知的
+		</text>
+		<text space="true" decode="true">
+			（6）其他违反法律规定的行为
+		</text>
+		<text decode="true" space="true">
+			2.&ensp;本软件的LOGO均为本软件的注册商标，受法律的保护。任何用户不得侵犯本软件的注册商标权。
+		</text>
+	</view>

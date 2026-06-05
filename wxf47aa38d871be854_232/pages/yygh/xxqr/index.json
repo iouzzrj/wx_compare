@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "信息确认",
+    "usingComponents": {
+        "selector": "/components/selector/index",
+        "toptips": "/components/toptips/index"
+    }
+}

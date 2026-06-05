@@ -1,0 +1,121 @@
+page {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 330rpx;
+    width: 750rpx;
+}
+
+.info {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10rpx;
+    box-shadow: 7rpx 7rpx 54rpx 0rpx hsla(0,0%,54%,.24);
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 330rpx;
+    margin: -298rpx auto 0;
+    padding-top: 49rpx;
+    position: relative;
+    width: 659rpx;
+}
+
+.info .avatar {
+    background-color: #464646;
+    border-radius: 50%;
+    height: 123rpx;
+    width: 123rpx;
+}
+
+.info .txt_1 {
+    color: #333;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 36rpx;
+    line-height: 1;
+    margin-top: 24rpx;
+}
+
+.info .txt_1 .h1 {
+    margin-right: 20rpx;
+}
+
+.info .txt_1 .h2 {
+    align-self: flex-end;
+    color: #343434;
+    font-size: 24rpx;
+    margin-right: 10rpx;
+}
+
+.info .txt_2 {
+    color: #999;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 24rpx;
+    line-height: 1;
+    margin-top: 25rpx;
+}
+
+.info .txt_2 text {
+    margin: 0 10rpx;
+}
+
+.section {
+    background-color: #fff;
+    flex: 1;
+    margin-top: 20rpx;
+    overflow: auto;
+}
+
+.wrap {
+    background: #fff;
+    padding-top: 30rpx;
+}
+
+.section .txt_3 {
+    border-left: 8rpx solid #14c79d;
+    color: #343434;
+    font-size: 34rpx;
+    line-height: 1;
+    margin-left: 20rpx;
+    padding-left: 16rpx;
+}
+
+.section .detail,.wrap .de {
+    color: #404040;
+    font-size: 28rpx;
+    letter-spacing: 2rpx;
+    line-height: 1.8;
+    padding: 30rpx 20rpx;
+    text-align: justify;
+}
+
+.margin-top-20 {
+    margin-top: 20rpx;
+}
+
+.bottom {
+    align-items: center;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    height: 123rpx;
+    justify-content: center;
+}
+
+.bottom .footer {
+    background-color: #14c79d;
+    border-radius: 10rpx;
+    color: #fff;
+    height: 90rpx;
+    line-height: 90rpx;
+    position: relative;
+    text-align: center;
+    width: 690rpx;
+}
+

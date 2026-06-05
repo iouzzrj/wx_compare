@@ -1,0 +1,42 @@
+page {
+    background-color: #fff;
+}
+
+.title {
+    padding: 20rpx 50rpx 0;
+}
+
+.content,.title {
+    color: #333;
+    font-size: 38rpx;
+}
+
+.content {
+    padding: 20rpx 50rpx;
+    text-align: justify;
+}
+
+.maintain {
+    align-items: center;
+    bottom: 10vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+}
+
+.maintain image {
+    height: 380rpx;
+    width: 430rpx;
+}
+
+.maintain button {
+    background: #14c79d;
+    border-radius: 20rpx;
+    color: #fff;
+    margin-top: 180rpx;
+    width: 360rpx;
+}
+

@@ -1,0 +1,3 @@
+	<view bindtap="hide" class="mask" hidden="true">	</view>
+	<view animation="" class="toptips toptips_">
+	</view>

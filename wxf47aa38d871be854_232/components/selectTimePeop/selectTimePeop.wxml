@@ -1,0 +1,45 @@
+	<view class="nav">	</view>
+	<view class="topbox">
+		<view class="selectbox">
+			<view bindtap="clickOnebox" class="leftbox">
+				<view class="boxsx">
+					<view class="patienttext">
+					</view>
+					<text class="cuIcon-triangledownfill   ">					</text>
+				</view>
+			</view>
+		</view>
+		<scroll-view scrollY="true" class="seleListone sliup" hidden="true">
+			<view class="listbox">			</view>
+		</scroll-view>
+		<view class="sx time2 sliup" hidden="true">
+			<view class="sx_item_title">
+				时间选择
+			</view>
+			<view class="sx_item_box">
+				<view class="list-time">
+					<picker bindchange="bindDateChange" end="2030-09-01" mode="date" start="2015-09-01" value="">
+						<view class="sx_item">
+							 选择开始时间
+						</view>
+					</picker>
+					<view class="linestime">					</view>
+					<picker bindchange="bindDateChange2" end="2030-09-01" mode="date" start="2015-09-01" value="">
+						<view class="sx_item">
+							 选择结束时间
+						</view>
+					</picker>
+				</view>
+			</view>
+			<view class="tui-attr-btnbox">
+				<view class="tui-attr-safearea">
+					<view catchtap="_reset" class="tui-drawer-btn tui-drawerbtn-black" hoverClass="activeHover" hoverStayTime="150">
+						重置 
+					</view>
+					<view bindtap="_define" class="tui-drawer-btn tui-drawerbtn-primary" hoverClass="activeHover" hoverStayTime="150">
+						确认 
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>

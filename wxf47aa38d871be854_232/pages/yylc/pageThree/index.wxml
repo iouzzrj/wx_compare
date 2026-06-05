@@ -1,0 +1,147 @@
+	<view class="container">
+		<view class="wrap">
+			<view class="header">
+				可办理转诊预约申请医疗机构
+			</view>
+			<view class="p_title">
+				一.海淀区口腔专科医联体成员基层医疗机构
+			</view>
+			<view class="p_txt">
+				1.北京市海淀区北太平庄社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				2.北京市海淀区田村路社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				3.北京市海淀区羊坊店社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				4.北京市海淀区香山社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				5.北京市海淀区清河社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				6.北京市海淀区温泉镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				7.北京市海淀区学院路社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				8.北京市海淀区上庄镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				9.北京市海淀区上地社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				10.北京市海淀区西三旗社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				11.北京市海淀区东升镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				12.北京市海淀区万寿路社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				13.北京市海淀区海淀镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				14.北京市海淀区北安河社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				15.北京市海淀区八里庄社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				16.北京市海淀区西北旺镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				17.北京市海淀区玉渊潭社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				18.北京市海淀区青龙桥社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				19.北京市海淀区苏家坨镇社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				20.北京市海淀区蓟门里社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				21.北京市海淀区北下关社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				22.北京市海淀区花园路社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				23.北京市海淀区双榆树社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				24.北京市海淀区甘家口社区卫生服务中心
+			</view>
+			<view class="p_txt">
+				25.北京市海淀区上地园区社区卫生服务中心
+			</view>
+			<view class="p_title">
+				二、北京市卫计委“三保健”项目北大口腔对口妇幼保健机构
+			</view>
+			<view class="p_txt">
+				1.东城区妇幼保健院
+			</view>
+			<view class="p_txt">
+				2.海淀区妇幼保健院
+			</view>
+			<view class="p_txt">
+				3.丰台区妇幼保健院
+			</view>
+			<view class="p_txt">
+				4.大兴区妇幼保健院
+			</view>
+			<view class="p_txt">
+				5.通州区妇幼保健院
+			</view>
+			<view class="p_txt">
+				6.石景山区妇幼保健院
+			</view>
+			<view class="p_txt">
+				7.房山区妇幼保健院
+			</view>
+			<view class="p_txt">
+				8.怀柔区妇幼保健院
+			</view>
+		</view>
+	</view>
+	<view bindtap="doOpen" class="list-box list-box-open">
+		<image class="close" src="/assets/images/icon_close.png">		</image>
+		<navigator class="l_item l_item_1" openType="redirect" url="/pages/yylc/pageOne/index">
+			<view>
+				挂号
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_2" openType="redirect" url="/pages/yylc/pageTwo/index">
+			<view>
+				预约
+			</view>
+			<view>
+				方式
+			</view>
+		</navigator>
+		<navigator url="/pages/yylc/pageThree/index" class="l_item l_item_3" openType="redirect">
+			<view>
+				预约
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+		<navigator class="l_item l_item_4" openType="redirect" url="/pages/yylc/pageFour/index">
+			<view>
+				患者
+			</view>
+			<view>
+				须知
+			</view>
+		</navigator>
+	</view>

@@ -1,0 +1,37 @@
+	<view class="header">
+		<view bindtap="" class="step_item " data-index="0">
+			<text>
+				填写资料
+			</text>
+		</view>
+		<view class="line ">		</view>
+		<view bindtap="" class="step_item " data-index="1">
+			<text>
+				病案内容
+			</text>
+		</view>
+		<view class="line ">		</view>
+		<view bindtap="" class="step_item " data-index="1">
+			<text>
+				上传照片
+			</text>
+		</view>
+		<view class="line ">		</view>
+		<view bindtap="" class="step_item " data-index="3">
+			<text>
+				提交审核
+			</text>
+		</view>
+	</view>
+	<view style="padding-top:170rpx;">	</view>
+	<selector defaultValue="" disableMessage="当前就诊卡无效，请重新选择" id="selector" title="选择就诊人" visitor="" bindselect="doSelect" conent="">	</selector>
+	<selectorInHospital bindclose="close" bindconfirm="confirm" id="selectorInHospital">	</selectorInHospital>
+	<view class="btn_box ">
+		<view bindtap="doPrevStep" class="btn prev btns btnsa" data-id="prev">
+			上一步
+		</view>
+		<view bindtap="doNextStep" class="btn btnsa btns">
+			下一步
+		</view>
+	</view>
+	<view catchtouchmove="true">	</view>

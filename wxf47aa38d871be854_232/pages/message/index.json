@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "消息通知",
+    "usingComponents": {
+        "loadMore": "/components/loadMore/loadMore",
+        "noData": "/components/nodata/index"
+    }
+}

@@ -1,0 +1,86 @@
+.grid.videoview {
+    height: 100%;
+    padding-left: 3.5vw;
+    padding-top: 20vw;
+    width: 100%;
+}
+
+.grid .pusher-box {
+    display: inline-block;
+    height: 61.33vw;
+    margin-bottom: 2vw;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 46vw;
+}
+
+.grid live-pusher {
+    height: 100%;
+    width: 100%;
+}
+
+.grid .player-box {
+    display: inline-block;
+    height: 61.33vw;
+    margin-bottom: 2vw;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 46vw;
+}
+
+.grid .player-box:nth-child(2),.grid .player-box:nth-child(4) {
+    margin-left: 1vw;
+}
+
+.grid .poster {
+    background-color: #000;
+    height: 100%;
+    opacity: .55;
+    position: absolute;
+    width: 100%;
+}
+
+.grid .set {
+    height: 56px;
+    left: 50%;
+    margin: -28px 0 0 -16px;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+}
+
+.grid live-player {
+    height: 100%;
+    width: 100%;
+}
+
+.grid .character {
+    bottom: 0;
+    color: #999;
+    font-size: 16px;
+    height: 10vw;
+    left: 0;
+    line-height: 10vw;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+.grid .loading {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.grid .loading cover-image {
+    height: 30px;
+    left: calc(50% - 15px);
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 30px;
+}
+

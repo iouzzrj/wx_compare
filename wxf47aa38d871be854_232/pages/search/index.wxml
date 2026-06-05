@@ -1,0 +1,72 @@
+	<view class="search_box df-ac">
+		<image src="/assets/images/common/icon_search.png">		</image>
+		<input confirmType="search" placeholder="请输入您想搜索的关键字" placeholderClass="txt_color" type="text" value="" class="flex1">		</input>
+	</view>
+	<view class="grade">
+		<view class="label_title df-ac">
+			<image class="lately" src="/assets/images/common/icon_lately.png">			</image>
+			<text>
+				最近搜索
+			</text>
+		</view>
+		<view class="label">
+			<text>
+				门诊
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂
+			</text>
+			<text>
+				预约挂
+			</text>
+		</view>
+	</view>
+	<view class="grade">
+		<view class="label_title df-ac">
+			<image class="hot" src="/assets/images/common/icon_hot.png">			</image>
+			<text>
+				最近搜索
+			</text>
+		</view>
+		<view class="label">
+			<text>
+				门诊
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂号
+			</text>
+			<text>
+				预约挂
+			</text>
+			<text>
+				预约挂
+			</text>
+		</view>
+	</view>
