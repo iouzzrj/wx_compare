@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    {
+      "name": "curl",
+      "features": ["http2", "brotli"]
+    },
+    "openssl",
+    "brotli",
+    "zlib",
+    "nlohmann-json"
+  ]
+}

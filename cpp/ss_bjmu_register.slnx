@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ss_bjmu_register.vcxproj" Id="9c347a1e-a568-46a9-abcf-30f99c421a07" />
+</Solution>
